@@ -1,7 +1,7 @@
-// @ts-nocheck
 import { CHANGE_THEME, THEME_STORAGE_KEY } from "../../constants";
 
 import { API } from "@storybook/api";
+import React from 'react';
 import { ScFormLabel } from "../sc-form-label";
 import { ThemeOption } from "v2";
 import { styled } from "@storybook/theming";

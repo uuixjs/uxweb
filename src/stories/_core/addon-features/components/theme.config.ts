@@ -6,7 +6,7 @@ import {
   DISABLEHOVERCSS_STORAGE_KEY,
   THEME_STORAGE_KEY
 } from "../constants";
-import { Dispatch, SetStateAction } from 'react'
+import React, { Dispatch, SetStateAction } from 'react'
 
 import { useStorage } from "beautiful-react-hooks";
 

@@ -1,8 +1,7 @@
-import * as React from 'react';
-
 import { API } from "@storybook/api";
 import { CssVarsModeSelect } from "../css-vars-mode-select";
 import { DisableHoverCSSSelect } from "../disable-hover-css-select";
+import React from 'react';
 import { Spaced } from "@storybook/components";
 import { ThemeSelect } from "../theme-select";
 import { styled } from "@storybook/theming";

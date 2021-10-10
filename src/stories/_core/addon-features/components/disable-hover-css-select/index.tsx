@@ -2,10 +2,10 @@ import {
   CHANGE_DISABLEHOVERCSS,
   DISABLEHOVERCSS_STORAGE_KEY,
 } from "../../constants";
+import React, { useEffect } from "react";
 
 import { API } from "@storybook/api";
 import { ScFormLabel } from "../sc-form-label";
-import { useEffect } from "react";
 import { useStoredDisableHoverCSS } from "../theme.config";
 
 interface Props {

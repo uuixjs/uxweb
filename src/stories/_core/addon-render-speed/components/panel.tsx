@@ -1,13 +1,14 @@
-import { useChannel } from "@storybook/api";
-import { STORY_RENDERED } from "@storybook/core-events";
-import {
+import React, {
   FC,
   ProfilerOnRenderCallback,
   useCallback,
   useEffect,
   useState,
 } from "react";
+
 import { Events } from "../constants";
+import { STORY_RENDERED } from "@storybook/core-events";
+import { useChannel } from "@storybook/api";
 
 interface ProfilerStat {
   phase: "mount" | "update";

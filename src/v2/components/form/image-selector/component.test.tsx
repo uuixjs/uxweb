@@ -6,7 +6,7 @@ import {
 } from "./component";
 
 import { AspectRatio } from "../../aspect";
-import { BorderRadius } from "lib/ui-utils";
+import { BorderRadius } from "lib";
 import { SVGAsset } from "../../svg";
 import { setupShallowTest } from "../../../tests/helpers";
 

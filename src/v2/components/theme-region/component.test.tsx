@@ -1,7 +1,7 @@
 import {
   CORE_UI_ROOT_DARK_THEME_SELECTOR,
   CORE_UI_ROOT_LIGHT_THEME_SELECTOR,
-} from "lib/ui-utils";
+} from "lib";
 import { Color, Layout } from "../layout";
 
 import { ThemeRegion } from "./component";

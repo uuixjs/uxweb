@@ -21,7 +21,7 @@ import {
 } from "../types";
 import { InjectLayout, InjectLayoutProps } from "./component";
 
-import { BorderRadius } from "lib/ui-utils";
+import { BorderRadius } from "lib";
 import { LayoutCssBreakpointProps } from "../utils/layout-props";
 import { createMountWrapperFactory } from "tachyon-test-utils";
 import { mount } from "enzyme";

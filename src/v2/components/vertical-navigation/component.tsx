@@ -7,7 +7,7 @@ import {
   createElement,
   isValidElement,
 } from "react";
-import { Margin, getAriaProps } from "lib/ui-utils";
+import { Margin, getAriaProps } from "lib";
 import {
   VerticalNavigationGroup,
   VerticalNavigationGroupProps,

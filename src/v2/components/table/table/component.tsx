@@ -1,4 +1,4 @@
-import { staticTokenRule, styled, themeTokenRule } from "lib/ui-utils";
+import { staticTokenRule, styled, themeTokenRule } from "lib";
 
 export interface TableProps {
   alternateRows?: boolean;

@@ -1,5 +1,5 @@
 import { FC, ReactNode } from "react";
-import { rem, styled } from "lib/ui-utils";
+import { rem, styled } from "lib";
 
 import { StaticTokenMap } from "lib/ui-tokens";
 

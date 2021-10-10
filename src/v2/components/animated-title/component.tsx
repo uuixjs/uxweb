@@ -1,5 +1,5 @@
 import { Component, Fragment } from "react";
-import { keyframes, staticTokenRule, styled } from "lib/ui-utils";
+import { keyframes, staticTokenRule, styled } from "lib";
 
 const DELAY_INTERVAL_MS = 30;
 const DELIMITER = " ";

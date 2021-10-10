@@ -12,7 +12,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 import { FormError } from "../error";
 import { FormHint } from "../hint";

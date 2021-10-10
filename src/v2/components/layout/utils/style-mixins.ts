@@ -21,7 +21,7 @@ import {
   staticTokenRule,
   styleVariant,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 import { StaticTokenMap } from "lib/ui-tokens";
 

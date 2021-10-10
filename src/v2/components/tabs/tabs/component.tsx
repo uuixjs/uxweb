@@ -16,7 +16,7 @@ import {
   getDataProps,
   styleVariant,
   styled,
-} from "lib/ui-utils";
+} from "lib";
 import {
   TabItem,
   TabItemProps,

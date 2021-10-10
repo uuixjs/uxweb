@@ -1,6 +1,6 @@
 import { ImageAvatar, ImageAvatarProps } from "./component";
 
-import { BorderRadius } from "lib/ui-utils";
+import { BorderRadius } from "lib";
 import { PresenceStatus } from "../../presence";
 import { setupShallowTest } from "../../../tests/helpers";
 

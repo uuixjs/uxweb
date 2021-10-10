@@ -1,4 +1,4 @@
-import { staticTokenRule, styleVariant, styled } from "lib/ui-utils";
+import { staticTokenRule, styleVariant, styled } from "lib";
 
 import { FC } from "react";
 import { Icon } from "../icon";

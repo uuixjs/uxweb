@@ -181,4 +181,4 @@ export {
   supportsThemes,
   prefersDarkMode,
   prefersReducedMotion,
-} from "lib/ui-utils";
+} from "lib";

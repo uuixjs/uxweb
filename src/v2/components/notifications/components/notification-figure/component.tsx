@@ -1,5 +1,5 @@
 import { Avatar, AvatarProps } from "../../../avatar";
-import { styleVariant, styled, themeTokenRule } from "lib/ui-utils";
+import { styleVariant, styled, themeTokenRule } from "lib";
 
 import { FC } from "react";
 import { Icon } from "../../../icon";

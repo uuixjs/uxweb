@@ -1,0 +1,20 @@
+@import "lib/scss-compat/ui-scss/variables";
+
+.overlay-preview {
+  &__transition-group-container {
+    // Needs higher specificity than what TransitionGroup applies with Layout
+    &#{&} {
+      position: absolute !important;
+    }
+  }
+  // stylelint-disable selector-max-universal
+  &__transition-group-container > * {
+    width: 100%;
+  }
+  &__bg-element--blur {
+    filter: blur(10px);
+  }
+  &__container {
+    transition: all $timing-long ease;
+  }
+}

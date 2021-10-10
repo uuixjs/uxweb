@@ -3,7 +3,7 @@ import { Display, InjectLayout } from "../../layout";
 import { AvatarProps } from "..";
 import { CoreImage } from "../../core-image";
 import { FC } from "react";
-import { getAriaProps } from "lib/ui-utils";
+import { getAriaProps } from "lib";
 
 export type ImageAvatarProps = Omit<AvatarProps, "userLogin">;
 /**

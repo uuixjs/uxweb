@@ -20,7 +20,7 @@ import {
   ExpandableIndicator,
   ExpandableIndicatorDirection,
 } from "../../expandable-indicator";
-import { PaddingValue, getAriaProps, styled } from "lib/ui-utils";
+import { PaddingValue, getAriaProps, styled } from "lib";
 import { Title, TitleSize } from "../../title";
 
 import { Interactable } from "../../interactable";

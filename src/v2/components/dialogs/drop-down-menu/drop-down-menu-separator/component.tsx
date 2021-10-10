@@ -1,4 +1,4 @@
-import { styled, themeTokenRule } from "lib/ui-utils";
+import { styled, themeTokenRule } from "lib";
 
 import { FC } from "react";
 import { Layout } from "../../../layout/layout";

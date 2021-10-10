@@ -8,7 +8,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 import { ForwardRefRenderFunction, forwardRef } from "react";
 
 import { AssistiveText } from "../../assistive-text";

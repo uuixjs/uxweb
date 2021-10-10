@@ -4,7 +4,7 @@ import {
   ScAccentRegionCssVars,
   generateAccentRegionProps,
 } from "./component";
-import { ThemeContextValue, ThemeProvider } from "lib/ui-utils";
+import { ThemeContextValue, ThemeProvider } from "lib";
 
 import { createMountWrapperFactory } from "tachyon-test-utils";
 import { mount } from "enzyme";

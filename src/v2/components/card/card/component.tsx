@@ -9,7 +9,7 @@ import {
   Layout,
   Position,
 } from "../../layout";
-import { BorderRadius, getAriaProps, getDataProps } from "lib/ui-utils";
+import { BorderRadius, getAriaProps, getDataProps } from "lib";
 import { FC, ReactNode } from "react";
 
 export interface CardProps {

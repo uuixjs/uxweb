@@ -1,6 +1,6 @@
 import { Display, Layout } from "../../layout";
 import { SVG, SVGAsset } from "../../svg";
-import { staticTokenRule, styled, themeTokenRule } from "lib/ui-utils";
+import { staticTokenRule, styled, themeTokenRule } from "lib";
 
 import { CoreText } from "../../core-text";
 import { FC } from "react";

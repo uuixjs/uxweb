@@ -12,7 +12,7 @@ import {
 import ReactModal from "react-modal";
 import { ScReactModal } from "../utils/sc-react-modal";
 import { TooltipPopperArrow } from "./components/tooltip-popper-arrow";
-import { cn } from "lib/ui-utils";
+import { cn } from "lib";
 import { useDelayedUnmount } from "../utils/use-delayed-unmount";
 
 export interface TooltipLayerProps {

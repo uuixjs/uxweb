@@ -2,7 +2,7 @@ import { Button, ButtonProps, ButtonType } from "../../button/button";
 import { Display, JustifyContent, Layout } from "../../layout";
 
 import { FC } from "react";
-import { getAriaProps } from "lib/ui-utils";
+import { getAriaProps } from "lib";
 
 export interface AccordionFooterProps {
   primaryButtonProps: ButtonProps;

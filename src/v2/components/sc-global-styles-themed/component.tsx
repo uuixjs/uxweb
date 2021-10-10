@@ -2,7 +2,7 @@ import {
   createGlobalStyle,
   staticTokenRule,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 /* stylelint-disable */
 

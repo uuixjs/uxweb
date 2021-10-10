@@ -17,7 +17,7 @@ import {
   MarginProps,
   getMarginStyles,
   styled,
-} from "lib/ui-utils";
+} from "lib";
 import {
   ButtonIcon,
   ButtonIconProps,

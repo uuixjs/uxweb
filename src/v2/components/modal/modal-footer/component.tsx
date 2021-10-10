@@ -7,7 +7,7 @@ import {
   LayoutProps,
 } from "../../layout";
 import { Button, ButtonProps, ButtonType } from "../../button/button";
-import { Padding, getAriaProps } from "lib/ui-utils";
+import { Padding, getAriaProps } from "lib";
 
 import { Component } from "react";
 import { ModalSize } from "../modal-wrapper";

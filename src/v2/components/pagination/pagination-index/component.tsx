@@ -4,7 +4,7 @@ import { Component, MouseEventHandler } from "react";
 
 import { CoreInteractiveElement } from "../../core-interactive";
 import { PaginationMouseEvent } from "../pagination";
-import { getAriaProps } from "lib/ui-utils";
+import { getAriaProps } from "lib";
 
 export interface PaginationIndexProps {
   /**

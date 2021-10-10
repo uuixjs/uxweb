@@ -9,7 +9,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 import { Component, ReactNode } from "react";
 
 import { InputControlProps } from "../form/form";

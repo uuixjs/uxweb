@@ -5,7 +5,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 import { Layout } from "../layout";
 

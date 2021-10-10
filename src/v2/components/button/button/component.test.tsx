@@ -1,12 +1,12 @@
-/* eslint-disable twitch-core-ui/no-deprecated-button-props */
+import { Button, ButtonProps, ButtonSize, ButtonType } from "./component";
 import { mount, shallow } from "enzyme";
+
+import { CoreButton } from "../core-button";
+import { CoreInteractiveElement } from "../../core-interactive";
+import { PurchaseButton } from "../purchase-button";
+import { SVGAsset } from "../../svg";
 import { createRef } from "react";
 import { setupShallowTest } from "../../../tests/helpers";
-import { CoreInteractiveElement } from "../../core-interactive";
-import { SVGAsset } from "../../svg";
-import { CoreButton } from "../core-button";
-import { PurchaseButton } from "../purchase-button";
-import { Button, ButtonProps, ButtonSize, ButtonType } from "./component";
 
 function getOptionalProps(): ButtonProps {
   return {

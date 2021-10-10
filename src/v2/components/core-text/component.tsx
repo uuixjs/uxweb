@@ -4,7 +4,7 @@ import { TextType, TextTypeValue } from "./types";
 
 import { FontWeight } from "../layout";
 import { getLayoutStyles } from "../layout/utils/common";
-import { styled } from "lib/ui-utils";
+import { styled } from "lib";
 
 export interface CoreTextProps extends CoreTextCssProps {
   children?: ReactNode;

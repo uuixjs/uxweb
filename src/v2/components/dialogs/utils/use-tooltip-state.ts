@@ -1,4 +1,4 @@
-import { FOCUS_VISIBLE_ATTR, newUUIDv4 } from "lib/ui-utils";
+import { FOCUS_VISIBLE_ATTR, newUUIDv4 } from "lib";
 import { FocusEvent, useCallback, useRef, useState } from "react";
 
 import { TooltipLayerProps } from "../tooltip-layer";

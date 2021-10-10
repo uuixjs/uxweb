@@ -4,7 +4,7 @@ import {
   ScDefaultAvatar,
 } from "./component";
 
-import { BorderRadius } from "lib/ui-utils";
+import { BorderRadius } from "lib";
 import { Icon } from "../../icon";
 import { StaticTokenMap } from "lib/ui-tokens";
 import { setupShallowTest } from "../../../tests/helpers";

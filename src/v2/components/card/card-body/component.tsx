@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
 import { Layout, Overflow, Position } from "../../layout";
-import { getAriaProps, getDataProps } from "lib/ui-utils";
+import { getAriaProps, getDataProps } from "lib";
 
 export interface CardBodyProps {
   overflow?: Overflow;

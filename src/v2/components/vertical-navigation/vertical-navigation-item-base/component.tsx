@@ -1,5 +1,5 @@
 import { AlignItems, Display, FontSize, Layout } from "../../layout";
-import { BorderRadius, PaddingValue } from "lib/ui-utils";
+import { BorderRadius, PaddingValue } from "lib";
 import { FC, ReactNode } from "react";
 
 import { CoreInteractivePublicProps } from "../../core-interactive";

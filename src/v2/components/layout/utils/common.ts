@@ -1,4 +1,4 @@
-import { ThemeContextValue, ThemedStyledProps } from "lib/ui-utils";
+import { ThemeContextValue, ThemedStyledProps } from "lib";
 
 import { StandardPropertiesHyphen } from "csstype";
 

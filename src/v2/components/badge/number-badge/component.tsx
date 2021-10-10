@@ -1,6 +1,6 @@
 import { Background, Display, Layout, Position } from "../../layout";
 import { FC, ReactNode } from "react";
-import { staticTokenRule, styled, themeTokenRule } from "lib/ui-utils";
+import { staticTokenRule, styled, themeTokenRule } from "lib";
 
 export interface NumberBadgeProps {
   /**

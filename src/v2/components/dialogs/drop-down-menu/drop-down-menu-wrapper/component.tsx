@@ -17,7 +17,7 @@ import {
   DropDownMenuItem,
   DropDownMenuItemProps,
 } from "../drop-down-menu-item";
-import { getAriaProps, getDataProps } from "lib/ui-utils";
+import { getAriaProps, getDataProps } from "lib";
 
 export type DropDownMenuList = Array<
   DropDownMenuInputItemProps | DropDownMenuItemProps

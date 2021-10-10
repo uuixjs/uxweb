@@ -6,7 +6,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 import { StaticToken, ThemeToken } from "lib/ui-tokens";
 
 import { FC } from "react";

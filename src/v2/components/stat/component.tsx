@@ -8,7 +8,7 @@ import { FC } from "react";
 import { Icon } from "../icon";
 import { Layout } from "../layout";
 import { SVGAsset } from "../svg";
-import { styled } from "lib/ui-utils";
+import { styled } from "lib";
 
 export interface StatProps {
   /**

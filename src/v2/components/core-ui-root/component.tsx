@@ -5,7 +5,7 @@ import {
   CORE_UI_ROOT_HOVER_SELECTOR,
   CORE_UI_ROOT_LIGHT_THEME_SELECTOR,
   ThemeProvider,
-} from "lib/ui-utils";
+} from "lib";
 import { FC, ReactNode, useLayoutEffect } from "react";
 import {
   ThemeOption,

@@ -1,5 +1,5 @@
 import { StaticTokenMap } from "lib/ui-tokens";
-import { keyframes } from "lib/ui-utils";
+import { keyframes } from "lib";
 
 const space_2 = StaticTokenMap["space-2"];
 

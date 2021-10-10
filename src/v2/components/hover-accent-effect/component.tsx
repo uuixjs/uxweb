@@ -3,7 +3,7 @@ import {
   hoverCssWithSelector,
   staticTokenRule,
   styled,
-} from "lib/ui-utils";
+} from "lib";
 
 import { FC } from "react";
 

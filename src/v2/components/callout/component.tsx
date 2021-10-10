@@ -8,7 +8,7 @@ import {
   Layout,
   Position,
 } from "../layout";
-import { BorderRadius, Padding, styled } from "lib/ui-utils";
+import { BorderRadius, Padding, styled } from "lib";
 import { CloseButtonProps, CoreDismissible } from "../core-dismissible";
 import { FC, ReactNode } from "react";
 

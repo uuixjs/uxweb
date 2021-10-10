@@ -7,7 +7,7 @@ import {
 import { ForwardRefRenderFunction, ReactNode, forwardRef } from "react";
 import { JustifyContent, Layout, Visibility } from "../../layout";
 import { LoadingSpinner, SpinnerSize } from "../../loading-spinner";
-import { css, styled, themeTokenRule } from "lib/ui-utils";
+import { css, styled, themeTokenRule } from "lib";
 
 import { CoreButtonLabel } from "../core-button/core-button-label";
 import { CoreInteractiveElement } from "../../core-interactive";

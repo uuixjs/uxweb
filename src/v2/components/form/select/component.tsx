@@ -18,7 +18,7 @@ import {
   styled,
   themeRule,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 import { ScInputBase } from "../common";
 import { withOverlayContext } from "../../overlay-region/context";

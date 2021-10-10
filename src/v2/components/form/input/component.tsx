@@ -8,7 +8,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 import {
   FormEvent,
   FormEventHandler,

@@ -1,4 +1,4 @@
-import { staticTokenRule, styled, themeTokenRule } from "lib/ui-utils";
+import { staticTokenRule, styled, themeTokenRule } from "lib";
 
 import { FC } from "react";
 import { FormRequired } from "../required";

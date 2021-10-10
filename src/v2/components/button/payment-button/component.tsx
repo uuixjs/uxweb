@@ -12,7 +12,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 export interface PaymentButtonProps extends CoreButtonPublicProps {
   children?: ReactNode;

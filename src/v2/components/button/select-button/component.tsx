@@ -7,7 +7,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 import { CoreButtonDropdownType } from "../core-button/core-button-dropdown";
 import { CoreButtonLabel } from "../core-button/core-button-label";

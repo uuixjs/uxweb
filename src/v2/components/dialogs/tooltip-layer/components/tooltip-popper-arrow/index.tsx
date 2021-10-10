@@ -1,4 +1,4 @@
-import { staticTokenRule, styled, themeTokenRule } from "lib/ui-utils";
+import { staticTokenRule, styled, themeTokenRule } from "lib";
 
 export const TooltipPopperArrow = styled.div.attrs({
   className: "tw-tooltip-popper-arrow",

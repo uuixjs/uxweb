@@ -8,7 +8,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 import { ForwardRefRenderFunction, ReactNode, forwardRef } from "react";
 
 import { CoreButtonLabel } from "../core-button/core-button-label";

@@ -3,7 +3,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 import { FC } from "react";
 import { withOverlayContext } from "../overlay-region/context";

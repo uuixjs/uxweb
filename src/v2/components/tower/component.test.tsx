@@ -9,7 +9,7 @@ import {
 } from "./component";
 
 import { createMountWrapperFactory } from "tachyon-test-utils";
-import { rem } from "lib/ui-utils";
+import { rem } from "lib";
 import { setupShallowTest } from "../../tests/helpers";
 
 function getOptionalProps(): TowerProps {

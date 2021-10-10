@@ -1,7 +1,7 @@
 import { Background, BorderRadiusProps, Display, Layout } from "../../layout";
 import { FC, ReactNode } from "react";
 
-import { getAriaProps } from "lib/ui-utils";
+import { getAriaProps } from "lib";
 
 export interface AccordionBodyProps {
   /**

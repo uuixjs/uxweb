@@ -1,6 +1,6 @@
-/* eslint-disable twitch-core-ui/no-styled-layout */
-import { FC } from "react";
 import { Layout, LayoutProps } from "../layout";
+
+import { FC } from "react";
 
 export interface StyledLayoutProps extends LayoutProps {}
 

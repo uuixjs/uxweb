@@ -38,7 +38,7 @@ module.exports = {
       importer: (url) => {
         if (url === "variables") {
           return {
-            file: require.resolve("twitch-core-ui-scss-compat/variables.scss"),
+            file: require.resolve("lib/ui-scss-compat/variables.scss"),
           };
         }
 

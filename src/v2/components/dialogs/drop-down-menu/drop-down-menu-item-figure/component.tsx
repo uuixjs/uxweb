@@ -1,7 +1,7 @@
 import { AlignItems, Display, InjectLayout, Layout } from "../../../layout";
 import { Aspect, AspectRatio } from "../../../aspect";
 import { CoreImage, CoreImageProps } from "../../../core-image";
-import { getAriaProps, styled } from "lib/ui-utils";
+import { getAriaProps, styled } from "lib";
 
 import { FC } from "react";
 import { Icon } from "../../../icon";

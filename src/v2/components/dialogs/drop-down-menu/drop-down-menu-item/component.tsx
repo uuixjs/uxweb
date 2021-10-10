@@ -6,7 +6,7 @@ import {
 import { FC, Fragment, ReactNode } from "react";
 import { Interactable, InteractableType } from "../../../interactable";
 
-import { BorderRadius } from "lib/ui-utils";
+import { BorderRadius } from "lib";
 import { CoreInteractivePublicProps } from "../../../core-interactive";
 import { Icon } from "../../../icon";
 import { SVGAsset } from "../../../svg";

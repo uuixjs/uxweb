@@ -2,7 +2,7 @@ import { CoreText, TextType } from "../core-text";
 import { Display, InjectLayout } from "../layout";
 import { FC, ReactNode } from "react";
 
-import { getAriaProps } from "lib/ui-utils";
+import { getAriaProps } from "lib";
 
 export interface AssistiveTextProps {
   children: ReactNode;

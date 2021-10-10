@@ -7,7 +7,7 @@ import {
   forwardRef,
 } from "react";
 
-import { cn } from "lib/ui-utils";
+import { cn } from "lib";
 
 // https://github.com/bitjourney/react-simple-image
 

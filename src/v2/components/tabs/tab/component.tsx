@@ -11,7 +11,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 export interface TabProps extends CoreInteractivePublicProps {
   active?: boolean;

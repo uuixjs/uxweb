@@ -6,7 +6,7 @@ import { CoreInteractivePublicProps } from "../../core-interactive";
 import { CoreLink } from "../../core-link";
 import { HoverAccentEffect } from "../../hover-accent-effect";
 import { OverlayRegion } from "../../overlay-region";
-import { styled } from "lib/ui-utils";
+import { styled } from "lib";
 
 const ScPositionOver = styled.div`
   pointer-events: none;

@@ -19,7 +19,7 @@ import {
 } from "../../utils/url-props";
 
 import { ARIARole } from "aria-query";
-import { DataTestSelectorProps } from "lib/ui-utils";
+import { DataTestSelectorProps } from "lib";
 
 type AnchorProps = AnchorHTMLAttributes<HTMLAnchorElement>;
 type LinkProps = AnchorProps | RRLinkProps;

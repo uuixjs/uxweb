@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
 import { FontSize, Layout } from "../layout";
-import { staticTokenRule, styled, themeTokenRule } from "lib/ui-utils";
+import { staticTokenRule, styled, themeTokenRule } from "lib";
 
 export interface TypesetProps {
   /**

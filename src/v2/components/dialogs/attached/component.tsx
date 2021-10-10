@@ -1,4 +1,4 @@
-import { staticTokenRule, styleVariant, styled } from "lib/ui-utils";
+import { staticTokenRule, styleVariant, styled } from "lib";
 
 // TODO: Rename the enum
 export enum BalloonDirection {

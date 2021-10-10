@@ -3,7 +3,7 @@ import {
   CORE_UI_ROOT_DARK_THEME_SELECTOR,
   CORE_UI_ROOT_LIGHT_THEME_SELECTOR,
   ThemeProvider,
-} from "lib/ui-utils";
+} from "lib";
 import { ThemeOption, useSystemThemeOptionHandler } from "./utils";
 
 import { FC } from "react";

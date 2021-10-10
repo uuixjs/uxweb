@@ -1,8 +1,8 @@
-/* eslint-disable twitch-core-ui/no-deprecated-ref-handler-props */
-import { mount, shallow } from "enzyme";
-import { Link, MemoryRouter } from "react-router-dom";
-import { setupShallowTest } from "../../tests/helpers";
 import { CoreInteractive, CoreInteractiveProps } from "./component";
+import { Link, MemoryRouter } from "react-router-dom";
+import { mount, shallow } from "enzyme";
+
+import { setupShallowTest } from "../../tests/helpers";
 
 const setupShallow = setupShallowTest(CoreInteractive);
 describe("CoreInteractive", () => {

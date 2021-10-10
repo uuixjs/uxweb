@@ -4,7 +4,7 @@ import {
   getBorderRadiusStyles,
   staticTokenRule,
   styled,
-} from "lib/ui-utils";
+} from "lib";
 import { FC, memo } from "react";
 
 import { AvatarProps } from "..";

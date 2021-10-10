@@ -13,7 +13,7 @@ import {
   staticTokenRule,
   styleVariant,
   styled,
-} from "lib/ui-utils";
+} from "lib";
 
 import { CoreFocusEventHandlers } from "../core-interactive";
 import { darken } from "polished";

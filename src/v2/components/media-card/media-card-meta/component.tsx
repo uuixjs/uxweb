@@ -2,7 +2,7 @@ import { Display, FlexWrap, Layout } from "../../layout";
 import { FC, ReactNode } from "react";
 import { MediaCardLink, MediaCardLinkProps } from "../media-card-link";
 import { MediaCardTitle, MediaCardTitleProps } from "../media-card-title";
-import { staticTokenRule, styled } from "lib/ui-utils";
+import { staticTokenRule, styled } from "lib";
 
 const ScImageWrapper = styled.div`
   order: 1;

@@ -1,4 +1,4 @@
-import { cn, staticTokenRule, styled } from "lib/ui-utils";
+import { cn, staticTokenRule, styled } from "lib";
 
 import { PropsWithChildren } from "react";
 import ReactModal from "react-modal";

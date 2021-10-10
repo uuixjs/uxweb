@@ -4,7 +4,7 @@ import {
   CoreButtonDropdownType,
 } from "../core-button-dropdown";
 import { FC, ReactNode } from "react";
-import { staticTokenRule, styled } from "lib/ui-utils";
+import { staticTokenRule, styled } from "lib";
 
 import { CoreButtonIcon } from "../core-button-icon";
 import { CoreButtonSize } from "..";

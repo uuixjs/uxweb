@@ -11,7 +11,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 export enum TooltipDirection {
   Top = "top",

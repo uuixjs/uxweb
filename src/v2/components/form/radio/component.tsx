@@ -9,7 +9,7 @@ import {
   newUUIDv4,
   omitDataProps,
   styled,
-} from "lib/ui-utils";
+} from "lib";
 
 import { withOverlayContext } from "../../overlay-region/context";
 

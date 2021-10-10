@@ -7,7 +7,7 @@ import {
 } from "../core-text";
 import { FC, HTMLProps, ReactNode } from "react";
 import { FontSize, FontWeight } from "../layout";
-import { cn, staticTokenRule, styled } from "lib/ui-utils";
+import { cn, staticTokenRule, styled } from "lib";
 
 export enum TitleSize {
   ExtraLarge = "xl",

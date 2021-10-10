@@ -1,4 +1,4 @@
-import { createGlobalStyle, focusVisibleReset } from "lib/ui-utils";
+import { createGlobalStyle, focusVisibleReset } from "lib";
 
 /* stylelint-disable */
 

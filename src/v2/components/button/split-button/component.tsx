@@ -15,7 +15,7 @@ import {
   omitDataProps,
   staticTokenRule,
   styled,
-} from "lib/ui-utils";
+} from "lib";
 
 import { CoreButtonLabel } from "../core-button/core-button-label";
 import { CoreInteractivePublicProps } from "../../core-interactive";

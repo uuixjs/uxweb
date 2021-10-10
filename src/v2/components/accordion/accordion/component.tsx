@@ -1,7 +1,7 @@
 import { AccordionBody, AccordionBodyProps } from "../accordion-body";
 import { AccordionFooter, AccordionFooterProps } from "../accordion-footer";
 import { AccordionHeader, AccordionHeaderProps } from "../accordion-header";
-import { BorderRadius, getAriaProps } from "lib/ui-utils";
+import { BorderRadius, getAriaProps } from "lib";
 import { BorderRadiusProps, Layout } from "../../layout";
 import { Component, MouseEvent } from "react";
 

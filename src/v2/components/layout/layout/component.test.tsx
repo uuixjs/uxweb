@@ -21,7 +21,7 @@ import {
 } from "../types";
 import { Layout, LayoutProps } from "./component";
 
-import { BorderRadius } from "lib/ui-utils";
+import { BorderRadius } from "lib";
 import { DarkThemeMap } from "lib/ui-tokens";
 import { LayoutCssBreakpointProps } from "../utils/layout-props";
 import { createMountWrapperFactory } from "tachyon-test-utils";

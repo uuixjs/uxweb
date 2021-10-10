@@ -3,7 +3,7 @@ import {
   ThemeProvider,
   ThemeProviderProps,
   styled,
-} from "lib/ui-utils";
+} from "lib";
 
 import { ThemeContextValue } from "lib/utils-styled-components";
 

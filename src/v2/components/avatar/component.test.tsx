@@ -1,6 +1,6 @@
 import { Avatar, AvatarProps } from "./component";
 
-import { BorderRadius } from "lib/ui-utils";
+import { BorderRadius } from "lib";
 import { DefaultAvatar } from "./default-avatar";
 import { ImageAvatar } from "./image-avatar";
 import { PresenceStatus } from "../presence";

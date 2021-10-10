@@ -1,4 +1,4 @@
-import { BorderRadius, getAriaProps } from "lib/ui-utils";
+import { BorderRadius, getAriaProps } from "lib";
 import { Component, MouseEvent } from "react";
 import { Interactable, InteractableType } from "../../../../interactable";
 

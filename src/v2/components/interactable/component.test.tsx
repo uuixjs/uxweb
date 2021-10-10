@@ -7,7 +7,7 @@ import {
 } from "./component";
 import { Link, MemoryRouter } from "react-router-dom";
 
-import { BorderRadius } from "lib/ui-utils";
+import { BorderRadius } from "lib";
 import { CoreInteractive } from "../core-interactive";
 import { OverlayRegion } from "../overlay-region";
 import { mount } from "enzyme";

@@ -1,6 +1,6 @@
 import { FC, HTMLProps } from "react";
 
-import { cn } from "lib/ui-utils";
+import { cn } from "lib";
 
 export const TableHeader: FC<HTMLProps<HTMLTableSectionElement>> = (props) => {
   return (

@@ -8,7 +8,7 @@ import {
   getPaddingStyles,
   styleVariant,
   styled,
-} from "lib/ui-utils";
+} from "lib";
 import { Title, TitleSize } from "../../title";
 
 import { ButtonIconSize } from "../../button/button-icon";

@@ -1,7 +1,7 @@
 import { Background, InjectLayout } from "../layout";
 import { Callout, CalloutOrientation, CalloutProps } from "./component";
 
-import { BorderRadius } from "lib/ui-utils";
+import { BorderRadius } from "lib";
 import { CalloutActions } from ".";
 import { CalloutMessage } from "./callout-message";
 import { CoreDismissible } from "../core-dismissible";

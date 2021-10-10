@@ -1,7 +1,7 @@
 import { AtRule } from "csstype";
 /* eslint-disable @typescript-eslint/no-require-imports */
 /* eslint-disable @typescript-eslint/no-var-requires */
-import { createGlobalStyle } from "lib/ui-utils";
+import { createGlobalStyle } from "lib";
 
 /* stylelint-disable */
 

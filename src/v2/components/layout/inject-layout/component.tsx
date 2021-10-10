@@ -5,7 +5,7 @@ import {
   isValidElement,
 } from "react";
 import { CommonLayoutProps, propMap } from "../utils/layout-props";
-import { cn, getAriaProps, getDataProps, styled } from "lib/ui-utils";
+import { cn, getAriaProps, getDataProps, styled } from "lib";
 
 import { getLayoutStyles } from "../utils/common";
 

@@ -12,7 +12,7 @@ import {
   getAriaProps,
   getDataProps,
   newUUIDv4,
-} from "lib/ui-utils";
+} from "lib";
 
 import { InputSize } from "../form";
 import { SVGAsset } from "../../svg";

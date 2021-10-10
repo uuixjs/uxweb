@@ -10,7 +10,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 import { Icon } from "../../icon";
 import { SVGAsset } from "../../svg";

@@ -1,6 +1,6 @@
 import { FC, HTMLProps } from "react";
 import { InjectLayout, TextAlign, VerticalAlign } from "../../layout";
-import { Padding, cn } from "lib/ui-utils";
+import { Padding, cn } from "lib";
 
 export interface TableCellProps {
   padding?: Padding;

@@ -16,7 +16,7 @@ import {
   hoverCss,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 import { OverlayContext } from "../overlay-region/context";
 

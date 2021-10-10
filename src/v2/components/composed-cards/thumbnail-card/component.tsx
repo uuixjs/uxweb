@@ -1,5 +1,5 @@
 import { Aspect, AspectRatio } from "../../aspect";
-import { BorderRadius, getAriaProps, getDataProps } from "lib/ui-utils";
+import { BorderRadius, getAriaProps, getDataProps } from "lib";
 import { Color, FontSize, Layout } from "../../layout";
 import { CoreLink, CoreLinkProps, CoreLinkType } from "../../core-link";
 import { CoreText, LineHeight, TextType } from "../../core-text";

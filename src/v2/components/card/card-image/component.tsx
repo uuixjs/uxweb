@@ -6,7 +6,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 import { CoreImage, CoreImageProps } from "../../core-image";
 import { FC, ReactNode } from "react";
 

@@ -9,7 +9,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 import { CoreButtonLabel } from "../../../button/core-button/core-button-label";
 import { InputControlProps } from "../../form";

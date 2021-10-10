@@ -6,7 +6,7 @@ import {
   rem,
   staticTokenRule,
   styled,
-} from "lib/ui-utils";
+} from "lib";
 import {
   CSSProperties,
   FormEventHandler,

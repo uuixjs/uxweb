@@ -1,4 +1,4 @@
-import { CSSObject, ThemeContextValue } from "lib/ui-utils";
+import { CSSObject, ThemeContextValue } from "lib";
 
 import { ThemeToken } from "lib/ui-tokens";
 

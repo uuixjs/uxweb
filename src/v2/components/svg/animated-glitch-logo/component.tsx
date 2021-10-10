@@ -6,7 +6,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 
 export enum GlitchAnimationStep {
   mouseEnter = "mouse-enter",

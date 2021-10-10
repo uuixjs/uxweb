@@ -2,7 +2,7 @@ import { Color, FontSize } from "../../layout";
 import { CoreText, TextType } from "../../core-text";
 
 import { FC } from "react";
-import { getAriaProps } from "lib/ui-utils";
+import { getAriaProps } from "lib";
 import { withOverlayContext } from "../../overlay-region/context";
 
 export interface FormHintProps {

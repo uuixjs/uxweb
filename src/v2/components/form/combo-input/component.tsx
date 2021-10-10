@@ -7,7 +7,7 @@ import {
 import { Display, Layout } from "../../layout";
 import { FC, ReactNode } from "react";
 import { Input, InputProps, InputRounding } from "../input/component";
-import { cn, getAriaProps, getDataProps, styled } from "lib/ui-utils";
+import { cn, getAriaProps, getDataProps, styled } from "lib";
 
 import { CoreButtonIcon } from "../../button/core-button/core-button-icon";
 import { CoreButtonLabel } from "../../button/core-button/core-button-label";

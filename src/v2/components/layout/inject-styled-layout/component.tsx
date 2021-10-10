@@ -1,6 +1,6 @@
-/* eslint-disable twitch-core-ui/no-styled-layout */
-import { FC } from "react";
 import { InjectLayout, InjectLayoutProps } from "../inject-layout";
+
+import { FC } from "react";
 
 export interface InjectStyledLayoutProps extends InjectLayoutProps {}
 

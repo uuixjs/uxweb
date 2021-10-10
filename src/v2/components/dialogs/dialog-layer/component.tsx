@@ -14,7 +14,7 @@ import { Transition, TransitionProps, TransitionType } from "../../transition";
 
 import ReactModal from "react-modal";
 import { ScReactModal } from "../utils/sc-react-modal";
-import { cn } from "lib/ui-utils";
+import { cn } from "lib";
 import { useConfigureReactModal } from "../utils/use-configure-react-modal";
 import { useDelayedUnmount } from "../utils/use-delayed-unmount";
 

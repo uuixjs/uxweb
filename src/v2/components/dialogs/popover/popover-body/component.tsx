@@ -1,6 +1,6 @@
 import { Component, ReactNode } from "react";
 import { InjectLayout, Overflow } from "../../../layout";
-import { PaddingValue, getAriaProps, getDataProps } from "lib/ui-utils";
+import { PaddingValue, getAriaProps, getDataProps } from "lib";
 
 export interface PopoverBodyProps {
   /** This ID attribute must be the same for all elements for a given popover in order to set the correct aria attribute values. In other words, a Popover, PopoverHeader and PopoverBody should each receive the same string. */

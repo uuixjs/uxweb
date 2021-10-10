@@ -44,7 +44,7 @@ import {
   Padding,
   staticTokenRule,
   themeTokenRule,
-} from "lib/ui-utils";
+} from "lib";
 import {
   PropClassNameMap,
   conditionalStyles,

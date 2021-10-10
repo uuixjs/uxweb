@@ -4,13 +4,13 @@ import {
   CORE_UI_ROOT_LIGHT_THEME_SELECTOR,
   ThemeProvider,
   prefersDarkMode,
-} from "lib/ui-utils";
+} from "lib";
 
 import { CoreUIRoot } from "./component";
 import { mount } from "enzyme";
 
-jest.mock("lib/ui-utils", () => ({
-  ...jest.requireActual<{}>("lib/ui-utils"),
+jest.mock("lib", () => ({
+  ...jest.requireActual<{}>("lib"),
   prefersDarkMode: jest.fn(),
 }));
 const prefersDarkModeMock = prefersDarkMode as jest.Mock;

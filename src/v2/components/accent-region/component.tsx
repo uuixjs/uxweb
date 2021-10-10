@@ -15,7 +15,7 @@ import {
   getHoverColor,
   styled,
   useTheme,
-} from "lib/ui-utils";
+} from "lib";
 
 import { FC } from "react";
 import { StaticTokenMap } from "lib/ui-tokens";

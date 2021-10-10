@@ -1,6 +1,8 @@
-import { addons, types } from "@storybook/addons";
-import { ToolbarSettingsForm } from "./components/toolbar-settings-form";
 import { ADDON_ID, ADDON_TITLE } from "./constants";
+import { addons, types } from "@storybook/addons";
+
+import React from 'react';
+import { ToolbarSettingsForm } from "./components/toolbar-settings-form";
 
 addons.register(ADDON_ID, (api) => {
   addons.add(ADDON_ID, {

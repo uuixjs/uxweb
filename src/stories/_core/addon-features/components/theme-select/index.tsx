@@ -6,7 +6,7 @@ import { ScFormLabel } from "../sc-form-label";
 import { ThemeOption } from "v2";
 import { styled } from "@storybook/theming";
 import { useEffect } from "react";
-import { useStorage } from "beautiful-react-hooks";
+import { useStoredTheme } from "../theme.config";
 
 const ScWrapper = styled.div`
   height: 100%;

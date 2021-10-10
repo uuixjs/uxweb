@@ -1,7 +1,9 @@
+import { ADDON_ID, PANEL_ID, PARAM_KEY } from "./constants";
 import { addons, types } from "@storybook/addons";
+
 import { AddonPanel } from "@storybook/components";
 import { MyPanel } from "./components/panel";
-import { ADDON_ID, PANEL_ID, PARAM_KEY } from "./constants";
+import React from 'react';
 
 addons.register(ADDON_ID, (_) => {
   const render = ({ active, key }: { active: boolean; key: string }) => (

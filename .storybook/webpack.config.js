@@ -1,6 +1,11 @@
+const nodeExternals = require('webpack-node-externals');
 const { resolve } = require("path");
 
 module.exports = ({ config, mode }) => {
+
+  config.externals = [nodeExternals()];
+  config.target = 'web';
+  
   const rules = [
     {
       test: /\.(gif|jpe?g|png|svg)$/,

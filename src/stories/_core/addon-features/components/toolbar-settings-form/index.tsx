@@ -1,9 +1,11 @@
+import * as React from 'react';
+
 import { API } from "@storybook/api";
-import { Spaced } from "@storybook/components";
-import { styled } from "@storybook/theming";
 import { CssVarsModeSelect } from "../css-vars-mode-select";
 import { DisableHoverCSSSelect } from "../disable-hover-css-select";
+import { Spaced } from "@storybook/components";
 import { ThemeSelect } from "../theme-select";
+import { styled } from "@storybook/theming";
 
 const ScSpacedFlexbox = styled(Spaced)`
   display: flex;

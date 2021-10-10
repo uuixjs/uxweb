@@ -9,8 +9,8 @@ import * as React from "react";
 
 import { PreviewDecorator } from "../src/stories/components/preview-decorator";
 import { addDecorator } from "@storybook/react";
-// import { withPerformance } from "storybook-addon-performance";
 import { withCoreUIRoot } from "../src/stories/_core/addon-features";
+import { withPerformance } from "storybook-addon-performance";
 import { withRenderSpeedBenchmark } from "../src/stories/_core/addon-render-speed";
 
 // Global story preview decorator.
@@ -19,6 +19,6 @@ addDecorator((storyFn) => <PreviewDecorator>{storyFn()}</PreviewDecorator>);
 // Controls classNames on the root for touch, hover, and theme features.
 addDecorator(withCoreUIRoot);
 
-// addDecorator(withPerformance);
+addDecorator(withPerformance);
 
 addDecorator(withRenderSpeedBenchmark);

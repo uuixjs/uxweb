@@ -1,26 +1,29 @@
 const { resolve } = require("path");
 
 module.exports = ({ config, mode }) => {
-  config.module.rules.push({
-    test: /\.(gif|jpe?g|png|svg)$/,
-    use: {
-      loader: "url-loader",
-      options: { name: "[name].[ext]" },
+  const rules = [
+    {
+      test: /\.(gif|jpe?g|png|svg)$/,
+      use: {
+        loader: "url-loader",
+        options: { name: "[name].[ext]" },
+      },
     },
-  });
-
-  config.module.rules.push({
-    test: /\.(png|jpe?g|gif|jp2|webp)$/,
-    loader: "file-loader",
-    options: {
-      name: "images/[name].[ext]",
+    {
+      test: /\.(png|jpe?g|gif|jp2|webp)$/,
+      loader: "file-loader",
+      options: {
+        name: "images/[name].[ext]",
+      },
     },
-  });
 
-  config.module.rules.push({
-    test: /\.s(a|c)ss$/,
-    use: ["style-loader", "css-loader", "sass-loader"],
-  });
+    {
+      test: /\.s(a|c)ss$/,
+      use: ["sass-loader"],
+    }
+  ];
+
+  rules.forEach((rule) => config.module.rules.push(rule));
 
   // config.module.rules.push({
   //   test: /\.scss$/,

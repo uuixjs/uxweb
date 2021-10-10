@@ -1,6 +1,6 @@
 yarn run v1.22.5
 $ start-storybook -p 6006 -s public
-webpack built preview 7f5b82b5d95e815601e4 in 35480ms
+webpack built preview 39c6d3c018de6fe6ca5a in 32443ms
 ModuleBuildError: Module build failed (from ./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js):
 SassError: expected "{".
   ╷
@@ -91,86 +91,6 @@ SassError: SassError: expected "{".
     at _awaitOnObject_closure0.call$2 (/Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/sass/sass.dart.js:26417:25)
     at _RootZone.runBinary$3$3 (/Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/sass/sass.dart.js:28060:18)
     at _FutureListener.handleError$1 (/Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/sass/sass.dart.js:26590:21)
-ModuleNotFoundError: Module not found: Error: Can't resolve '../assets' in '/Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/story-components'
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/Compilation.js:925:10
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/NormalModuleFactory.js:401:22
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/NormalModuleFactory.js:130:21
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/NormalModuleFactory.js:224:22
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/neo-async/async.js:2830:7
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/neo-async/async.js:6877:13
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/@storybook/builder-webpack4/node_modules/webpack/lib/NormalModuleFactory.js:214:25
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/enhanced-resolve/lib/Resolver.js:213:14
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/enhanced-resolve/lib/Resolver.js:285:5
-    at eval (eval at create (/Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/enhanced-resolve/lib/UnsafeCachePlugin.js:44:7
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/enhanced-resolve/lib/Resolver.js:285:5
-    at eval (eval at create (/Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/enhanced-resolve/lib/Resolver.js:285:5
-    at eval (eval at create (/Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
-    at /Users/ceddymuhoza/_core/uuixjs/uuix-1/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:67:43
-resolve '../assets' in '/Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/story-components'
-  using description file: /Users/ceddymuhoza/_core/uuixjs/uuix-1/package.json (relative path: ./src/stories/accent-region/story-components)
-    Field 'browser' doesn't contain a valid alias configuration
-    using description file: /Users/ceddymuhoza/_core/uuixjs/uuix-1/package.json (relative path: ./src/stories/accent-region/assets)
-      no extension
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets doesn't exist
-      .web.mjs
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.web.mjs doesn't exist
-      .mjs
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.mjs doesn't exist
-      .web.js
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.web.js doesn't exist
-      .js
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.js doesn't exist
-      .web.ts
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.web.ts doesn't exist
-      .ts
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.ts doesn't exist
-      .web.tsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.web.tsx doesn't exist
-      .tsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.tsx doesn't exist
-      .json
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.json doesn't exist
-      .web.jsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.web.jsx doesn't exist
-      .jsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.jsx doesn't exist
-      .web.js
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.web.js doesn't exist
-      .js
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.js doesn't exist
-      .json
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.json doesn't exist
-      .web.jsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.web.jsx doesn't exist
-      .jsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.jsx doesn't exist
-      .ts
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.ts doesn't exist
-      .tsx
-        Field 'browser' doesn't contain a valid alias configuration
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets.tsx doesn't exist
-      as directory
-        /Users/ceddymuhoza/_core/uuixjs/uuix-1/src/stories/accent-region/assets doesn't exist
 
 
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

@@ -170,7 +170,7 @@ export class CombinationGenerator extends Component<Props, State> {
   };
 
   private getRowSetHeading(
-    currentObj: ComponentProps,
+    currentObj: ComponentProps = {},
     index: number,
     allObjs: ComponentProps[],
   ) {

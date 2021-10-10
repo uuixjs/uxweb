@@ -1,1 +1,1 @@
-export * from "./sc-font-declaration";
+// export * from "./sc-font-declaration";

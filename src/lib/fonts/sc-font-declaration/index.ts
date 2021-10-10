@@ -21,7 +21,8 @@ function getModuleExport(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   mod: any,
 ) {
-  return mod && mod.__esModule ? mod.default : mod;
+  return mod;
+  // return mod && mod.__esModule ? mod.default : mod;
 }
 
 /**

@@ -1,4 +1,3 @@
-// @ts-nocheck
 import {
   CHANGE_DISABLEHOVERCSS,
   DISABLEHOVERCSS_STORAGE_KEY,
@@ -7,11 +6,7 @@ import {
 import { API } from "@storybook/api";
 import { ScFormLabel } from "../sc-form-label";
 import { useEffect } from "react";
-import { useStorage } from "beautiful-react-hooks";
-
-export function useStoredDisableHoverCSS(): [any, any] {
-  return useStorage<boolean>(DISABLEHOVERCSS_STORAGE_KEY);
-}
+import { useStoredDisableHoverCSS } from "../theme.config";
 
 interface Props {
   api: API;

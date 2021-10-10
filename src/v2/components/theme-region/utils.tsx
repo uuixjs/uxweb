@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { Theme } from "lib/ui-tokens";
+import { Theme } from "lib";
 import { prefersDarkMode } from "lib";
 
 export type ThemeOption = Theme | "system";

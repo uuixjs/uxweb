@@ -8,10 +8,6 @@ import { styled } from "@storybook/theming";
 import { useEffect } from "react";
 import { useStorage } from "beautiful-react-hooks";
 
-export function useStoredTheme():[any, any] {
-  return useStorage<ThemeOption>(THEME_STORAGE_KEY);
-}
-
 const ScWrapper = styled.div`
   height: 100%;
   display: flex;
@@ -25,7 +21,7 @@ interface Props {
 }
 
 export const ThemeSelect = ({ api }: Props) => {
-  const [theme, setTheme] = useStoredTheme();
+  const [theme, setTheme] = useStoredTheme<ThemeOption>("light");
 
   useEffect(() => {
     api.emit(CHANGE_THEME, theme);

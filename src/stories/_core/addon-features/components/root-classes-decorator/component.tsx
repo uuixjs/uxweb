@@ -2,18 +2,17 @@ import {
   CHANGE_CSSVARS,
   CHANGE_DISABLEHOVERCSS,
   CHANGE_THEME,
+  THEME_STORAGE_KEY,
 } from "../../constants";
 import { FC, useEffect, useRef } from "react";
+import { useStoredCssVarsMode, useStoredDisableHoverCSS, useStoredTheme } from "../theme.config";
 
 import { CoreUIRoot } from "v2";
 import addons from "@storybook/addons";
-import { useStoredCssVarsMode } from "../css-vars-mode-select";
-import { useStoredDisableHoverCSS } from "../disable-hover-css-select";
-import { useStoredTheme } from "../theme-select";
 
 export const RootClassesDecorator: FC = (props) => {
-  const [theme, setTheme] = useStoredTheme();
-  const [cssVars, setCssVars] = useStoredCssVarsMode();
+  const [theme, setTheme] = useStoredTheme<any>("light");
+  const [cssVars, setCssVars] = useStoredCssVarsMode<any>();
   const [disableHoverCSS, setDisableHoverCSS] = useStoredDisableHoverCSS();
 
   // Connect storybook channel listeners

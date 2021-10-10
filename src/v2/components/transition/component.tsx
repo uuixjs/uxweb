@@ -275,7 +275,7 @@ export class Transition extends Component<TransitionProps, TransitionState> {
   private ensureLayoutReflow = () => {
     // Although the above this line doesn't appear to do anything, accessing
     // the layout-dependent value forces layout by the browser.
-    // eslint-disable-next-line no-unused-expressions
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     this.containerRef && this.containerRef.scrollTop;
   };
 }

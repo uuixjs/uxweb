@@ -305,7 +305,7 @@ export class TransitionGroup extends Component<
     const someRef = this.childRefMap[Object.keys(this.childRefMap)[0]];
     // Although the above this line doesn't appear to do anything, accessing
     // the layout-dependent value forces layout by the browser.
-    // eslint-disable-next-line no-unused-expressions
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     someRef && someRef.scrollTop;
   };
 }

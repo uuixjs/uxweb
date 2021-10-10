@@ -29,14 +29,15 @@ module.exports = ({config, mode}) => {
     '.json',
     '.web.jsx',
     '.jsx',
-    'ts',
-    'tsx',
+    '.ts',
+    '.tsx',
   ];
 
   config.resolve.alias = {
     ...config.resolve.alias,
-    'v2/*': resolve(__dirname, '../src/v2/*'),
-    'lib/*': resolve(__dirname, '../src/lib/*'),
+    'v2': resolve(__dirname, '../src/v2'),
+    'components': resolve(__dirname, '../src/components'),
+    'lib': resolve(__dirname, '../src/lib'),
   };
 
   return config;

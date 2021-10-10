@@ -7,21 +7,21 @@ export const Enum = {
    * entries
    */
   entries: (obj: EnumObject): KeyValue[] => {
-    return Object.keys(obj).map((i) => [i, obj[i]]);
+    return Object.keys(obj || {}).map((i) => [i, obj[i]]);
   },
 
   /**
    * keys
    */
   keys: (obj: EnumObject): string[] => {
-    return Object.keys(obj);
+    return Object.keys(obj || {});
   },
 
   /**
    * values
    */
   values: (obj: EnumObject): string[] => {
-    return Object.values(obj);
+    return Object.values(obj || {});
   },
 };
 

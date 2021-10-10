@@ -31,13 +31,13 @@ export enum ExampleBG {
   White = "white",
 }
 
-export interface Props {
+interface Props {
   defaultBg?: ExampleBG;
   blur?: boolean;
   padding?: Padding;
 }
 
-export interface State {
+interface State {
   bg: ExampleBG;
 }
 

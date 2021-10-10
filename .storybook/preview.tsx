@@ -3,6 +3,7 @@ import "loki/configure-react";
 import "../src/lib/ui-scss-compat/css/base.css";
 // Add custom font and base styling.
 import "./preview.scss";
+import "../src/stories/components"; // import components first
 
 import * as React from "react";
 

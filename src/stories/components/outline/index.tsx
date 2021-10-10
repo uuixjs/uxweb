@@ -1,8 +1,9 @@
 import * as React from "react";
 
-import { Color, Layout, LayoutProps, styled } from "v2";
+import { Color, Layout, LayoutProps } from "v2";
 
 import { FC } from "react";
+import { styled } from 'lib';
 
 const ScOutline = styled(Layout)`
   border: 2px dashed rgba(255, 0, 0, 0.4);

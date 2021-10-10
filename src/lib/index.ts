@@ -1,4 +1,4 @@
-export * from './fonts';
+// export * from './fonts';
 export * from './pure-color';
 // export * from './test-utils';
 // export * from './ui-scss-compat';

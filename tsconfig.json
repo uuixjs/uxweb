@@ -23,5 +23,11 @@
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx",
+    "src/**/**/*.stories.tsx",
+    "node_modules"
   ]
 }

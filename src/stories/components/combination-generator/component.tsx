@@ -4,7 +4,6 @@ import {
   AlignItems,
   CoreText,
   Display,
-  Enum,
   FontSize,
   InjectLayout,
   JustifyContent,
@@ -21,6 +20,7 @@ import {
   isValidElement,
 } from "react";
 
+import { Enum } from "lib"
 import { ExampleSection } from "../example-section";
 
 export type ComponentPropConfig = {

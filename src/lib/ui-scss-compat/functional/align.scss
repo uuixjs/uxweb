@@ -1,0 +1,11 @@
+@import "../variables.scss";
+
+@include build-classes(
+  (
+    "align": (
+      "text-align",
+      ("center": center, "left": left, "right": right, "justify": justify),
+      true,
+    ),
+  )
+);

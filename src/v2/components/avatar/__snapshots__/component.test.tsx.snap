@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar renders avatar component with all props 1`] = `
+<styled.figure
+  $size={30}
+  aria-label="Test alt string"
+  className="tw-avatar"
+>
+  <ImageAvatar
+    alt="Test alt string"
+    borderRadius="border-radius-medium"
+    onError={[MockFunction]}
+    onLoad={[MockFunction]}
+    presenceIndicator={true}
+    presenceStatus="online"
+    size={30}
+    src="testURL"
+    userLogin="pondelinp"
+  />
+  <styled.div
+    $offset={false}
+    className="tw-avatar__presence"
+  >
+    <Presence
+      border={true}
+      status="online"
+    />
+  </styled.div>
+</styled.figure>
+`;
+
+exports[`Avatar renders avatar component with required props (placeholder state) 1`] = `
+<styled.figure
+  $size={30}
+  aria-label="Test alt string"
+  className="tw-avatar"
+>
+  <Layout
+    borderRadius="border-radius-rounded"
+    overflow="hidden"
+  >
+    <Placeholder
+      height={30}
+      width={30}
+    />
+  </Layout>
+</styled.figure>
+`;

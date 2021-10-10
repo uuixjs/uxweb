@@ -1,0 +1,143 @@
+@import "../variables.scss";
+
+// Map the classes.
+// ----------------------------------------------------------------------------
+$wrap-classes: (
+  "wrap": wrap,
+  "nowrap": nowrap,
+  "wrap-reverse": wrap-reverse,
+);
+
+$direction-classes: (
+  "column": column,
+  "row": row,
+  "column-reverse": column-reverse,
+  "row-reverse": row-reverse,
+);
+
+$align-items-classes: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "baseline": baseline,
+  "stretch": stretch,
+);
+
+$align-self-classes: (
+  "auto": auto,
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "baseline": baseline,
+  "stretch": stretch,
+);
+
+$justify-content-classes: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "between": space-between,
+  "around": space-around,
+);
+
+$align-content-classes: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "between": space-between,
+  "around": space-around,
+  "stretch": stretch,
+);
+
+$num-classes: (
+  "0": 0,
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+);
+
+$flex-classes: (
+  "inline-flex": (
+    "display",
+    inline-flex,
+    true,
+  ),
+  "flex": (
+    "flex-direction",
+    $direction-classes,
+    true,
+  ),
+  "align-items": (
+    "align-items",
+    $align-items-classes,
+    true,
+  ),
+  "align-self": (
+    "align-self",
+    $align-self-classes,
+    true,
+  ),
+  "justify-content": (
+    "justify-content",
+    $justify-content-classes,
+    true,
+  ),
+  "align-content": (
+    "align-content",
+    $align-content-classes,
+    true,
+  ),
+  "flex-grow": (
+    "flex-grow",
+    $num-classes,
+    true,
+  ),
+  "flex-shrink": (
+    "flex-shrink",
+    $num-classes,
+    true,
+  ),
+  "item-order": (
+    "order",
+    $num-classes,
+    true,
+  ),
+);
+
+// Build the classes.
+// ----------------------------------------------------------------------------
+
+// Mixin for flex properties
+@mixin flex {
+  display: flex !important;
+}
+
+.tw-flex {
+  @include flex();
+}
+
+@for $i from 0 through length($breakpoints) {
+  @if $i > 0 {
+    $key: nth(map-keys($breakpoints), $i);
+    .tw-#{$key}-flex {
+      @include mq($key) {
+        @include flex();
+      }
+    }
+  }
+}
+
+// Extends the `.flex` class.
+@include build-classes(
+  (
+    "flex": (
+      "flex-wrap",
+      $wrap-classes,
+      true,
+    ),
+  )
+);
+
+// All the other flex classes.
+@include build-classes($flex-classes);

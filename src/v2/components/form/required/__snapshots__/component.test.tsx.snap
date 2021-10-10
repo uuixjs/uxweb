@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormGroup renders form required component 1`] = `
+<styled.svg
+  className="tw-form-required"
+  height="1em"
+  role="img"
+  version="1.1"
+  viewBox="0 0 12 12"
+  width="1em"
+  x="0"
+  y="0"
+>
+  <path
+    d="M6 2l1 1.586 1.828-.414L8.414 5 10 6 8.414 7l.414 1.828L7 8.414 6 10 5 8.414l-1.829.414L3.586 7 2 6l1.586-1-.415-1.828L5 3.586 6 2z"
+  />
+</styled.svg>
+`;

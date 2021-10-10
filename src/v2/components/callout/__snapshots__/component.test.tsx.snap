@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Callout renders Callout component with accent background 1`] = `
+<Layout
+  background="accent"
+  borderRadius="border-radius-medium"
+  elevation={2}
+  padding={2}
+  position="relative"
+>
+  <OverlayRegion
+    overlay={true}
+  >
+    <Layout
+      alignItems="flex-start"
+      display="flex"
+      flexDirection="column"
+    >
+      <Layout
+        alignItems="flex-start"
+        display="flex"
+        fullWidth={true}
+      >
+        <Layout
+          flexGrow={1}
+        />
+      </Layout>
+    </Layout>
+  </OverlayRegion>
+</Layout>
+`;
+
+exports[`Callout renders Callout component with all config props 1`] = `
+<Layout
+  background="base"
+  borderRadius="border-radius-medium"
+  elevation={2}
+  padding={2}
+  position="relative"
+>
+  <OverlayRegion
+    overlay={false}
+  >
+    <Layout
+      alignItems="flex-start"
+      display="flex"
+      flexDirection="column"
+    >
+      <Layout
+        alignItems="flex-start"
+        display="flex"
+        fullWidth={true}
+      >
+        <Layout
+          flexGrow={1}
+        />
+      </Layout>
+    </Layout>
+  </OverlayRegion>
+</Layout>
+`;
+
+exports[`Callout renders Callout component with composed children 1`] = `
+<Layout
+  background="base"
+  borderRadius="border-radius-medium"
+  elevation={3}
+  padding={2}
+  position="relative"
+>
+  <OverlayRegion
+    overlay={false}
+  >
+    <Layout
+      alignItems="flex-start"
+      display="flex"
+      flexDirection="row"
+    >
+      <Layout
+        alignItems="flex-start"
+        display="flex"
+        fullWidth={true}
+      >
+        <Layout
+          alignItems="center"
+          display="flex"
+          flexGrow={0}
+          flexShrink={0}
+          justifyContent="center"
+          margin={
+            Object {
+              "right": 1,
+            }
+          }
+          padding={0.5}
+        >
+          <InjectLayout
+            borderRadius="border-radius-rounded"
+          >
+            <ForwardRef(CoreImage)
+              alt=""
+              src="http://placehold.jp/30x30.png"
+            />
+          </InjectLayout>
+        </Layout>
+        <Layout
+          flexGrow={1}
+        >
+          <CalloutMessage
+            description="This is some descriptive text. A longer description with more content."
+            inline={true}
+            pill={
+              Object {
+                "label": "NEW",
+                "type": "brand",
+              }
+            }
+            title="This is My Feature Title that is Much Longer than Above"
+          />
+        </Layout>
+      </Layout>
+      <Layout
+        display="flex"
+        fullWidth={false}
+        justifyContent="flex-end"
+        margin={
+          Object {
+            "left": 1,
+            "top": 0,
+          }
+        }
+      >
+        <NotificationActions
+          primaryButton={
+            Object {
+              "children": "Primary",
+              "linkTo": "#",
+            }
+          }
+          secondaryButton={
+            Object {
+              "children": "Secondary",
+              "linkTo": "#",
+            }
+          }
+        />
+      </Layout>
+      <Styled(Layout)
+        className="tw-callout__close"
+        margin={
+          Object {
+            "left": 1,
+          }
+        }
+      >
+        <ForwardRef(CoreDismissible)
+          aria-label="Close"
+          onClick={[MockFunction]}
+          size="small"
+        />
+      </Styled(Layout)>
+    </Layout>
+  </OverlayRegion>
+</Layout>
+`;

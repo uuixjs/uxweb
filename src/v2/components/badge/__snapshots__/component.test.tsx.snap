@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge renders badge component with all props 1`] = `
+<styled.div>
+  <styled.div
+    $size={50}
+    $type="notification"
+    border={true}
+    className="tw-badge"
+    icon="Gear"
+  >
+    <styled.div>
+      <SVG
+        asset="Gear"
+        fill={true}
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Badge renders badge component with required props 1`] = `
+<styled.div
+  $size={20}
+  $type="default"
+  className="tw-badge"
+  icon="Gear"
+>
+  <styled.div>
+    <SVG
+      asset="Gear"
+      fill={true}
+    />
+  </styled.div>
+</styled.div>
+`;

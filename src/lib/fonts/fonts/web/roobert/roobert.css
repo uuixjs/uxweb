@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Roobert";
+  font-weight: 400;
+  src: url("~lib/fonts/fonts/web/roobert/Roobert-Regular.woff2")
+      format("woff2"),
+    url("~lib/fonts/fonts/web/roobert/Roobert-Regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Roobert";
+  font-weight: 600;
+  src: url("~lib/fonts/fonts/web/roobert/Roobert-SemiBold.woff2")
+      format("woff2"),
+    url("~lib/fonts/fonts/web/roobert/Roobert-SemiBold.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Roobert";
+  font-weight: 700;
+  src: url("~lib/fonts/fonts/web/roobert/Roobert-Bold.woff2")
+      format("woff2"),
+    url("~lib/fonts/fonts/web/roobert/Roobert-Bold.woff")
+      format("woff");
+}

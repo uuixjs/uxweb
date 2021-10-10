@@ -1,0 +1,10 @@
+export type CMYKColor = [number, number, number, number];
+export type HSLColor = [number, number, number];
+export type HSLAColor = [number, number, number, number];
+export type HSVColor = [number, number, number];
+export type HWBColor = [number, number, number];
+export type LABColor = [number, number, number];
+export type LCHColor = [number, number, number];
+export type RGBColor = [number, number, number];
+export type RGBAColor = [number, number, number, number];
+export type XYZColor = [number, number, number];

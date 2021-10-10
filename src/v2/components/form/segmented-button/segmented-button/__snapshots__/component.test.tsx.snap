@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SegmentedButton renders segmented button component with required props 1`] = `
+<styled.div
+  className="tw-segmented-button"
+  size="default"
+/>
+`;

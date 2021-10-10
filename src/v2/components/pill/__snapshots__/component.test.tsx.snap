@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pill renders pill component with all props 1`] = `
+<Styled(CoreText)
+  $pillType="success"
+  className="tw-pill"
+  fontWeight="semibold"
+  transform="uppercase"
+  type="span"
+>
+  Test label
+</Styled(CoreText)>
+`;
+
+exports[`Pill renders pill component with required props 1`] = `
+<Styled(CoreText)
+  $pillType="info"
+  className="tw-pill"
+  fontWeight="semibold"
+  transform="uppercase"
+  type="span"
+>
+  Test label
+</Styled(CoreText)>
+`;

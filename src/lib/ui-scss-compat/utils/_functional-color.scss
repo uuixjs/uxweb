@@ -1,0 +1,59 @@
+@mixin build-color-classes($tokens, $key) {
+  // Ignore any token that contains the following strings.
+  $ignore-tokens: (
+    "button",
+    "input",
+    "label",
+    "tab",
+    "balloon",
+    "progress",
+    "pill",
+    "toggle",
+    "social-column",
+    "social"
+  ) !default;
+
+  @each $token in $tokens {
+    $index: str-index($token, "color-" + $key);
+    $class-prefix: "tw-c";
+    $property: "";
+    $is-ignored: false;
+
+    // If we've defined tokens to ignore:
+    @if length($ignore-tokens) > 0 {
+      // Check to see if the token is ignored.
+      @each $ignore-token in $ignore-tokens {
+        @if str-index($token, $ignore-token) != null {
+          $is-ignored: true;
+        }
+      }
+    }
+
+    // If it's a color and is not ignored.
+    @if $index and $is-ignored != true {
+      // Check which property to define based on the token name.
+      @if ($key == "text") {
+        $property: "color";
+      }
+
+      @if ($key == "background") {
+        $property: "background-color";
+      }
+
+      @if ($key == "border") {
+        $property: "border-color";
+      }
+
+      // Build the classname.
+      $classname: $class-prefix +
+        str-slice($token, $index + str-length("color"), str-length($token));
+
+      // If a property is defined, print the styles.
+      @if $property {
+        .#{$classname} {
+          #{$property}: var(--#{$token}) !important;
+        }
+      }
+    }
+  }
+}

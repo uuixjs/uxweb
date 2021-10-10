@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropDownMenuItem renders drop down menu figure as an icon 1`] = `
+<InjectLayout
+  className="tw-drop-down-menu-item-figure"
+>
+  <Layout
+    alignItems="center"
+    display="flex"
+  >
+    <Icon
+      asset="NavGames"
+    />
+  </Layout>
+</InjectLayout>
+`;
+
+exports[`DropDownMenuItem renders drop down menu figure as an image 1`] = `
+<InjectLayout
+  className="tw-drop-down-menu-item-figure"
+>
+  <styled.div>
+    <Aspect
+      align={3}
+      overflow={false}
+      ratio="tw-aspect--1x1"
+    >
+      <ForwardRef(CoreImage)
+        alt="image alt"
+        src="//path/to/img.jpg"
+      />
+    </Aspect>
+  </styled.div>
+</InjectLayout>
+`;

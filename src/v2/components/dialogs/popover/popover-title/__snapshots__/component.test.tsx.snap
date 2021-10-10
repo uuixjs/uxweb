@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopoverHeader renders Popover header component 1`] = `
+<Fragment>
+  <InjectLayout
+    fontWeight="semibold"
+    textAlign="center"
+  >
+    <CoreText
+      color="alt"
+      type="h5"
+    >
+      Title
+    </CoreText>
+  </InjectLayout>
+</Fragment>
+`;
+
+exports[`PopoverHeader renders Popover header component with all props 1`] = `
+<Fragment>
+  <InjectLayout
+    fontWeight="semibold"
+    textAlign="center"
+  >
+    <CoreText
+      color="alt"
+      type="h5"
+    >
+      Title
+    </CoreText>
+  </InjectLayout>
+  <InjectLayout
+    textAlign="center"
+  >
+    <CoreText
+      color="alt-2"
+      type="h6"
+    >
+      SubTitle
+    </CoreText>
+  </InjectLayout>
+</Fragment>
+`;

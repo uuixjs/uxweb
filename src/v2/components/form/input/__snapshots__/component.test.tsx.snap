@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders input component with all props 1`] = `
+<Layout
+  position="relative"
+>
+  <styled.div
+    className="tw-input__icon tw-input__icon--overlay"
+    iconRight={true}
+    overlay={true}
+  >
+    <Icon
+      asset="Gear"
+    />
+  </styled.div>
+  <InjectLayout
+    borderRadius={
+      Object {
+        "bottomLeft": "border-radius-none",
+        "bottomRight": "border-radius-medium",
+        "topLeft": "border-radius-none",
+        "topRight": "border-radius-medium",
+      }
+    }
+    fontSize="font-size-6"
+    padding={
+      Object {
+        "left": 1,
+        "right": 3,
+        "y": 0.5,
+      }
+    }
+    textAlign="center"
+  >
+    <Styled(styled.input)
+      $size="default"
+      autoCapitalize="on"
+      autoComplete="on"
+      autoCorrect="on"
+      autoFocus={true}
+      className="tw-input tw-input--error tw-input--overlay tw-input--password"
+      data-a-target="tw-input"
+      defaultValue="Default Value"
+      disabled={true}
+      error={true}
+      id="test-id"
+      inputMode="email"
+      list="list"
+      max={100}
+      maxLength={100}
+      min={1}
+      name="Test name"
+      onBlur={[MockFunction]}
+      onChange={[MockFunction]}
+      onClick={[MockFunction]}
+      onFocus={[Function]}
+      onKeyDown={[MockFunction]}
+      overlay={true}
+      pattern="test.?"
+      placeholder="Test placeholder"
+      readOnly={true}
+      required={true}
+      spellCheck={true}
+      step={2}
+      tabIndex={0}
+      type="password"
+      value="Test Value"
+    />
+  </InjectLayout>
+</Layout>
+`;
+
+exports[`Input renders input component with required props 1`] = `
+<Layout
+  position="relative"
+>
+  <InjectLayout
+    borderRadius={
+      Object {
+        "bottomLeft": "border-radius-medium",
+        "bottomRight": "border-radius-medium",
+        "topLeft": "border-radius-medium",
+        "topRight": "border-radius-medium",
+      }
+    }
+    fontSize="font-size-6"
+    padding={
+      Object {
+        "left": 1,
+        "right": 1,
+        "y": 0.5,
+      }
+    }
+  >
+    <Styled(styled.input)
+      $size="default"
+      autoCapitalize="off"
+      autoCorrect="off"
+      className="tw-input tw-input--password"
+      data-a-target="tw-input"
+      onFocus={[Function]}
+      type="password"
+    />
+  </InjectLayout>
+</Layout>
+`;
+
+exports[`Input renders input component with size prop 1`] = `
+<Layout
+  position="relative"
+>
+  <InjectLayout
+    borderRadius={
+      Object {
+        "bottomLeft": "border-radius-large",
+        "bottomRight": "border-radius-large",
+        "topLeft": "border-radius-large",
+        "topRight": "border-radius-large",
+      }
+    }
+    fontSize="font-size-5"
+    padding={
+      Object {
+        "left": 1,
+        "right": 1,
+        "y": 0.5,
+      }
+    }
+  >
+    <Styled(styled.input)
+      $size="large"
+      autoCapitalize="off"
+      autoCorrect="off"
+      className="tw-input tw-input--large tw-input--password"
+      data-a-target="tw-input"
+      onFocus={[Function]}
+      type="password"
+    />
+  </InjectLayout>
+</Layout>
+`;

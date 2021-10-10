@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeToggle renders theme toggle component with all props 1`] = `
+<styled.div
+  className="tw-theme-toggle"
+>
+  <styled.input
+    checked={true}
+    className="tw-theme-toggle__input"
+    data-a-target="tw-theme-toggle"
+    defaultValue="Default value"
+    disabled={true}
+    id="ThemeToggle test ID"
+    name="ThemeToggle test name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onFocus={[MockFunction]}
+    tabIndex={0}
+    type="checkbox"
+    value="ThemeToggle test value"
+  />
+  <styled.label
+    htmlFor="ThemeToggle test ID"
+  >
+    <styled.span>
+      <styled.span
+        ray={1}
+      />
+      <styled.span
+        ray={2}
+      />
+      <styled.span
+        ray={3}
+      />
+    </styled.span>
+    <styled.span>
+      <styled.span />
+      <styled.span
+        dot={1}
+      />
+      <styled.span
+        dot={2}
+      />
+      <styled.span
+        dot={3}
+      />
+    </styled.span>
+  </styled.label>
+</styled.div>
+`;
+
+exports[`ThemeToggle renders theme toggle component with required props 1`] = `
+<styled.div
+  className="tw-theme-toggle"
+>
+  <styled.input
+    className="tw-theme-toggle__input"
+    data-a-target="tw-theme-toggle"
+    id="ThemeToggle test ID"
+    type="checkbox"
+  />
+  <styled.label
+    htmlFor="ThemeToggle test ID"
+  >
+    <styled.span>
+      <styled.span
+        ray={1}
+      />
+      <styled.span
+        ray={2}
+      />
+      <styled.span
+        ray={3}
+      />
+    </styled.span>
+    <styled.span>
+      <styled.span />
+      <styled.span
+        dot={1}
+      />
+      <styled.span
+        dot={2}
+      />
+      <styled.span
+        dot={3}
+      />
+    </styled.span>
+  </styled.label>
+</styled.div>
+`;

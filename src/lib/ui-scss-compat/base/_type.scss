@@ -1,0 +1,40 @@
+// stylelint-disable selector-max-type
+html,
+body {
+  line-height: $line-height-body;
+}
+
+h1 {
+  font-size: var(--font-size-1);
+  line-height: $line-height-heading;
+}
+
+h2 {
+  font-size: var(--font-size-2);
+  line-height: $line-height-heading;
+}
+
+h3 {
+  font-size: var(--font-size-3);
+  line-height: $line-height-heading;
+}
+
+h4 {
+  font-size: var(--font-size-4);
+  line-height: $line-height-body;
+}
+
+h5 {
+  font-size: var(--font-size-5);
+  line-height: $line-height-body;
+}
+
+h6 {
+  font-size: var(--font-size-6);
+  line-height: $line-height-body;
+}
+
+p {
+  font-size: var(--font-size-6);
+  line-height: $line-height-body;
+}

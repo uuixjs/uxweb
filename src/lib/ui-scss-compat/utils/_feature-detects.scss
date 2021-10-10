@@ -1,0 +1,45 @@
+$feature-detects: (
+  hover: "hover",
+  touch: "touch",
+) !default;
+
+$root-selector: ".tw-root--" !default;
+
+@mixin feature-detect($features) {
+  $features-enabled: true !global;
+
+  @if type-of($features) == "list" {
+    @each $feature in $features {
+      $features-selector: "";
+
+      @if map-has-key($feature-detects, $feature) {
+        $features-selector: $features-selector
+          "#{$root-selector}#{map-get($feature-detects, $feature)}";
+      }
+
+      @at-root {
+        #{$features-selector} & {
+          @content;
+        }
+      }
+    }
+  }
+
+  @if type-of($features) == "string" {
+    $feature: $features;
+    $features-selector: "";
+
+    @if map-has-key($feature-detects, $feature) {
+      $features-selector: $features-selector
+        "#{$root-selector}#{map-get($feature-detects, $feature)}";
+
+      @at-root {
+        #{$features-selector} & {
+          @content;
+        }
+      }
+    }
+  }
+
+  $features-enabled: false !global;
+}

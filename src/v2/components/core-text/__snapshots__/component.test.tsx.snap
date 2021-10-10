@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreText renders core text component with all props as an h3 1`] = `
+.c0 {
+  color: #ff8280 !important;
+  -webkit-text-decoration: line-through !important;
+  text-decoration: line-through !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 2.4rem !important;
+  font-weight: 600 !important;
+  font-style: italic !important;
+  line-height: 1.5 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: normal !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-transform: uppercase !important;
+  word-break: keep-all !important;
+  white-space: nowrap !important;
+  vertical-align: text-bottom !important;
+}
+
+@media screen and (min-width:480px) {
+  .c0 {
+    font-size: 5.4rem !important;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    font-size: 3.6rem !important;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .c0 {
+    font-size: 2.4rem !important;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .c0 {
+    font-size: 1.8rem !important;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .c0 {
+    font-size: 1.4rem !important;
+  }
+}
+
+@media screen and (min-width:1600px) {
+  .c0 {
+    font-size: 1.3rem !important;
+  }
+}
+
+<h3
+  className="c0 test-classname"
+  id="1234"
+  title="Test title"
+/>
+`;
+
+exports[`CoreText renders core text component with required props 1`] = `
+<p
+  className=""
+/>
+`;

@@ -1,0 +1,34 @@
+// Clearfix
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Accessibility Hide
+// stylelint-disable scss/at-mixin-pattern
+@mixin a11y-hide {
+  width: 0.1rem;
+  height: 0.1rem;
+  border: none;
+  clip: rect(0 0 0 0);
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+// Ellipsis
+@mixin ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// White-text Font Smoothing
+@mixin font-smooth {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

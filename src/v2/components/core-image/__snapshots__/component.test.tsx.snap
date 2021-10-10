@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreImage renders core image component with all props 1`] = `
+<img
+  alt="Test alt"
+  className="tw-image"
+  onError={[MockFunction]}
+  onLoad={[MockFunction]}
+  sizes="(min-width: 400px) 400px,100vw"
+  src="testSrc"
+  srcSet="https://placehold.jp/6441a4/ffffff/200x100.jpg?text=1x 1x,https://placehold.jp/6441a4/ffffff/300x150.jpg?text=1.5x 1.5x,https://placehold.jp/6441a4/ffffff/400x200.jpg?text=2x 2x,https://placehold.jp/6441a4/ffffff/600x300.jpg?text=3x 3x,https://placehold.jp/6441a4/ffffff/800x400.jpg?text=4x 4x"
+  title="Some test title"
+/>
+`;
+
+exports[`CoreImage renders core image component with required props 1`] = `
+<img
+  alt="Test alt"
+  className="tw-image"
+  src="testSrc"
+/>
+`;

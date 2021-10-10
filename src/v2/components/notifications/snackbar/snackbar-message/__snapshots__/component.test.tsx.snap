@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnackbarMessage renders Snackbar Message component with Element as title 1`] = `
+<Layout>
+  <styled.div
+    className="tw-snackbar-message"
+  >
+    <Layout>
+      JSX Element as Title
+    </Layout>
+  </styled.div>
+</Layout>
+`;
+
+exports[`SnackbarMessage renders Snackbar Message component with all props 1`] = `
+<Layout>
+  <styled.div
+    className="tw-snackbar-message"
+  >
+    <Layout
+      alignItems="flex-start"
+      display="flex"
+      flexGrow={0}
+      flexShrink={0}
+      margin={
+        Object {
+          "top": 0.5,
+        }
+      }
+      position="relative"
+    >
+      <Layout
+        margin={
+          Object {
+            "x": 0.5,
+          }
+        }
+      >
+        <Icon
+          asset="NotificationInfo"
+        />
+      </Layout>
+    </Layout>
+    <Layout
+      flexGrow={1}
+      margin={
+        Object {
+          "left": 0.5,
+          "right": 1,
+        }
+      }
+    >
+      <Title
+        lineHeight="heading"
+        size="xs"
+        type="h5"
+      >
+        Snackbar Title
+      </Title>
+    </Layout>
+  </styled.div>
+</Layout>
+`;

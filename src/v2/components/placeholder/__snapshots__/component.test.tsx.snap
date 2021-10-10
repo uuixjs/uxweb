@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Placeholder renders placeholder component with all props 1`] = `
+<styled.span
+  className="tw-placeholder-wrapper"
+>
+  <styled.span
+    className="tw-placeholder"
+    height={100}
+    key="0"
+    lineCount={2}
+    overlay={true}
+    width={100}
+  />
+  <styled.span
+    className="tw-placeholder"
+    height={100}
+    key="1"
+    lineCount={2}
+    overlay={true}
+    width={100}
+  />
+</styled.span>
+`;
+
+exports[`Placeholder renders placeholder component with data props 1`] = `
+.c0 {
+  width: 100%;
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-height: 1.7em;
+}
+
+.c1::before {
+  border-radius: 0.2rem;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: calc(1em);
+  height: 100%;
+  content: "";
+  background-color: rgba(255,255,255,0.05);
+}
+
+.c1:not(:first-of-type) {
+  margin-top: -0.1em;
+}
+
+<Placeholder
+  data-test-selector="test selector"
+>
+  <PlaceholderComponent
+    data-test-selector="test selector"
+    overlay={false}
+  >
+    <styled.span
+      className="tw-placeholder-wrapper"
+      data-test-selector="test selector"
+    >
+      <span
+        className="c0 tw-placeholder-wrapper"
+        data-test-selector="test selector"
+      >
+        <styled.span
+          className="tw-placeholder"
+          key="0"
+          overlay={false}
+        >
+          <span
+            className="c1 tw-placeholder"
+          />
+        </styled.span>
+      </span>
+    </styled.span>
+  </PlaceholderComponent>
+</Placeholder>
+`;
+
+exports[`Placeholder renders placeholder component with required props 1`] = `
+<styled.span
+  className="tw-placeholder-wrapper"
+>
+  <styled.span
+    className="tw-placeholder"
+    key="0"
+  />
+</styled.span>
+`;

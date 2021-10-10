@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormGroup renders form error component with required props 1`] = `
+<Styled(Layout)
+  display="flex"
+  fontSize="font-size-7"
+>
+  <Layout
+    alignItems="baseline"
+    display="flex"
+    height="1.5em"
+    margin={
+      Object {
+        "right": 0.5,
+      }
+    }
+    width="1.5em"
+  >
+    <Icon
+      asset="NotificationError"
+      fill={true}
+    />
+  </Layout>
+  <p>
+    The value you entered is invalid.
+  </p>
+</Styled(Layout)>
+`;

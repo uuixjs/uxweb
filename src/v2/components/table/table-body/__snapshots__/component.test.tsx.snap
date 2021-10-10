@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableBody renders table body component with required props 1`] = `
+<tbody
+  className="tw-table-body"
+/>
+`;

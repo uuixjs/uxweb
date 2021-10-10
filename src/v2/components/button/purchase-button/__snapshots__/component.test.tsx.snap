@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PurchaseButton renders PurchaseButton component with all props 1`] = `
+<CoreButton
+  autoFocus={true}
+  className="tw-purchase-button"
+  disabled={true}
+  download="Download all the things"
+  fullWidth={true}
+  linkTo="/"
+  onClick={[MockFunction]}
+  size="large"
+  tabIndex={0}
+  targetBlank={true}
+  title="Test title"
+  variant="primary"
+>
+  <CoreButtonLabel
+    fullWidth={true}
+    labelAlign="center"
+    size="large"
+  >
+    Test Button
+  </CoreButtonLabel>
+  <styled.div
+    data-a-target="tw-button-num-block"
+    disabled={true}
+  >
+    $100.00
+  </styled.div>
+</CoreButton>
+`;
+
+exports[`PurchaseButton renders PurchaseButton component with required props 1`] = `
+<CoreButton
+  className="tw-purchase-button"
+  variant="primary"
+>
+  <CoreButtonLabel
+    labelAlign="center"
+  />
+  <styled.div
+    data-a-target="tw-button-num-block"
+  />
+</CoreButton>
+`;

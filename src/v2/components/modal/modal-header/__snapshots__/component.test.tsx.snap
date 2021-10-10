@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Header renders modal header component 1`] = `
+<styled.div
+  $size="md"
+  className="tw-modal-header"
+  padding={
+    Object {
+      "bottom": 0.5,
+      "right": 1,
+      "top": 1,
+    }
+  }
+>
+  <styled.div
+    $size="md"
+    className="tw-modal-header__title"
+  >
+    <Title
+      lineHeight="heading"
+      size="md"
+      type="h2"
+    >
+      Test Title
+    </Title>
+  </styled.div>
+  <styled.div
+    className="tw-modal-header__button"
+    margin={
+      Object {
+        "left": 1,
+      }
+    }
+  >
+    <ForwardRef(CoreDismissible)
+      aria-label="close"
+      overlay={false}
+      size="small"
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Modal Header renders modal header component with all props 1`] = `
+<styled.div
+  $imageSrc="//image.src"
+  $size="md"
+  className="tw-modal-header"
+  padding={
+    Object {
+      "bottom": 0.5,
+      "right": 1,
+      "top": 1,
+    }
+  }
+>
+  <styled.div
+    $imageSrc="//image.src"
+    $size="md"
+    className="tw-modal-header__title"
+  >
+    <Title
+      lineHeight="heading"
+      size="md"
+      type="h2"
+    >
+      Test Title
+    </Title>
+  </styled.div>
+  <styled.div
+    className="tw-modal-header__button"
+    margin={
+      Object {
+        "left": 1,
+      }
+    }
+  >
+    <ForwardRef(CoreDismissible)
+      aria-label="close"
+      onClick={[MockFunction]}
+      overlay={true}
+      size="small"
+    />
+  </styled.div>
+</styled.div>
+`;

@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selectable renders spread props to appropriate children 1`] = `
+.c1 {
+  width: 0.1rem;
+  height: 0.1rem;
+  border: none;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  margin: -0.1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.c2 {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding: 0.2rem;
+  border: 2px solid #ff4f4d;
+  box-shadow: inset 0 0 0 2px #000000;
+  border-radius: 0;
+}
+
+.c0[data-focus-visible-added] + .c2.c2 {
+  border-color: #ff4f4d;
+  box-shadow: inset 0 0 0 2px #ff4f4d;
+}
+
+.c0:checked + .c2.c2 {
+  border: 2px solid #ffffff;
+  box-shadow: inset 0 0 0 2px #ffffff;
+}
+
+.c0:checked:hover + .c2.c2 {
+  border: 2px solid #ffffff;
+  box-shadow: inset 0 0 0 2px #ffffff;
+}
+
+.c0:checked[data-focus-visible-added] + .c2.c2 {
+  border: 2px solid #ffffff;
+  box-shadow: inset 0 0 0 2px #ffffff;
+}
+
+.c0:disabled + .c2.c2 {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.c3 {
+  position: relative;
+  border-radius: calc(0 / 2);
+}
+
+<SelectableComponent
+  aria-label="Test aria label"
+  autoFocus={true}
+  checked={true}
+  data-test="Test data value"
+  defaultChecked={true}
+  disabled={true}
+  error={true}
+  id="test-id"
+  name="Test name"
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  onFocus={[MockFunction]}
+  overlay={true}
+  readOnly={true}
+  required={true}
+  tabIndex={0}
+  type="checkbox"
+  value="Test value"
+>
+  <div
+    className="tw-selectable"
+  >
+    <styled.input
+      aria-label="Test aria label"
+      autoFocus={true}
+      checked={true}
+      data-a-target="tw-selectable"
+      data-test="Test data value"
+      defaultChecked={true}
+      disabled={true}
+      id="test-id"
+      name="Test name"
+      onBlur={[MockFunction]}
+      onChange={[MockFunction]}
+      onFocus={[MockFunction]}
+      readOnly={true}
+      required={true}
+      tabIndex={0}
+      type="checkbox"
+      value="Test value"
+    >
+      <input
+        aria-label="Test aria label"
+        autoFocus={true}
+        checked={true}
+        className="c0 c1"
+        data-a-target="tw-selectable"
+        data-test="Test data value"
+        defaultChecked={true}
+        disabled={true}
+        id="test-id"
+        name="Test name"
+        onBlur={[MockFunction]}
+        onChange={[MockFunction]}
+        onFocus={[MockFunction]}
+        readOnly={true}
+        required={true}
+        tabIndex={0}
+        type="checkbox"
+        value="Test value"
+      />
+    </styled.input>
+    <styled.label
+      borderRadius="border-radius-none"
+      error={true}
+      htmlFor="test-id"
+      overlay={true}
+    >
+      <label
+        className="c2"
+        htmlFor="test-id"
+      >
+        <styled.div
+          borderRadius="border-radius-none"
+        >
+          <div
+            className="c3"
+          />
+        </styled.div>
+      </label>
+    </styled.label>
+  </div>
+</SelectableComponent>
+`;

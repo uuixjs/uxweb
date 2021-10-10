@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders button component as <a> 1`] = `
+<CoreButton
+  linkTo="https://www.google.com"
+  variant="primary"
+>
+  <CoreButtonLabel />
+</CoreButton>
+`;
+
+exports[`Button renders button component as <button> with an onclick 1`] = `
+<CoreButton
+  onClick={[MockFunction]}
+  variant="primary"
+>
+  <CoreButtonLabel />
+</CoreButton>
+`;
+
+exports[`Button renders button component as Link component 1`] = `
+<CoreButton
+  linkTo="/dashbaord"
+  variant="primary"
+>
+  <CoreButtonLabel />
+</CoreButton>
+`;
+
+exports[`Button renders button component with all props 1`] = `
+<CoreButton
+  autoFocus={true}
+  disabled={true}
+  download="Download all the things"
+  fullWidth={true}
+  linkTo="/"
+  onClick={[MockFunction]}
+  overlay={true}
+  size="large"
+  tabIndex={0}
+  targetBlank={true}
+  title="test title"
+  variant="secondary"
+>
+  <CoreButtonLabel
+    dropdown={true}
+    icon="Gear"
+    size="large"
+  />
+</CoreButton>
+`;
+
+exports[`Button renders button component with required props 1`] = `
+<CoreButton
+  variant="primary"
+>
+  <CoreButtonLabel />
+</CoreButton>
+`;

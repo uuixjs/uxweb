@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip does not render tooltip if disabled 1`] = `
+<Styled(Layout)
+  display="inline-flex"
+  position="relative"
+/>
+`;
+
+exports[`Tooltip renders tooltip component with all props 1`] = `
+<Styled(Layout)
+  aria-describedby="test-id"
+  display="inline"
+  position="relative"
+  title="Test title"
+>
+  <styled.div
+    $wrap={true}
+    align="center"
+    className="tw-tooltip"
+    data-a-target="tw-tooltip-label"
+    direction="left"
+    id="test-id"
+    offsetX="-20px"
+    offsetY="-20px"
+    role="tooltip"
+    show={true}
+    width={100}
+  >
+    Test label
+  </styled.div>
+</Styled(Layout)>
+`;
+
+exports[`Tooltip renders tooltip component with only required props 1`] = `
+<Styled(Layout)
+  aria-describedby="test-id"
+  display="inline-flex"
+  position="relative"
+>
+  <styled.div
+    $wrap={false}
+    align="center"
+    className="tw-tooltip"
+    data-a-target="tw-tooltip-label"
+    direction="top"
+    id="test-id"
+    role="tooltip"
+  >
+    Test label
+  </styled.div>
+</Styled(Layout)>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabItem renders TabItem component with all props 1`] = `
+<InjectLayout
+  padding={
+    Object {
+      "x": 1,
+    }
+  }
+>
+  <Styled(Component)
+    disabled={false}
+    linkTo="https://www.twitch.tv"
+    onClick={[Function]}
+    role="tab"
+    tabIndex={1}
+    targetBlank={false}
+    title="This is an awesome title"
+  >
+    <Layout
+      display="flex"
+      flexDirection="column"
+      fullHeight={true}
+      textAlign="center"
+    >
+      <styled.div
+        hasActiveIndicator={false}
+      >
+        <Title
+          lineHeight="heading"
+          size="xs"
+        >
+          My Awesome Tab
+        </Title>
+      </styled.div>
+      <Layout
+        flexGrow={0}
+      />
+    </Layout>
+  </Styled(Component)>
+</InjectLayout>
+`;
+
+exports[`TabItem renders TabItem component with only required props 1`] = `
+<InjectLayout
+  padding={
+    Object {
+      "x": 1,
+    }
+  }
+>
+  <Styled(Component)
+    onClick={[Function]}
+    role="tab"
+  >
+    <Layout
+      display="flex"
+      flexDirection="column"
+      fullHeight={true}
+    >
+      <styled.div
+        hasActiveIndicator={false}
+      >
+        <Title
+          lineHeight="heading"
+          size="xs"
+        >
+          My Awesome Tab
+        </Title>
+      </styled.div>
+      <Layout
+        flexGrow={0}
+      />
+    </Layout>
+  </Styled(Component)>
+</InjectLayout>
+`;

@@ -1,0 +1,80 @@
+/**
+* Helper to apply styles when an element is focused via keyboard.
+*
+* See https://github.com/WICG/focus-visible
+*
+* When to just use CSS :focus
+*   1. The element should always display focus styles even during mouse interaction, such as text input fields according to W3C recomendation
+*   2. There is no native focus style and we need to provide a backwards compatible focus style
+*
+* When to use @include focus-visible() { ... }
+*   1. Add enhancement in addition to the default :focus outline (i.e. background color, shadow, etc)
+*/
+@mixin focus-visible() {
+  &[data-focus-visible-added] {
+    @content;
+  }
+}
+
+/**
+* Progressive enhancement to remove focus styles if :focus-visible is supported but is not matching.
+*
+* When to use @include focus-visible-reset() { ... }
+*    1. Hide :focus styles during mouse/pointer interactions
+*
+* See https://developer.paciellogroup.com/blog/2018/03/focus-visible-and-backwards-compatibility/
+*/
+@mixin focus-visible-reset() {
+  &:focus:not([data-focus-visible-added]) {
+    .js-focus-visible & {
+      @content;
+    }
+  }
+}
+
+/**
+* Defines a basic :focus style for nodes which would not ordinarily receive
+* a browser default focus style. This works even in browers which do not
+* have support for enhanced "focus-visible" styles.
+*
+* Use for elements which do not already receive a native browser focus style.
+*
+* Example use case: A styled checkbox where the underlying <input> node which receives
+* the focus state is hidden by CSS and a sibling node is styled to look like a checkbox.
+* Thus the focus styles need to be applied on the sibling node instead of the <input>.
+*/
+@mixin focus-ring-style-replacement($selector) {
+  // Re-create a default looking focus style
+  &:focus {
+    @if $selector {
+      #{$selector} {
+        outline-width: 5px;
+        outline-style: solid;
+        outline-color: Highlight;
+        @media (-webkit-min-device-pixel-ratio: 0) {
+          outline-style: auto;
+          outline-color: -webkit-focus-ring-color;
+        }
+      }
+    } @else {
+      outline-width: 5px;
+      outline-style: solid;
+      outline-color: Highlight;
+      @media (-webkit-min-device-pixel-ratio: 0) {
+        outline-style: auto;
+        outline-color: -webkit-focus-ring-color;
+      }
+    }
+
+    // Hide it during pointer interactions
+    @include focus-visible-reset {
+      @if $selector {
+        #{$selector} {
+          outline: none;
+        }
+      } @else {
+        outline: none;
+      }
+    }
+  }
+}

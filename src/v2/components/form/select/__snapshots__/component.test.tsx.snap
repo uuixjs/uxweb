@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select renders select component with all props 1`] = `
+<InjectLayout
+  borderRadius="border-radius-medium"
+  display="block"
+  fontSize="font-size-6"
+  fullWidth={true}
+  padding={
+    Object {
+      "left": 1,
+      "right": 3,
+      "y": 0.5,
+    }
+  }
+>
+  <Styled(styled.input)
+    as="select"
+    autoComplete="country"
+    className="tw-select tw-select--disabled tw-select--error tw-select--overlay"
+    defaultValue="Default value"
+    disabled={true}
+    error={true}
+    id="Test ID"
+    name="Test name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onFocus={[MockFunction]}
+    overlay={true}
+    required={true}
+    tabIndex={0}
+    value="Test value"
+  />
+</InjectLayout>
+`;
+
+exports[`Select renders select component with required props 1`] = `
+<InjectLayout
+  borderRadius="border-radius-medium"
+  display="block"
+  fontSize="font-size-6"
+  fullWidth={true}
+  padding={
+    Object {
+      "left": 1,
+      "right": 3,
+      "y": 0.5,
+    }
+  }
+>
+  <Styled(styled.input)
+    as="select"
+    className="tw-select"
+  />
+</InjectLayout>
+`;
+
+exports[`Select renders select component with size prop 1`] = `
+<InjectLayout
+  borderRadius="border-radius-large"
+  display="block"
+  fontSize="font-size-5"
+  fullWidth={true}
+  padding={
+    Object {
+      "left": 1,
+      "right": 3,
+      "y": 0.5,
+    }
+  }
+>
+  <Styled(styled.input)
+    $size="large"
+    as="select"
+    className="tw-select tw-select--large"
+  />
+</InjectLayout>
+`;

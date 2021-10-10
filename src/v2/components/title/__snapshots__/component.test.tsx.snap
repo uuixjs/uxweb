@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title renders title component with all props as an h1 1`] = `
+<Styled(CoreText)
+  $size="xl"
+  className="tw-title"
+  ellipsis={true}
+  fontSize="font-size-1"
+  fontWeight="bold"
+  id="1234"
+  lineHeight="heading"
+  title="test title"
+  type="h1"
+  whiteSpace="nowrap"
+  wordBreak="break-word"
+>
+  Test
+</Styled(CoreText)>
+`;
+
+exports[`Title renders title component with required props 1`] = `
+<Styled(CoreText)
+  $size="md"
+  className="test tw-title"
+  fontSize="font-size-3"
+  fontWeight="semibold"
+  lineHeight="heading"
+/>
+`;

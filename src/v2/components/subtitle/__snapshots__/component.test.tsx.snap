@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subtitle renders title component with all props as an h2 1`] = `
+<Styled(CoreText)
+  $size="lg"
+  className="tw-subtitle"
+  ellipsis={true}
+  fontSize="font-size-2"
+  fontWeight="regular"
+  id="1234"
+  lineHeight="heading"
+  title="test subtitle"
+  type="h2"
+  whiteSpace="nowrap"
+  wordBreak="break-word"
+>
+  Test
+</Styled(CoreText)>
+`;
+
+exports[`Subtitle renders title component with required props 1`] = `
+<Styled(CoreText)
+  $size="md"
+  className="test tw-subtitle"
+  fontSize="font-size-3"
+  fontWeight="regular"
+  lineHeight="heading"
+/>
+`;

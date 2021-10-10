@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopoverBody renders popover body component with all props 1`] = `
+<InjectLayout
+  flexGrow={1}
+  overflow="auto"
+  padding={0}
+>
+  <div
+    id="test-popover-id-body"
+  >
+    Test Content
+  </div>
+</InjectLayout>
+`;
+
+exports[`PopoverBody renders popover body component with the required props 1`] = `
+<InjectLayout
+  flexGrow={1}
+  overflow="auto"
+  padding={1}
+>
+  <div
+    id="test-popover-id-body"
+  />
+</InjectLayout>
+`;

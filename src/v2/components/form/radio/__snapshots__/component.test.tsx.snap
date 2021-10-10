@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio renders radio component with all props 1`] = `
+<Layout
+  className="tw-radio tw-radio--error tw-radio--overlay"
+  fontSize="font-size-6"
+  position="relative"
+>
+  <styled.input
+    autoFocus={true}
+    checked={true}
+    className="tw-radio__input"
+    data-a-target="tw-radio"
+    defaultChecked={true}
+    disabled={true}
+    id="test-id"
+    name="Test name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onFocus={[MockFunction]}
+    required={true}
+    tabIndex={0}
+    type="radio"
+    value="Test value"
+  />
+  <Styled(styled.label)
+    className="tw-radio__label"
+    error={true}
+    htmlFor="test-id"
+    overlay={true}
+  >
+    <Layout
+      margin={
+        Object {
+          "left": 1,
+        }
+      }
+    >
+      Test Label
+    </Layout>
+  </Styled(styled.label)>
+</Layout>
+`;
+
+exports[`Radio renders radio component with required props 1`] = `
+<Layout
+  className="tw-radio"
+  fontSize="font-size-6"
+  position="relative"
+>
+  <styled.input
+    className="tw-radio__input"
+    data-a-target="tw-radio"
+    id="test-id"
+    type="radio"
+  />
+  <Styled(styled.label)
+    className="tw-radio__label"
+    htmlFor="test-id"
+  >
+    <Layout
+      margin={
+        Object {
+          "left": 1,
+        }
+      }
+    >
+      Test Label
+    </Layout>
+  </Styled(styled.label)>
+</Layout>
+`;
+
+exports[`Radio renders radio component with size prop 1`] = `
+<Layout
+  className="tw-radio"
+  fontSize="font-size-5"
+  position="relative"
+>
+  <styled.input
+    className="tw-radio__input"
+    data-a-target="tw-radio"
+    id="test-id"
+    type="radio"
+  />
+  <Styled(styled.label)
+    className="tw-radio__label"
+    htmlFor="test-id"
+  >
+    <Layout
+      margin={
+        Object {
+          "left": 1,
+        }
+      }
+    >
+      Test Label
+    </Layout>
+  </Styled(styled.label)>
+</Layout>
+`;

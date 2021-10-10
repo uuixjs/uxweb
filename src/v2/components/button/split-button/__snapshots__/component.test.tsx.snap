@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SplitButton renders SplitButton component with all props 1`] = `
+<Layout
+  alignItems="center"
+  className="tw-split-button"
+  display="flex"
+  fullWidth={true}
+>
+  <CoreButton
+    autoFocus={true}
+    disabled={true}
+    download="Download all the things"
+    dropdown={
+      Object {
+        "autoFocus": true,
+        "data-a-target": "a-target",
+        "data-test-selector": "test-selector",
+        "disabled": true,
+        "download": "download",
+        "linkTo": "https://example.com",
+        "onClick": [MockFunction],
+        "tabIndex": 1,
+        "targetBlank": true,
+        "title": "Test title",
+        "type": 2,
+      }
+    }
+    fullWidth={true}
+    icon="Gear"
+    linkTo="/"
+    onClick={[MockFunction]}
+    overlay={true}
+    rounding="left"
+    size="large"
+    tabIndex={0}
+    targetBlank={true}
+    type="secondary"
+    variant="secondary"
+  >
+    <CoreButtonLabel
+      icon="Gear"
+      size="large"
+    >
+      Test Button
+    </CoreButtonLabel>
+  </CoreButton>
+  <styled.div>
+    <CoreButton
+      autoFocus={true}
+      data-a-target="a-target"
+      data-test-selector="test-selector"
+      disabled={true}
+      download="download"
+      linkTo="https://example.com"
+      onClick={[MockFunction]}
+      overlay={true}
+      rounding="right"
+      size="large"
+      tabIndex={1}
+      targetBlank={true}
+      title="Test title"
+      type={2}
+      variant="secondary"
+    >
+      <styled.div
+        $size="large"
+      >
+        <CoreButtonDropdown
+          size="large"
+          type={2}
+        />
+      </styled.div>
+    </CoreButton>
+  </styled.div>
+</Layout>
+`;
+
+exports[`SplitButton renders SplitButton component with required props 1`] = `
+<Layout
+  alignItems="center"
+  className="tw-split-button"
+  display="inline-flex"
+>
+  <CoreButton
+    dropdown={Object {}}
+    rounding="left"
+    variant="primary"
+  >
+    <CoreButtonLabel />
+  </CoreButton>
+  <styled.div>
+    <CoreButton
+      rounding="right"
+      variant="primary"
+    >
+      <styled.div>
+        <CoreButtonDropdown
+          type={1}
+        />
+      </styled.div>
+    </CoreButton>
+  </styled.div>
+</Layout>
+`;

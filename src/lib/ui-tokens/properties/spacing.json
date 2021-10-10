@@ -1,0 +1,17 @@
+{
+  "space": {
+    "auto": { "value": "auto" },
+    "0": { "value": 0 },
+    "05": { "value": "0.5rem" },
+    "1": { "value": "1rem" },
+    "2": { "value": "2rem" },
+    "3": { "value": "3rem" },
+    "4": { "value": "4rem" },
+    "5": { "value": "5rem" },
+    "6": { "value": "6rem" },
+    "7": { "value": "7rem" },
+    "8": { "value": "8rem" },
+    "9": { "value": "9rem" },
+    "10": { "value": "10rem" }
+  }
+}

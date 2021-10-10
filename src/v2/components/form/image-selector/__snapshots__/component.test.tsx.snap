@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageSelector renders checkbox component with all props 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`ImageSelector renders checkbox component with required props 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

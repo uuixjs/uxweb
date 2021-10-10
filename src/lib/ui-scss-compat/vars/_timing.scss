@@ -1,0 +1,6 @@
+// TODO: Refactor so these values are imported into transition/component.tsx (currently duplicated there)
+$timings: (
+  "short": $timing-short,
+  "medium": $timing-medium,
+  "long": $timing-long,
+);

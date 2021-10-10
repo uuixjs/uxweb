@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("~@fontsource/inter/files/inter-all-400-normal.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("~@fontsource/inter/files/inter-all-600-normal.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("~@fontsource/inter/files/inter-all-700-normal.woff") format("woff");
+}

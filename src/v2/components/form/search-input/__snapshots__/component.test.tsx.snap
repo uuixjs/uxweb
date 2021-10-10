@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchInput renders search input component with all props 1`] = `
+<div
+  className="tw-search-input"
+>
+  <InjectLayout
+    display="hide-accessible"
+  >
+    <label
+      htmlFor="Test ID"
+    >
+      Search
+    </label>
+  </InjectLayout>
+  <Input
+    autoCapitalize={true}
+    autoComplete="name"
+    autoFocus={true}
+    disabled={true}
+    error={true}
+    icon="NavSearch"
+    id="Test ID"
+    maxLength={100}
+    name="Test name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onFocus={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    placeholder="Test placeholder"
+    spellCheck={true}
+    tabIndex={0}
+    type={4}
+    value="Test Value"
+  />
+</div>
+`;
+
+exports[`SearchInput renders search input component with required props 1`] = `
+<div
+  className="tw-search-input"
+>
+  <InjectLayout
+    display="hide-accessible"
+  >
+    <label
+      htmlFor="Test ID"
+    >
+      Search
+    </label>
+  </InjectLayout>
+  <Input
+    autoComplete="off"
+    icon="NavSearch"
+    id="Test ID"
+    type={4}
+  />
+</div>
+`;
+
+exports[`SearchInput renders search input component with size prop 1`] = `
+<div
+  className="tw-search-input"
+>
+  <InjectLayout
+    display="hide-accessible"
+  >
+    <label
+      htmlFor="Test ID"
+    >
+      Search
+    </label>
+  </InjectLayout>
+  <Input
+    autoComplete="off"
+    icon="NavSearch"
+    id="Test ID"
+    size="large"
+    type={4}
+  />
+</div>
+`;

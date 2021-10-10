@@ -1,0 +1,3 @@
+import { buildTokens } from "./build";
+
+buildTokens();

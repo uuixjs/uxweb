@@ -1,0 +1,18 @@
+{
+  "button": {
+    "size": {
+      "small": { "value": "2.4rem" },
+      "default": { "value": "3rem" },
+      "large": { "value": "3.6rem" }
+    },
+    "text": {
+      "small": { "value": "{font.size-7.value}" },
+      "default": { "value": "{font.size-6.value}" },
+      "large": { "value": "{font.size-5.value}" }
+    },
+    "padding": {
+      "x": { "value": "{space.1.value}" },
+      "y": { "value": "{space.05.value}" }
+    }
+  }
+}

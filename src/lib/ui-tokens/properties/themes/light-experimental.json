@@ -1,0 +1,22 @@
+{
+  "themes": {
+    "light": {
+      "color-background-subscriber-stream-tag-default": {
+        "value": "{color.twitch-purple-13.value}",
+        "comment": "This is an experimental token and subject to change – use with caution."
+      },
+      "color-background-subscriber-stream-tag-hover": {
+        "value": "{color.twitch-purple-14.value}",
+        "comment": "This is an experimental token and subject to change – use with caution."
+      },
+      "color-background-subscriber-stream-tag-active": {
+        "value": "{color.twitch-purple-13.value}",
+        "comment": "This is an experimental token and subject to change – use with caution."
+      },
+      "color-border-subscriber-stream-tag": {
+        "value": "{color.twitch-purple-10.value}",
+        "comment": "This is an experimental token and subject to change – use with caution."
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropDownMenu renders drop down menu component with all props 1`] = `
+<BalloonWrapper
+  background="alt-2"
+  elevation={1}
+  size="lg"
+>
+  <InjectLayout
+    display="flex"
+    flexDirection="column"
+  >
+    <div
+      style={
+        Object {
+          "maxHeight": "50vh",
+        }
+      }
+    >
+      <Layout
+        overflow="auto"
+        padding={1}
+      >
+        <DropDownMenuItem
+          key="0"
+          title="Test Item 1"
+        />
+        <DropDownMenuItem
+          key="1"
+          title="Test Item 2"
+        />
+        <DropDownMenuItem
+          key="2"
+          title="Test Item 3"
+        />
+      </Layout>
+    </div>
+  </InjectLayout>
+</BalloonWrapper>
+`;
+
+exports[`DropDownMenu renders drop down menu component with required props 1`] = `
+<BalloonWrapper
+  size="sm"
+>
+  <InjectLayout
+    display="flex"
+    flexDirection="column"
+  >
+    <div
+      style={
+        Object {
+          "maxHeight": undefined,
+        }
+      }
+    >
+      <Layout
+        overflow="auto"
+        padding={1}
+      >
+        <DropDownMenuItem
+          key="0"
+          title="Test Item 1"
+        />
+        <DropDownMenuItem
+          key="1"
+          title="Test Item 2"
+        />
+        <DropDownMenuItem
+          key="2"
+          title="Test Item 3"
+        />
+      </Layout>
+    </div>
+  </InjectLayout>
+</BalloonWrapper>
+`;

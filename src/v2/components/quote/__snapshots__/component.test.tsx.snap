@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote renders quote component 1`] = `
+<Styled(Layout)
+  className="tw-quote"
+  padding={
+    Object {
+      "left": 0.5,
+    }
+  }
+>
+  Test
+</Styled(Layout)>
+`;
+
+exports[`Quote renders quote component 2`] = `
+<Styled(Layout)
+  $color="#FF0000"
+  className="tw-quote"
+  padding={1}
+>
+  howdy
+</Styled(Layout)>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChannelStatusTextIndicator renders channel status text indicator component with all props 1`] = `
+<Styled(Layout)
+  background="accent-alt-2"
+  borderRadius="border-radius-medium"
+  display="inline-block"
+>
+  <styled.div
+    className="tw-channel-status-text-indicator"
+    colorMap={
+      Object {
+        "fill": "color-fill-channel-status-text-indicator-hosting",
+        "overlay": Object {
+          "fill": "color-fill-channel-status-text-indicator-hosting-overlay",
+          "text": "color-text-channel-status-text-indicator-hosting-overlay",
+        },
+        "text": "color-text-channel-status-text-indicator-hosting",
+      }
+    }
+    fontSize="font-size-5"
+    overlay={true}
+    padding="0.3rem 1rem"
+  >
+    <CoreText
+      bold={true}
+      transform="uppercase"
+      whiteSpace="nowrap"
+    >
+      Test label
+    </CoreText>
+  </styled.div>
+</Styled(Layout)>
+`;
+
+exports[`ChannelStatusTextIndicator renders channel status text indicator component with required props 1`] = `
+<styled.div
+  className="tw-channel-status-text-indicator"
+  colorMap={
+    Object {
+      "fill": "color-fill-live",
+      "text": "color-text-overlay",
+    }
+  }
+  fontSize="font-size-6"
+  padding="0 0.5rem"
+>
+  <CoreText
+    bold={true}
+    transform="uppercase"
+    whiteSpace="nowrap"
+  >
+    Test label
+  </CoreText>
+</styled.div>
+`;

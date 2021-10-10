@@ -1,0 +1,12 @@
+{
+  "z-index": {
+    "modal": { "value": 5000 },
+    "notification": { "value": 4000 },
+    "overlay": { "value": 3000 },
+    "balloon": { "value": 2000 },
+    "sticky": { "value": 1000 },
+    "above": { "value": 10 },
+    "default": { "value": 1 },
+    "below": { "value": -1 }
+  }
+}

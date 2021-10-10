@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SegmentedButton renders segmented button option component with all props 1`] = `
+<styled.label
+  className="tw-segmented-button-option"
+  htmlFor="Test ID"
+>
+  <styled.input
+    checked={true}
+    className="tw-segmented-button-option__input"
+    data-a-target="tw-segmented-button-option"
+    defaultChecked={true}
+    defaultValue="Default Value"
+    disabled={true}
+    id="Test ID"
+    name="Test name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onFocus={[MockFunction]}
+    tabIndex={0}
+    type="checkbox"
+    value="Test value"
+  />
+  <styled.div
+    aria-label="Test Label"
+    className="tw-segmented-button-option__label"
+  >
+    <div>
+      Child Node
+    </div>
+  </styled.div>
+</styled.label>
+`;

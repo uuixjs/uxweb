@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreButtonLabel renders CoreButtonLabel component with all props 1`] = `
+<styled.div
+  hasIcon={true}
+  isDropdown={true}
+>
+  <Layout
+    alignItems="center"
+    display="flex"
+    margin={
+      Object {
+        "right": 0.5,
+      }
+    }
+  >
+    <CoreButtonDropdown
+      icon="Gear"
+      size="large"
+    />
+  </Layout>
+  <Layout
+    alignItems="center"
+    data-a-target="tw-core-button-label-text"
+    display="flex"
+    flexGrow={1}
+    justifyContent="flex-start"
+  >
+    Test Button
+  </Layout>
+  <Layout
+    alignItems="center"
+    display="flex"
+    margin={
+      Object {
+        "left": 0.5,
+      }
+    }
+  >
+    <CoreButtonDropdown
+      size="large"
+      type={1}
+    />
+  </Layout>
+</styled.div>
+`;

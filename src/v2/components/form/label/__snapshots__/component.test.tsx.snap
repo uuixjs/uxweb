@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label renders form label component with all props 1`] = `
+<styled.label
+  $overlay={true}
+  className="tw-form-label"
+  htmlFor="test-id"
+>
+  <FormRequired />
+  Test Label
+</styled.label>
+`;
+
+exports[`Label renders form label component with required props 1`] = `
+<styled.label
+  className="tw-form-label"
+  htmlFor="test-id"
+>
+  Test Label
+</styled.label>
+`;

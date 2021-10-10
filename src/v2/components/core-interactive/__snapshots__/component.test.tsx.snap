@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreInteractive renders a core interactive component and passes the replace prop to react-router Link 1`] = `
+<Link
+  replace={true}
+  to="/somewhere"
+>
+  text
+</Link>
+`;
+
+exports[`CoreInteractive renders core interactive component defaulting as <button> 1`] = `<button />`;
+
+exports[`CoreInteractive renders core interactive component with all (non-custom link) props as a disabled <button> 1`] = `
+<button
+  autoFocus={true}
+  className="myClass"
+  disabled={true}
+  onClick={[MockFunction]}
+  onContextMenu={[MockFunction]}
+  onDoubleClick={[MockFunction]}
+  role="link"
+  tabIndex={1}
+  title="test title"
+>
+  text
+</button>
+`;
+
+exports[`CoreInteractive renders core interactive component with internal linkTo and non-disabled props as react-router Link component 1`] = `
+<Link
+  title="test title"
+  to="/somewhere"
+>
+  text
+</Link>
+`;
+
+exports[`CoreInteractive renders core interactive component with linkTo, download, and non-disabled props as <a> 1`] = `
+<a
+  download="download"
+  href="https://example.com"
+>
+  text
+</a>
+`;
+
+exports[`CoreInteractive renders core interactive component with linkTo, title, and targetBlank props as <a> 1`] = `
+<a
+  href="https://example.com"
+  rel="noopener noreferrer"
+  target="_blank"
+  title="test title"
+>
+  text
+</a>
+`;
+
+exports[`CoreInteractive renders core interactive component with renderLink and internal linkTo props as custom link component with filtered props 1`] = `"this could be anything"`;

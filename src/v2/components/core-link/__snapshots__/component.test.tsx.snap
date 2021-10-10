@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreLink renders core link component with all props as <a> 1`] = `
+<Styled(Component)
+  $button={false}
+  $disabled={true}
+  $hoverUnderlineNone={true}
+  $inherit={false}
+  $overlay={true}
+  className="test-classname tw-link"
+  disabled={true}
+  linkTo="/"
+  onClick={[MockFunction]}
+  targetBlank={true}
+  title="test"
+/>
+`;
+
+exports[`CoreLink renders core link component with required props as <button> 1`] = `
+<Styled(Component)
+  $button={true}
+  $inherit={false}
+  $overlay={false}
+  className="tw-link"
+/>
+`;

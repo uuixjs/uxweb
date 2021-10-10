@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormHint renders form hint component with all props 1`] = `
+<CoreText
+  color="overlay-alt"
+  fontSize="font-size-7"
+  type="p"
+>
+  Any combination of letters or numbers
+</CoreText>
+`;
+
+exports[`FormHint renders form hint component with required props 1`] = `
+<CoreText
+  color="alt-2"
+  fontSize="font-size-7"
+  type="p"
+>
+  Any combination of letters or numbers
+</CoreText>
+`;

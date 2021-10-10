@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreButtonIcon renders CoreButtonIcon component with all props 1`] = `
+<styled.div
+  className="tw-core-button-icon"
+  size="2.4rem"
+>
+  <Icon
+    asset="Gear"
+    data-a-selector="tw-core-button-icon"
+    fill={true}
+  />
+</styled.div>
+`;
+
+exports[`CoreButtonIcon renders CoreButtonIcon component with required props 1`] = `
+<styled.div
+  className="tw-core-button-icon"
+  size="2rem"
+>
+  <Icon
+    data-a-selector="tw-core-button-icon"
+    fill={true}
+  />
+</styled.div>
+`;

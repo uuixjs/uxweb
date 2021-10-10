@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SVG renders svg component with all props 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+}
+
+.c1 {
+  fill: #adadb8;
+}
+
+<SVG
+  asset="Gear"
+  fillParent={true}
+  height={40}
+  type="color-fill-alt-2"
+  width={40}
+>
+  <styled.figure
+    className="tw-svg"
+    size="100%"
+  >
+    <figure
+      className="c0 tw-svg"
+      size="100%"
+    >
+      <styled.svg
+        height="100%"
+        type="color-fill-alt-2"
+        version="1.1"
+        viewBox="0 0 20 20"
+        width="100%"
+        x="0px"
+        y="0px"
+      >
+        <svg
+          className="c1"
+          height="100%"
+          type="color-fill-alt-2"
+          version="1.1"
+          viewBox="0 0 20 20"
+          width="100%"
+          x="0px"
+          y="0px"
+        >
+          <g>
+            <path
+              d="M10 8a2 2 0 100 4 2 2 0 000-4z"
+            />
+            <path
+              clipRule="evenodd"
+              d="M9 2h2a2.01 2.01 0 001.235 1.855l.53.22a2.01 2.01 0 002.185-.439l1.414 1.414a2.01 2.01 0 00-.439 2.185l.22.53A2.01 2.01 0 0018 9v2a2.01 2.01 0 00-1.855 1.235l-.22.53a2.01 2.01 0 00.44 2.185l-1.415 1.414a2.01 2.01 0 00-2.184-.439l-.531.22A2.01 2.01 0 0011 18H9a2.01 2.01 0 00-1.235-1.854l-.53-.22a2.009 2.009 0 00-2.185.438L3.636 14.95a2.009 2.009 0 00.438-2.184l-.22-.531A2.01 2.01 0 002 11V9c.809 0 1.545-.487 1.854-1.235l.22-.53a2.009 2.009 0 00-.438-2.185L5.05 3.636a2.01 2.01 0 002.185.438l.53-.22A2.01 2.01 0 009 2zm-4 8l1.464 3.536L10 15l3.535-1.464L15 10l-1.465-3.536L10 5 6.464 6.464 5 10z"
+              fillRule="evenodd"
+            />
+          </g>
+        </svg>
+      </styled.svg>
+    </figure>
+  </styled.figure>
+</SVG>
+`;
+
+exports[`SVG renders svg component with deprecated props 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+}
+
+.c1 {
+  fill: currentColor;
+}
+
+<SVG
+  asset="Gear"
+  fill={true}
+>
+  <styled.figure
+    className="tw-svg"
+    size="100%"
+  >
+    <figure
+      className="c0 tw-svg"
+      size="100%"
+    >
+      <styled.svg
+        height="100%"
+        type="color-fill-current"
+        version="1.1"
+        viewBox="0 0 20 20"
+        width="100%"
+        x="0px"
+        y="0px"
+      >
+        <svg
+          className="c1"
+          height="100%"
+          type="color-fill-current"
+          version="1.1"
+          viewBox="0 0 20 20"
+          width="100%"
+          x="0px"
+          y="0px"
+        >
+          <g>
+            <path
+              d="M10 8a2 2 0 100 4 2 2 0 000-4z"
+            />
+            <path
+              clipRule="evenodd"
+              d="M9 2h2a2.01 2.01 0 001.235 1.855l.53.22a2.01 2.01 0 002.185-.439l1.414 1.414a2.01 2.01 0 00-.439 2.185l.22.53A2.01 2.01 0 0018 9v2a2.01 2.01 0 00-1.855 1.235l-.22.53a2.01 2.01 0 00.44 2.185l-1.415 1.414a2.01 2.01 0 00-2.184-.439l-.531.22A2.01 2.01 0 0011 18H9a2.01 2.01 0 00-1.235-1.854l-.53-.22a2.009 2.009 0 00-2.185.438L3.636 14.95a2.009 2.009 0 00.438-2.184l-.22-.531A2.01 2.01 0 002 11V9c.809 0 1.545-.487 1.854-1.235l.22-.53a2.009 2.009 0 00-.438-2.185L5.05 3.636a2.01 2.01 0 002.185.438l.53-.22A2.01 2.01 0 009 2zm-4 8l1.464 3.536L10 15l3.535-1.464L15 10l-1.465-3.536L10 5 6.464 6.464 5 10z"
+              fillRule="evenodd"
+            />
+          </g>
+        </svg>
+      </styled.svg>
+    </figure>
+  </styled.figure>
+</SVG>
+`;
+
+exports[`SVG renders svg component with required props 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c1 {
+  fill: currentColor;
+}
+
+<SVG
+  asset="Gear"
+>
+  <styled.figure
+    className="tw-svg"
+  >
+    <figure
+      className="c0 tw-svg"
+    >
+      <styled.svg
+        height="20px"
+        type="color-fill-current"
+        version="1.1"
+        viewBox="0 0 20 20"
+        width="20px"
+        x="0px"
+        y="0px"
+      >
+        <svg
+          className="c1"
+          height="20px"
+          type="color-fill-current"
+          version="1.1"
+          viewBox="0 0 20 20"
+          width="20px"
+          x="0px"
+          y="0px"
+        >
+          <g>
+            <path
+              d="M10 8a2 2 0 100 4 2 2 0 000-4z"
+            />
+            <path
+              clipRule="evenodd"
+              d="M9 2h2a2.01 2.01 0 001.235 1.855l.53.22a2.01 2.01 0 002.185-.439l1.414 1.414a2.01 2.01 0 00-.439 2.185l.22.53A2.01 2.01 0 0018 9v2a2.01 2.01 0 00-1.855 1.235l-.22.53a2.01 2.01 0 00.44 2.185l-1.415 1.414a2.01 2.01 0 00-2.184-.439l-.531.22A2.01 2.01 0 0011 18H9a2.01 2.01 0 00-1.235-1.854l-.53-.22a2.009 2.009 0 00-2.185.438L3.636 14.95a2.009 2.009 0 00.438-2.184l-.22-.531A2.01 2.01 0 002 11V9c.809 0 1.545-.487 1.854-1.235l.22-.53a2.009 2.009 0 00-.438-2.185L5.05 3.636a2.01 2.01 0 002.185.438l.53-.22A2.01 2.01 0 009 2zm-4 8l1.464 3.536L10 15l3.535-1.464L15 10l-1.465-3.536L10 5 6.464 6.464 5 10z"
+              fillRule="evenodd"
+            />
+          </g>
+        </svg>
+      </styled.svg>
+    </figure>
+  </styled.figure>
+</SVG>
+`;

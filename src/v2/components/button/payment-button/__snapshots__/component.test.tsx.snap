@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentButton renders PaymentButton component with all props 1`] = `
+<Styled(CoreButton)
+  $variant="amazon-pay"
+  autoFocus={true}
+  className="tw-payment-button"
+  disabled={true}
+  download="Download all the things"
+  fullWidth={true}
+  linkTo="/"
+  onClick={[MockFunction]}
+  size="large"
+  tabIndex={0}
+  targetBlank={true}
+  title="Test title"
+>
+  <styled.div>
+    Test Button
+  </styled.div>
+</Styled(CoreButton)>
+`;
+
+exports[`PaymentButton renders PaymentButton component with required props 1`] = `
+<Styled(CoreButton)
+  className="tw-payment-button"
+>
+  <styled.div />
+</Styled(CoreButton)>
+`;

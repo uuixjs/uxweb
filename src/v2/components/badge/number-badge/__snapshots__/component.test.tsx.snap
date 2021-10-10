@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumberBadge renders number badge component with all props 1`] = `
+<Layout
+  display="inline-flex"
+  position="relative"
+>
+  <ForwardRef(Button)>
+    Test
+  </ForwardRef(Button)>
+  <styled.div
+    className="tw-number-badge__container"
+  >
+    <Styled(Layout)
+      background="base"
+      className="tw-number-badge"
+    >
+      <styled.div
+        className="tw-number-badge__badge"
+      >
+        1
+      </styled.div>
+    </Styled(Layout)>
+  </styled.div>
+</Layout>
+`;
+
+exports[`NumberBadge renders number badge component with required props 1`] = `
+<Styled(Layout)
+  background="base"
+  className="tw-number-badge"
+>
+  <styled.div
+    className="tw-number-badge__badge"
+  >
+    1
+  </styled.div>
+</Styled(Layout)>
+`;

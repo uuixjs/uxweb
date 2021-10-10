@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonIcon renders button icon component with all props 1`] = `
+<ButtonIcon
+  aria-label="Test aria label"
+  autoFocus={true}
+  disabled={true}
+  download="Download all the things"
+  icon={
+    <styled.div
+      className="tw-chromecast-button__icon"
+    >
+      <Aspect
+        align={3}
+        overflow={false}
+        ratio="tw-aspect--1x1"
+      >
+        <svg
+          height="100%"
+          version="1.1"
+          viewBox="0 0 20 20"
+          width="100%"
+          x="0px"
+          y="0px"
+        >
+          <styled.path
+            d="M3 17a1 1 0 0 1-1-1v-1a2 2 0 0 1 2 2H3z"
+            variant="a"
+          />
+          <styled.path
+            animated={true}
+            d="M2 12.5a.5.5 0 0 1 .5-.5A4.5 4.5 0 0 1 7 16.5a.5.5 0 0 1-1 0A3.5 3.5 0 0 0 2.5 13a.5.5 0 0 1-.5-.5z"
+            variant="b"
+          />
+          <styled.path
+            animated={true}
+            d="M2 9.5a.5.5 0 0 1 .5-.5 7.5 7.5 0 0 1 7.5 7.5.5.5 0 0 1-1 0A6.5 6.5 0 0 0 2.5 10a.5.5 0 0 1-.5-.5z"
+            variant="c"
+          />
+          <path
+            className="tw-chromecast-button__frame"
+            d="M2 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3.5a1 1 0 1 1 0-2H16V5H4v1.5a1 1 0 0 1-2 0V5z"
+          />
+        </svg>
+      </Aspect>
+    </styled.div>
+  }
+  linkTo="/"
+  onClick={[MockFunction]}
+  overlay={true}
+  size="large"
+  tabIndex={0}
+  targetBlank={true}
+  title="test title"
+/>
+`;
+
+exports[`ButtonIcon renders button icon component with required props 1`] = `
+<ButtonIcon
+  aria-label="Test aria label"
+  icon={
+    <styled.div
+      className="tw-chromecast-button__icon"
+    >
+      <Aspect
+        align={3}
+        overflow={false}
+        ratio="tw-aspect--1x1"
+      >
+        <svg
+          height="100%"
+          version="1.1"
+          viewBox="0 0 20 20"
+          width="100%"
+          x="0px"
+          y="0px"
+        >
+          <styled.path
+            d="M3 17a1 1 0 0 1-1-1v-1a2 2 0 0 1 2 2H3z"
+            variant="a"
+          />
+          <styled.path
+            animated={false}
+            d="M2 12.5a.5.5 0 0 1 .5-.5A4.5 4.5 0 0 1 7 16.5a.5.5 0 0 1-1 0A3.5 3.5 0 0 0 2.5 13a.5.5 0 0 1-.5-.5z"
+            variant="b"
+          />
+          <styled.path
+            animated={false}
+            d="M2 9.5a.5.5 0 0 1 .5-.5 7.5 7.5 0 0 1 7.5 7.5.5.5 0 0 1-1 0A6.5 6.5 0 0 0 2.5 10a.5.5 0 0 1-.5-.5z"
+            variant="c"
+          />
+          <path
+            className="tw-chromecast-button__frame"
+            d="M2 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3.5a1 1 0 1 1 0-2H16V5H4v1.5a1 1 0 0 1-2 0V5z"
+          />
+        </svg>
+      </Aspect>
+    </styled.div>
+  }
+/>
+`;

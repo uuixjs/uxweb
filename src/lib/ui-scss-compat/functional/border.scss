@@ -1,0 +1,55 @@
+@import "../variables.scss";
+
+$prefix: "tw-";
+
+// Border directions.
+$directions: (
+  "": "",
+  "t": "top",
+  "r": "right",
+  "b": "bottom",
+  "l": "left",
+);
+
+// Build the classes.
+@each $key, $direction in $directions {
+  $declaration: "border";
+  $classname: $prefix + $declaration;
+
+  @if $key != "" {
+    $classname: "#{$classname}-#{$key}";
+  }
+
+  @if $direction != "" {
+    $declaration: "#{$declaration}-#{$direction}";
+  }
+
+  .#{$classname} {
+    #{$declaration}: var(--border-width-default)
+      solid
+      var(--color-border-base) !important;
+  }
+}
+
+// Provides a thicker border on the left.
+.#{$prefix}border--marked {
+  border-left: var(--border-width-marked) solid var(--color-border-brand) !important;
+}
+
+$radii: ("none", "small", "medium", "large", "rounded");
+
+$directions: ("top-left", "top-right", "bottom-right", "bottom-left");
+
+// Build the classes.
+@each $radius in $radii {
+  .#{$prefix}border-radius-#{$radius} {
+    border-radius: var(--border-radius-#{$radius}) !important;
+  }
+
+  @each $direction in $directions {
+    $declaration: border-#{$direction}-radius;
+    .#{$prefix}#{$declaration}-#{$radius} {
+      #{$declaration}: var(--border-radius-#{$radius}) !important;
+    }
+  }
+}

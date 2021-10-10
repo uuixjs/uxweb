@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormTag renders form tag component as locked 1`] = `
+<Styled(styled.div)
+  className="tw-form-tag"
+  size="default"
+  status="locked"
+>
+  <styled.div
+    size="default"
+  >
+    Test Label
+    <styled.div>
+      <SVG
+        asset="Smalllock"
+        fill={true}
+      />
+    </styled.div>
+  </styled.div>
+</Styled(styled.div)>
+`;
+
+exports[`FormTag renders form tag component with all props 1`] = `
+<Styled(styled.div)
+  as={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    }
+  }
+  className="tw-form-tag"
+  disabled={true}
+  onClick={[MockFunction]}
+  size="default"
+  status="selected"
+  tabIndex={0}
+>
+  <styled.div
+    size="default"
+  >
+    Test Label
+    <styled.div>
+      <SVG
+        asset="Smallhide"
+        fill={true}
+      />
+    </styled.div>
+  </styled.div>
+</Styled(styled.div)>
+`;
+
+exports[`FormTag renders form tag component with required props 1`] = `
+<Styled(styled.div)
+  as={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    }
+  }
+  className="tw-form-tag"
+  size="default"
+  status="unselected"
+>
+  <styled.div
+    size="default"
+  >
+    Test Label
+    <styled.div>
+      <SVG
+        asset="Smallplus"
+        fill={true}
+      />
+    </styled.div>
+  </styled.div>
+</Styled(styled.div)>
+`;
+
+exports[`FormTag renders form tag component with size prop 1`] = `
+<Styled(styled.div)
+  as={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    }
+  }
+  className="tw-form-tag"
+  size="large"
+  status="unselected"
+>
+  <styled.div
+    size="large"
+  >
+    Test Label
+    <styled.div>
+      <SVG
+        asset="Smallplus"
+        fill={true}
+      />
+    </styled.div>
+  </styled.div>
+</Styled(styled.div)>
+`;

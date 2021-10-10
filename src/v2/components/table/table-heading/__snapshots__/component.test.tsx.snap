@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHeading renders a table heading component with a label 1`] = `
+<styled.th
+  className="tw-table-heading"
+  textAlign="right"
+  verticalAlign="middle"
+>
+  <ForwardRef(Interactable)
+    onClick={[MockFunction]}
+  >
+    <Layout
+      alignItems="center"
+      color="link"
+      display="flex"
+      padding={0.5}
+    >
+      <Layout
+        flexGrow={1}
+        margin={
+          Object {
+            "right": 0.5,
+          }
+        }
+      >
+        <CoreText
+          bold={true}
+        >
+          Test label
+        </CoreText>
+      </Layout>
+      <Icon
+        asset="GlyphArrUp"
+      />
+    </Layout>
+  </ForwardRef(Interactable)>
+</styled.th>
+`;
+
+exports[`TableHeading renders a table heading component with children 1`] = `
+<styled.th
+  className="tw-table-heading"
+  textAlign="right"
+  verticalAlign="middle"
+>
+  <ForwardRef(Interactable)
+    onClick={[MockFunction]}
+  >
+    <Layout
+      alignItems="center"
+      color="link"
+      display="flex"
+      padding={0.5}
+    >
+      <Layout
+        flexGrow={1}
+        margin={
+          Object {
+            "right": 0.5,
+          }
+        }
+      >
+        <div>
+          Title
+        </div>
+        <div>
+          Sub title
+        </div>
+      </Layout>
+      <Icon
+        asset="GlyphArrUp"
+      />
+    </Layout>
+  </ForwardRef(Interactable)>
+</styled.th>
+`;
+
+exports[`TableHeading renders a table heading component with required props 1`] = `
+<styled.th
+  className="tw-table-heading"
+  textAlign="left"
+  verticalAlign="middle"
+>
+  <Layout
+    padding={1}
+  />
+</styled.th>
+`;

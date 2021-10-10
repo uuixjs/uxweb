@@ -1,0 +1,886 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InjectLayout renders div component with directional border radius 1`] = `
+.c0 {
+  border-top-left-radius: 0.6rem !important;
+  border-top-right-radius: 0.4rem !important;
+  border-bottom-right-radius: 0.2rem !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+<InjectLayout
+  borderRadius={
+    Object {
+      "bottomLeft": "border-radius-none",
+      "bottomRight": "border-radius-small",
+      "topLeft": "border-radius-large",
+      "topRight": "border-radius-medium",
+    }
+  }
+>
+  <Component
+    borderRadius={
+      Object {
+        "bottomLeft": "border-radius-none",
+        "bottomRight": "border-radius-small",
+        "topLeft": "border-radius-large",
+        "topRight": "border-radius-medium",
+      }
+    }
+    className="c0"
+  >
+    <div
+      className="c0 "
+    />
+  </Component>
+</InjectLayout>
+`;
+
+exports[`InjectLayout renders inject layout component with all props 1`] = `
+.c0 {
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  background-color: #451093 !important;
+  border-top: 1px solid rgba(255,255,255,0.1) !important;
+  border-right: 1px solid rgba(255,255,255,0.1) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+  border-left: 3px solid #a970ff !important;
+  border-radius: 9000px !important;
+  color: #ff8280 !important;
+  cursor: pointer !important;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.5),0 0px 4px rgba(0,0,0,0.4) !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 700 !important;
+  height: 100% !important;
+  width: 100% !important;
+  overflow: hidden !important;
+  resize: horizontal !important;
+  vertical-align: middle !important;
+  z-index: -1 !important;
+  -webkit-align-content: center !important;
+  -ms-flex-line-pack: center !important;
+  align-content: center !important;
+  -webkit-align-items: flex-start !important;
+  -webkit-box-align: flex-start !important;
+  -ms-flex-align: flex-start !important;
+  align-items: flex-start !important;
+  -webkit-align-self: center !important;
+  -ms-flex-item-align: center !important;
+  align-self: center !important;
+  display: inline-block !important;
+  -webkit-flex-direction: column-reverse !important;
+  -ms-flex-direction: column-reverse !important;
+  flex-direction: column-reverse !important;
+  -webkit-box-flex: 2 !important;
+  -webkit-flex-grow: 2 !important;
+  -ms-flex-positive: 2 !important;
+  flex-grow: 2 !important;
+  -webkit-order: 1 !important;
+  -ms-flex-order: 1 !important;
+  order: 1 !important;
+  -webkit-flex-shrink: 0 !important;
+  -ms-flex-negative: 0 !important;
+  flex-shrink: 0 !important;
+  -webkit-flex-wrap: wrap-reverse !important;
+  -ms-flex-wrap: wrap-reverse !important;
+  flex-wrap: wrap-reverse !important;
+  font-size: 1.8rem !important;
+  -webkit-box-pack: start !important;
+  -webkit-justify-content: flex-start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+  margin-bottom: 0.5rem !important;
+  margin-left: 3rem !important;
+  margin-right: 1rem !important;
+  margin-top: 2rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-left: 3rem !important;
+  padding-right: 1rem !important;
+  padding-top: 2rem !important;
+  position: absolute !important;
+  text-align: right !important;
+  visibility: hidden !important;
+}
+
+@media screen and (min-width:480px) {
+  .c0 {
+    -webkit-align-content: center !important;
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
+    -webkit-align-items: flex-start !important;
+    -webkit-box-align: flex-start !important;
+    -ms-flex-align: flex-start !important;
+    align-items: flex-start !important;
+    -webkit-align-self: center !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+    display: inline-block !important;
+    -webkit-flex-direction: column-reverse !important;
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
+    -webkit-box-flex: 2 !important;
+    -webkit-flex-grow: 2 !important;
+    -ms-flex-positive: 2 !important;
+    flex-grow: 2 !important;
+    -webkit-order: 1 !important;
+    -ms-flex-order: 1 !important;
+    order: 1 !important;
+    -webkit-flex-shrink: 0 !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+    -webkit-flex-wrap: wrap-reverse !important;
+    -ms-flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse !important;
+    font-size: 1.8rem !important;
+    -webkit-box-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    margin-bottom: 0.5rem !important;
+    margin-left: 3rem !important;
+    margin-right: 1rem !important;
+    margin-top: 2rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 3rem !important;
+    padding-right: 1rem !important;
+    padding-top: 2rem !important;
+    position: absolute !important;
+    text-align: right !important;
+    visibility: hidden !important;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    -webkit-align-content: center !important;
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
+    -webkit-align-items: flex-start !important;
+    -webkit-box-align: flex-start !important;
+    -ms-flex-align: flex-start !important;
+    align-items: flex-start !important;
+    -webkit-align-self: center !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+    display: inline-block !important;
+    -webkit-flex-direction: column-reverse !important;
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
+    -webkit-box-flex: 2 !important;
+    -webkit-flex-grow: 2 !important;
+    -ms-flex-positive: 2 !important;
+    flex-grow: 2 !important;
+    -webkit-order: 1 !important;
+    -ms-flex-order: 1 !important;
+    order: 1 !important;
+    -webkit-flex-shrink: 0 !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+    -webkit-flex-wrap: wrap-reverse !important;
+    -ms-flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse !important;
+    font-size: 1.8rem !important;
+    -webkit-box-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    margin-bottom: 0.5rem !important;
+    margin-left: 3rem !important;
+    margin-right: 1rem !important;
+    margin-top: 2rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 3rem !important;
+    padding-right: 1rem !important;
+    padding-top: 2rem !important;
+    position: absolute !important;
+    text-align: right !important;
+    visibility: hidden !important;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .c0 {
+    -webkit-align-content: center !important;
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
+    -webkit-align-items: flex-start !important;
+    -webkit-box-align: flex-start !important;
+    -ms-flex-align: flex-start !important;
+    align-items: flex-start !important;
+    -webkit-align-self: center !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+    display: inline-block !important;
+    -webkit-flex-direction: column-reverse !important;
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
+    -webkit-box-flex: 2 !important;
+    -webkit-flex-grow: 2 !important;
+    -ms-flex-positive: 2 !important;
+    flex-grow: 2 !important;
+    -webkit-order: 1 !important;
+    -ms-flex-order: 1 !important;
+    order: 1 !important;
+    -webkit-flex-shrink: 0 !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+    -webkit-flex-wrap: wrap-reverse !important;
+    -ms-flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse !important;
+    font-size: 1.8rem !important;
+    -webkit-box-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    margin-bottom: 0.5rem !important;
+    margin-left: 3rem !important;
+    margin-right: 1rem !important;
+    margin-top: 2rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 3rem !important;
+    padding-right: 1rem !important;
+    padding-top: 2rem !important;
+    position: absolute !important;
+    text-align: right !important;
+    visibility: hidden !important;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .c0 {
+    -webkit-align-content: center !important;
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
+    -webkit-align-items: flex-start !important;
+    -webkit-box-align: flex-start !important;
+    -ms-flex-align: flex-start !important;
+    align-items: flex-start !important;
+    -webkit-align-self: center !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+    display: inline-block !important;
+    -webkit-flex-direction: column-reverse !important;
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
+    -webkit-box-flex: 2 !important;
+    -webkit-flex-grow: 2 !important;
+    -ms-flex-positive: 2 !important;
+    flex-grow: 2 !important;
+    -webkit-order: 1 !important;
+    -ms-flex-order: 1 !important;
+    order: 1 !important;
+    -webkit-flex-shrink: 0 !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+    -webkit-flex-wrap: wrap-reverse !important;
+    -ms-flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse !important;
+    font-size: 1.8rem !important;
+    -webkit-box-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    margin-bottom: 0.5rem !important;
+    margin-left: 3rem !important;
+    margin-right: 1rem !important;
+    margin-top: 2rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 3rem !important;
+    padding-right: 1rem !important;
+    padding-top: 2rem !important;
+    position: absolute !important;
+    text-align: right !important;
+    visibility: hidden !important;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .c0 {
+    -webkit-align-content: center !important;
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
+    -webkit-align-items: flex-start !important;
+    -webkit-box-align: flex-start !important;
+    -ms-flex-align: flex-start !important;
+    align-items: flex-start !important;
+    -webkit-align-self: center !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+    display: inline-block !important;
+    -webkit-flex-direction: column-reverse !important;
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
+    -webkit-box-flex: 2 !important;
+    -webkit-flex-grow: 2 !important;
+    -ms-flex-positive: 2 !important;
+    flex-grow: 2 !important;
+    -webkit-order: 1 !important;
+    -ms-flex-order: 1 !important;
+    order: 1 !important;
+    -webkit-flex-shrink: 0 !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+    -webkit-flex-wrap: wrap-reverse !important;
+    -ms-flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse !important;
+    font-size: 1.8rem !important;
+    -webkit-box-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    margin-bottom: 0.5rem !important;
+    margin-left: 3rem !important;
+    margin-right: 1rem !important;
+    margin-top: 2rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 3rem !important;
+    padding-right: 1rem !important;
+    padding-top: 2rem !important;
+    position: absolute !important;
+    text-align: right !important;
+    visibility: hidden !important;
+  }
+}
+
+@media screen and (min-width:1600px) {
+  .c0 {
+    -webkit-align-content: center !important;
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
+    -webkit-align-items: flex-start !important;
+    -webkit-box-align: flex-start !important;
+    -ms-flex-align: flex-start !important;
+    align-items: flex-start !important;
+    -webkit-align-self: center !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+    display: inline-block !important;
+    -webkit-flex-direction: column-reverse !important;
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
+    -webkit-box-flex: 2 !important;
+    -webkit-flex-grow: 2 !important;
+    -ms-flex-positive: 2 !important;
+    flex-grow: 2 !important;
+    -webkit-order: 1 !important;
+    -ms-flex-order: 1 !important;
+    order: 1 !important;
+    -webkit-flex-shrink: 0 !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+    -webkit-flex-wrap: wrap-reverse !important;
+    -ms-flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse !important;
+    font-size: 1.8rem !important;
+    -webkit-box-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    margin-bottom: 0.5rem !important;
+    margin-left: 3rem !important;
+    margin-right: 1rem !important;
+    margin-top: 2rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 3rem !important;
+    padding-right: 1rem !important;
+    padding-top: 2rem !important;
+    position: absolute !important;
+    text-align: right !important;
+    visibility: hidden !important;
+  }
+}
+
+<InjectLayout
+  alignContent="center"
+  alignItems="flex-start"
+  alignSelf="center"
+  attachBottom={true}
+  attachLeft={true}
+  attachRight={true}
+  attachTop={true}
+  background="accent-alt-2"
+  border={true}
+  borderBottom={true}
+  borderLeft={true}
+  borderMarked={true}
+  borderRadius="border-radius-rounded"
+  borderRight={true}
+  borderTop={true}
+  breakpointExtraExtraLarge={
+    Object {
+      "alignContent": "center",
+      "alignItems": "flex-start",
+      "alignSelf": "center",
+      "display": "inline-block",
+      "flexDirection": "column-reverse",
+      "flexGrow": 2,
+      "flexOrder": 1,
+      "flexShrink": 0,
+      "flexWrap": "wrap-reverse",
+      "fontSize": "font-size-4",
+      "justifyContent": "flex-start",
+      "margin": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "padding": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "position": "absolute",
+      "textAlign": "right",
+      "visibility": "hidden",
+    }
+  }
+  breakpointExtraLarge={
+    Object {
+      "alignContent": "center",
+      "alignItems": "flex-start",
+      "alignSelf": "center",
+      "display": "inline-block",
+      "flexDirection": "column-reverse",
+      "flexGrow": 2,
+      "flexOrder": 1,
+      "flexShrink": 0,
+      "flexWrap": "wrap-reverse",
+      "fontSize": "font-size-4",
+      "justifyContent": "flex-start",
+      "margin": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "padding": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "position": "absolute",
+      "textAlign": "right",
+      "visibility": "hidden",
+    }
+  }
+  breakpointExtraSmall={
+    Object {
+      "alignContent": "center",
+      "alignItems": "flex-start",
+      "alignSelf": "center",
+      "display": "inline-block",
+      "flexDirection": "column-reverse",
+      "flexGrow": 2,
+      "flexOrder": 1,
+      "flexShrink": 0,
+      "flexWrap": "wrap-reverse",
+      "fontSize": "font-size-4",
+      "justifyContent": "flex-start",
+      "margin": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "padding": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "position": "absolute",
+      "textAlign": "right",
+      "visibility": "hidden",
+    }
+  }
+  breakpointLarge={
+    Object {
+      "alignContent": "center",
+      "alignItems": "flex-start",
+      "alignSelf": "center",
+      "display": "inline-block",
+      "flexDirection": "column-reverse",
+      "flexGrow": 2,
+      "flexOrder": 1,
+      "flexShrink": 0,
+      "flexWrap": "wrap-reverse",
+      "fontSize": "font-size-4",
+      "justifyContent": "flex-start",
+      "margin": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "padding": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "position": "absolute",
+      "textAlign": "right",
+      "visibility": "hidden",
+    }
+  }
+  breakpointMedium={
+    Object {
+      "alignContent": "center",
+      "alignItems": "flex-start",
+      "alignSelf": "center",
+      "display": "inline-block",
+      "flexDirection": "column-reverse",
+      "flexGrow": 2,
+      "flexOrder": 1,
+      "flexShrink": 0,
+      "flexWrap": "wrap-reverse",
+      "fontSize": "font-size-4",
+      "justifyContent": "flex-start",
+      "margin": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "padding": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "position": "absolute",
+      "textAlign": "right",
+      "visibility": "hidden",
+    }
+  }
+  breakpointSmall={
+    Object {
+      "alignContent": "center",
+      "alignItems": "flex-start",
+      "alignSelf": "center",
+      "display": "inline-block",
+      "flexDirection": "column-reverse",
+      "flexGrow": 2,
+      "flexOrder": 1,
+      "flexShrink": 0,
+      "flexWrap": "wrap-reverse",
+      "fontSize": "font-size-4",
+      "justifyContent": "flex-start",
+      "margin": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "padding": Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      },
+      "position": "absolute",
+      "textAlign": "right",
+      "visibility": "hidden",
+    }
+  }
+  className="test-classname"
+  color="live"
+  cursor="pointer"
+  display="inline-block"
+  elevation={3}
+  ellipsis={true}
+  flexDirection="column-reverse"
+  flexGrow={2}
+  flexOrder={1}
+  flexShrink={0}
+  flexWrap="wrap-reverse"
+  fontSize="font-size-4"
+  fontWeight="bold"
+  fullHeight={true}
+  fullWidth={true}
+  justifyContent="flex-start"
+  margin={
+    Object {
+      "bottom": 0.5,
+      "left": 3,
+      "right": 1,
+      "top": 2,
+    }
+  }
+  overflow="hidden"
+  padding={
+    Object {
+      "bottom": 0.5,
+      "left": 3,
+      "right": 1,
+      "top": 2,
+    }
+  }
+  position="absolute"
+  resize="horizontal"
+  textAlign="right"
+  verticalAlign="middle"
+  visibility="hidden"
+  zIndex="z-index-below"
+>
+  <Component
+    alignContent="center"
+    alignItems="flex-start"
+    alignSelf="center"
+    attachBottom={true}
+    attachLeft={true}
+    attachRight={true}
+    attachTop={true}
+    background="accent-alt-2"
+    border={true}
+    borderBottom={true}
+    borderLeft={true}
+    borderMarked={true}
+    borderRadius="border-radius-rounded"
+    borderRight={true}
+    borderTop={true}
+    breakpointExtraExtraLarge={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "alignSelf": "center",
+        "display": "inline-block",
+        "flexDirection": "column-reverse",
+        "flexGrow": 2,
+        "flexOrder": 1,
+        "flexShrink": 0,
+        "flexWrap": "wrap-reverse",
+        "fontSize": "font-size-4",
+        "justifyContent": "flex-start",
+        "margin": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "padding": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "position": "absolute",
+        "textAlign": "right",
+        "visibility": "hidden",
+      }
+    }
+    breakpointExtraLarge={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "alignSelf": "center",
+        "display": "inline-block",
+        "flexDirection": "column-reverse",
+        "flexGrow": 2,
+        "flexOrder": 1,
+        "flexShrink": 0,
+        "flexWrap": "wrap-reverse",
+        "fontSize": "font-size-4",
+        "justifyContent": "flex-start",
+        "margin": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "padding": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "position": "absolute",
+        "textAlign": "right",
+        "visibility": "hidden",
+      }
+    }
+    breakpointExtraSmall={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "alignSelf": "center",
+        "display": "inline-block",
+        "flexDirection": "column-reverse",
+        "flexGrow": 2,
+        "flexOrder": 1,
+        "flexShrink": 0,
+        "flexWrap": "wrap-reverse",
+        "fontSize": "font-size-4",
+        "justifyContent": "flex-start",
+        "margin": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "padding": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "position": "absolute",
+        "textAlign": "right",
+        "visibility": "hidden",
+      }
+    }
+    breakpointLarge={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "alignSelf": "center",
+        "display": "inline-block",
+        "flexDirection": "column-reverse",
+        "flexGrow": 2,
+        "flexOrder": 1,
+        "flexShrink": 0,
+        "flexWrap": "wrap-reverse",
+        "fontSize": "font-size-4",
+        "justifyContent": "flex-start",
+        "margin": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "padding": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "position": "absolute",
+        "textAlign": "right",
+        "visibility": "hidden",
+      }
+    }
+    breakpointMedium={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "alignSelf": "center",
+        "display": "inline-block",
+        "flexDirection": "column-reverse",
+        "flexGrow": 2,
+        "flexOrder": 1,
+        "flexShrink": 0,
+        "flexWrap": "wrap-reverse",
+        "fontSize": "font-size-4",
+        "justifyContent": "flex-start",
+        "margin": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "padding": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "position": "absolute",
+        "textAlign": "right",
+        "visibility": "hidden",
+      }
+    }
+    breakpointSmall={
+      Object {
+        "alignContent": "center",
+        "alignItems": "flex-start",
+        "alignSelf": "center",
+        "display": "inline-block",
+        "flexDirection": "column-reverse",
+        "flexGrow": 2,
+        "flexOrder": 1,
+        "flexShrink": 0,
+        "flexWrap": "wrap-reverse",
+        "fontSize": "font-size-4",
+        "justifyContent": "flex-start",
+        "margin": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "padding": Object {
+          "bottom": 0.5,
+          "left": 3,
+          "right": 1,
+          "top": 2,
+        },
+        "position": "absolute",
+        "textAlign": "right",
+        "visibility": "hidden",
+      }
+    }
+    className="c0 test-classname"
+    color="live"
+    cursor="pointer"
+    display="inline-block"
+    elevation={3}
+    ellipsis={true}
+    flexDirection="column-reverse"
+    flexGrow={2}
+    flexOrder={1}
+    flexShrink={0}
+    flexWrap="wrap-reverse"
+    fontSize="font-size-4"
+    fontWeight="bold"
+    fullHeight={true}
+    fullWidth={true}
+    justifyContent="flex-start"
+    margin={
+      Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      }
+    }
+    overflow="hidden"
+    padding={
+      Object {
+        "bottom": 0.5,
+        "left": 3,
+        "right": 1,
+        "top": 2,
+      }
+    }
+    position="absolute"
+    resize="horizontal"
+    textAlign="right"
+    verticalAlign="middle"
+    visibility="hidden"
+    zIndex="z-index-below"
+  >
+    <div
+      className="c0 test-classname"
+    />
+  </Component>
+</InjectLayout>
+`;
+
+exports[`InjectLayout renders inject layout component with required props 1`] = `
+<InjectLayout>
+  <Component
+    className=""
+  >
+    <div
+      className=""
+    />
+  </Component>
+</InjectLayout>
+`;

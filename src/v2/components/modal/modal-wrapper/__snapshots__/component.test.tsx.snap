@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders modal component with all props 1`] = `
+<Styled(Layout)
+  $size="md"
+  aria-modal={true}
+  background="base"
+  borderRadius="border-radius-large"
+  className="tw-modal"
+  display="flex"
+  elevation={3}
+  flexDirection="column"
+  fullHeight={true}
+  fullWidth={true}
+  role="dialog"
+>
+  <ModalHeader
+    closeButton={
+      Object {
+        "aria-label": "Close",
+        "onClick": [MockFunction],
+      }
+    }
+    title="Log In or Register"
+  />
+  <ModalBody
+    padding={
+      Object {
+        "x": 3,
+        "y": 2,
+      }
+    }
+  >
+    <Layout
+      padding={2}
+    />
+  </ModalBody>
+  <ModalFooter
+    padding={
+      Object {
+        "x": 3,
+        "y": 2,
+      }
+    }
+    primaryButtonProps={
+      Object {
+        "children": "Log In",
+      }
+    }
+    secondaryButtonProps={
+      Object {
+        "children": "Cancel",
+      }
+    }
+  />
+</Styled(Layout)>
+`;
+
+exports[`Modal renders modal component with aria and data props 1`] = `
+<Styled(Layout)
+  $size="md"
+  aria-describedby="described-by-id"
+  aria-labelledby="labelled-by-id"
+  aria-modal={true}
+  background="base"
+  borderRadius="border-radius-large"
+  className="tw-modal"
+  data-test-selector="data-test-selector"
+  display="flex"
+  elevation={3}
+  flexDirection="column"
+  fullHeight={true}
+  fullWidth={true}
+  role="dialog"
+>
+  <ModalHeader
+    closeButton={
+      Object {
+        "aria-label": "Close",
+        "onClick": [MockFunction],
+      }
+    }
+    title="Log In or Register"
+  />
+  <ModalBody
+    padding={
+      Object {
+        "x": 3,
+        "y": 2,
+      }
+    }
+  >
+    <Layout
+      padding={2}
+    />
+  </ModalBody>
+  <ModalFooter
+    padding={
+      Object {
+        "x": 3,
+        "y": 2,
+      }
+    }
+    primaryButtonProps={
+      Object {
+        "children": "Log In",
+      }
+    }
+    secondaryButtonProps={
+      Object {
+        "children": "Cancel",
+      }
+    }
+  />
+</Styled(Layout)>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChannelStatusIndicator renders channel status indicator component with all props 1`] = `
+<styled.div
+  $backgroundColor="color-fill-live"
+  $enablePulse={true}
+  $size="1.2rem"
+  borderRadius="border-radius-rounded"
+  className="tw-channel-status-indicator"
+/>
+`;
+
+exports[`ChannelStatusIndicator renders channel status indicator component with required props 1`] = `
+<styled.div
+  $backgroundColor="color-fill-offline"
+  $size="0.8rem"
+  borderRadius="border-radius-rounded"
+  className="tw-channel-status-indicator"
+/>
+`;

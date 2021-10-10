@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popover renders popover component with all props 1`] = `
+<BalloonWrapper
+  background="alt-2"
+  elevation={1}
+  size="lg"
+>
+  <InjectLayout
+    aria-describedby="test-popover-id-body"
+    aria-labelledby="test-popover-id-header"
+    display="flex"
+    flexDirection="column"
+    role="dialog"
+  >
+    <div
+      style={
+        Object {
+          "maxHeight": "50rem",
+        }
+      }
+    >
+      Test Child
+    </div>
+  </InjectLayout>
+</BalloonWrapper>
+`;
+
+exports[`Popover renders popover component with the required props 1`] = `
+<BalloonWrapper
+  size="lg"
+>
+  <InjectLayout
+    aria-describedby="test-popover-id-body"
+    aria-labelledby="test-popover-id-header"
+    display="flex"
+    flexDirection="column"
+    role="dialog"
+  >
+    <div
+      style={
+        Object {
+          "maxHeight": undefined,
+        }
+      }
+    />
+  </InjectLayout>
+</BalloonWrapper>
+`;

@@ -1,0 +1,10 @@
+@import "./variables";
+
+// Include CSS variables.
+@import "lib/ui-tokens/css/variables";
+// Dark is the default/fallback theme to stay in sync with styled-components
+@import "lib/ui-tokens/css/theme-root-dark";
+@import "lib/ui-tokens/css/themes";
+
+// Resets browser defaults and set styling on HTML tags.
+@import "./base/index";

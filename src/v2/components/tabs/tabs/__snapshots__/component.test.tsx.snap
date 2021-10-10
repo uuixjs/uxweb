@@ -1,0 +1,559 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs renders tabs component with optional props 1`] = `
+<Styled(Layout)
+  $size="large"
+  $twoLineText={false}
+  borderBottom={false}
+  className="tw-tabs"
+>
+  <InjectLayout
+    alignItems="center"
+    display="flex"
+    flexGrow={1}
+    flexWrap="wrap"
+    fontSize="font-size-4"
+    fullHeight={true}
+    justifyContent="center"
+  >
+    <ul
+      role="tablist"
+    >
+      <InjectLayout
+        alignItems="center"
+        color="link"
+        flexGrow={0}
+        fullHeight={true}
+        justifyContent="center"
+        key="0"
+      >
+        <li
+          data-index={0}
+          role="presentation"
+        >
+          <TabItem
+            activeIndicator={
+              <styled.div
+                data-test-selector="ACTIVE_TAB_INDICATOR"
+                style={
+                  Object {
+                    "transform": "",
+                  }
+                }
+              />
+            }
+            label="Zero"
+            originalIndex={0}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            size="large"
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={0}
+        fullHeight={true}
+        justifyContent="center"
+        key="1"
+      >
+        <li
+          data-index={1}
+          role="presentation"
+        >
+          <TabItem
+            label="One"
+            originalIndex={1}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            size="large"
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={0}
+        fullHeight={true}
+        justifyContent="center"
+        key="2"
+      >
+        <li
+          data-index={2}
+          role="presentation"
+        >
+          <TabItem
+            label="Two"
+            originalIndex={2}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            size="large"
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={0}
+        fullHeight={true}
+        justifyContent="center"
+        key="3"
+      >
+        <li
+          data-index={3}
+          role="presentation"
+        >
+          <TabItem
+            label="Three"
+            originalIndex={3}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            size="large"
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={0}
+        fullHeight={true}
+        justifyContent="center"
+        key="4"
+      >
+        <li
+          data-index={4}
+          role="presentation"
+        >
+          <TabItem
+            label="Four"
+            originalIndex={4}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            size="large"
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={0}
+        fullHeight={true}
+        justifyContent="center"
+        key="5"
+      >
+        <li
+          data-index={5}
+          role="presentation"
+        >
+          <TabItem
+            label="Five"
+            originalIndex={5}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            size="large"
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={0}
+        fullHeight={true}
+        justifyContent="center"
+        key="6"
+      >
+        <li
+          data-index={6}
+          role="presentation"
+        >
+          <TabItem
+            label="Six"
+            originalIndex={6}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            size="large"
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={0}
+        fullHeight={true}
+        justifyContent="center"
+        key="7"
+      >
+        <li
+          data-index={7}
+          role="presentation"
+        >
+          <TabItem
+            label="Seven"
+            originalIndex={7}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            size="large"
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={0}
+        fullHeight={true}
+        justifyContent="center"
+        key="8"
+      >
+        <li
+          data-index={8}
+          role="presentation"
+        >
+          <TabItem
+            label="Eight"
+            originalIndex={8}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            size="large"
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={0}
+        fullHeight={true}
+        justifyContent="center"
+        key="9"
+      >
+        <li
+          data-index={9}
+          role="presentation"
+        >
+          <TabItem
+            label="Nine"
+            originalIndex={9}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            size="large"
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+    </ul>
+  </InjectLayout>
+</Styled(Layout)>
+`;
+
+exports[`Tabs renders tabs component with required props 1`] = `
+<Styled(Layout)
+  $size="default"
+  $twoLineText={false}
+  borderBottom={true}
+  className="tw-tabs"
+>
+  <InjectLayout
+    alignItems="center"
+    display="flex"
+    flexGrow={1}
+    flexWrap="wrap"
+    fontSize="font-size-4"
+    fullHeight={true}
+    justifyContent="flex-start"
+  >
+    <ul
+      role="tablist"
+    >
+      <InjectLayout
+        alignItems="center"
+        color="link"
+        flexGrow={1}
+        fullHeight={true}
+        justifyContent="center"
+        key="0"
+      >
+        <li
+          data-index={0}
+          role="presentation"
+        >
+          <TabItem
+            activeIndicator={
+              <styled.div
+                data-test-selector="ACTIVE_TAB_INDICATOR"
+                style={
+                  Object {
+                    "transform": "",
+                  }
+                }
+              />
+            }
+            label="Zero"
+            originalIndex={0}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={1}
+        fullHeight={true}
+        justifyContent="center"
+        key="1"
+      >
+        <li
+          data-index={1}
+          role="presentation"
+        >
+          <TabItem
+            label="One"
+            originalIndex={1}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={1}
+        fullHeight={true}
+        justifyContent="center"
+        key="2"
+      >
+        <li
+          data-index={2}
+          role="presentation"
+        >
+          <TabItem
+            label="Two"
+            originalIndex={2}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={1}
+        fullHeight={true}
+        justifyContent="center"
+        key="3"
+      >
+        <li
+          data-index={3}
+          role="presentation"
+        >
+          <TabItem
+            label="Three"
+            originalIndex={3}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={1}
+        fullHeight={true}
+        justifyContent="center"
+        key="4"
+      >
+        <li
+          data-index={4}
+          role="presentation"
+        >
+          <TabItem
+            label="Four"
+            originalIndex={4}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={1}
+        fullHeight={true}
+        justifyContent="center"
+        key="5"
+      >
+        <li
+          data-index={5}
+          role="presentation"
+        >
+          <TabItem
+            label="Five"
+            originalIndex={5}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={1}
+        fullHeight={true}
+        justifyContent="center"
+        key="6"
+      >
+        <li
+          data-index={6}
+          role="presentation"
+        >
+          <TabItem
+            label="Six"
+            originalIndex={6}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={1}
+        fullHeight={true}
+        justifyContent="center"
+        key="7"
+      >
+        <li
+          data-index={7}
+          role="presentation"
+        >
+          <TabItem
+            label="Seven"
+            originalIndex={7}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={1}
+        fullHeight={true}
+        justifyContent="center"
+        key="8"
+      >
+        <li
+          data-index={8}
+          role="presentation"
+        >
+          <TabItem
+            label="Eight"
+            originalIndex={8}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+      <InjectLayout
+        alignItems="center"
+        color="base"
+        flexGrow={1}
+        fullHeight={true}
+        justifyContent="center"
+        key="9"
+      >
+        <li
+          data-index={9}
+          role="presentation"
+        >
+          <TabItem
+            label="Nine"
+            originalIndex={9}
+            padding={
+              Object {
+                "x": 1,
+              }
+            }
+            textAlign="center"
+          />
+        </li>
+      </InjectLayout>
+    </ul>
+  </InjectLayout>
+</Styled(Layout)>
+`;

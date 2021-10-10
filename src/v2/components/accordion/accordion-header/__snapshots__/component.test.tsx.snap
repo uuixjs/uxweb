@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionHeader renders AccordionHeader component with all props 1`] = `
+<Layout
+  background="base"
+  className="accordion-header"
+  elevation={1}
+  position="relative"
+>
+  <InjectLayout
+    attachLeft={true}
+    attachTop={true}
+    className="accordion-header__background-image"
+    fullHeight={true}
+    fullWidth={true}
+    position="absolute"
+  >
+    <Styled(Component)
+      alt="Background image alt label"
+      src="https://placehold.jp/6441a4/ffffff/500x50.jpg"
+    />
+  </InjectLayout>
+  <ForwardRef(Interactable)
+    aria-expanded={true}
+    onClick={[Function]}
+  >
+    <Styled(Layout)
+      $size="default"
+      display="flex"
+      overflow="hidden"
+      position="relative"
+    >
+      <Styled(Layout)
+        background="alt-2"
+        flexGrow={0}
+        flexShrink={0}
+        position="relative"
+      >
+        <Layout
+          alignItems="center"
+          background="overlay"
+          color="overlay"
+          display="flex"
+          fullHeight={true}
+          justifyContent="center"
+          padding={1}
+          position="relative"
+          zIndex="z-index-above"
+        >
+          <Title
+            lineHeight="heading"
+            size="md"
+          >
+            $5
+          </Title>
+        </Layout>
+        <Layout
+          attachLeft={true}
+          attachTop={true}
+          fullHeight={true}
+          fullWidth={true}
+          overflow="hidden"
+          position="absolute"
+        >
+          <Aspect
+            align={2}
+            overflow={false}
+            ratio="tw-aspect--1x1"
+          >
+            <ForwardRef(CoreImage)
+              alt="Image alt label"
+              src="https://placehold.jp/6441a4/ffffff/100x100.jpg"
+            />
+          </Aspect>
+        </Layout>
+      </Styled(Layout)>
+      <Layout
+        alignItems="flex-start"
+        display="flex"
+        flexDirection="column"
+        flexGrow={1}
+        flexShrink={1}
+        justifyContent="center"
+        overflow="hidden"
+        padding={
+          Object {
+            "left": 2,
+            "right": 1,
+            "y": 2,
+          }
+        }
+      >
+        <Layout
+          fullWidth={true}
+        >
+          <Title
+            ellipsis={true}
+            lineHeight="heading"
+            size="sm"
+            type="h3"
+          >
+            The standard Lorem Ipsum passage
+          </Title>
+          <CoreText
+            color="alt-2"
+            ellipsis={true}
+          >
+            Used since the 1500s
+          </CoreText>
+        </Layout>
+      </Layout>
+      <Layout
+        alignItems="center"
+        display="flex"
+        flexGrow={1}
+        flexShrink={0}
+        justifyContent="flex-end"
+        padding={
+          Object {
+            "right": 2,
+          }
+        }
+      >
+        <CoreText>
+          Some Label
+        </CoreText>
+      </Layout>
+      <Layout
+        alignItems="center"
+        display="flex"
+        flexGrow={0}
+        flexShrink={0}
+        justifyContent="center"
+        padding={
+          Object {
+            "right": 2,
+            "y": 2,
+          }
+        }
+      >
+        <ExpandableIndicator
+          closedDirection="down"
+          open={true}
+          openDirection="up"
+        />
+      </Layout>
+    </Styled(Layout)>
+  </ForwardRef(Interactable)>
+</Layout>
+`;
+
+exports[`AccordionHeader renders AccordionHeader component with only required props 1`] = `
+<Layout
+  background="base"
+  className="accordion-header"
+  elevation={1}
+  position="relative"
+>
+  <ForwardRef(Interactable)
+    onClick={[Function]}
+  >
+    <Styled(Layout)
+      $size="default"
+      display="flex"
+      overflow="hidden"
+      position="relative"
+    >
+      <Layout
+        alignItems="flex-start"
+        display="flex"
+        flexDirection="column"
+        flexGrow={1}
+        flexShrink={1}
+        justifyContent="center"
+        overflow="hidden"
+        padding={
+          Object {
+            "left": 2,
+            "right": 1,
+            "y": 3,
+          }
+        }
+      >
+        <Layout
+          fullWidth={true}
+        >
+          <Title
+            ellipsis={true}
+            lineHeight="heading"
+            size="sm"
+            type="h3"
+          >
+            The standard Lorem Ipsum passage
+          </Title>
+        </Layout>
+      </Layout>
+      <Layout
+        alignItems="center"
+        display="flex"
+        flexGrow={0}
+        flexShrink={0}
+        justifyContent="center"
+        padding={
+          Object {
+            "right": 2,
+            "y": 3,
+          }
+        }
+      >
+        <ExpandableIndicator
+          closedDirection="down"
+          openDirection="up"
+        />
+      </Layout>
+    </Styled(Layout)>
+  </ForwardRef(Interactable)>
+</Layout>
+`;

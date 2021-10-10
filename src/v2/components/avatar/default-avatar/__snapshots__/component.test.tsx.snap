@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultAvatar renders default-avatar component with all props 1`] = `
+<styled.div
+  borderRadius="border-radius-medium"
+  userLogin="pondelinip"
+>
+  <styled.div
+    className="tw-default-avatar__icon"
+  >
+    <Icon
+      asset="Account"
+      fill={true}
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`DefaultAvatar renders default-avatar component with required props 1`] = `
+<styled.div
+  userLogin="pondelinip"
+>
+  <styled.div
+    className="tw-default-avatar__icon"
+  >
+    <Icon
+      asset="Account"
+      fill={true}
+    />
+  </styled.div>
+</styled.div>
+`;

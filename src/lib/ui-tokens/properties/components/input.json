@@ -1,0 +1,9 @@
+{
+  "input": {
+    "size": {
+      "small": { "value": "2.4rem" },
+      "default": { "value": "3rem" },
+      "large": { "value": "3.6rem" }
+    }
+  }
+}

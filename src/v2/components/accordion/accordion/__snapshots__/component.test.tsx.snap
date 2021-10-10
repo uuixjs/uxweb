@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion renders Accordion component with only required props 1`] = `
+<Layout>
+  <Layout
+    borderBottom={true}
+    key="0"
+  >
+    <AccordionHeader
+      borderRadius={
+        Object {
+          "topLeft": "border-radius-medium",
+          "topRight": "border-radius-medium",
+        }
+      }
+      description="A gathering of awesome people."
+      imageProps={
+        Object {
+          "alt": "",
+          "src": "https://static-cdn.jtvnw.net/cb-achievements-assets/badge_what-is-thy-bidding-3x.png",
+        }
+      }
+      index={0}
+      isOpen={true}
+      onClick={[Function]}
+      title="What is TwitchCon?"
+    />
+    <AccordionBody
+      isOpen={true}
+    >
+      Great first question! TwitchCon is a celebration of all things Twitch, from the streamers and their communities, to the developers who make the games we love. At TwitchCon, we all gather to learn and play together.
+      <AccordionFooter
+        primaryButtonProps={
+          Object {
+            "children": "Buy Tickets",
+          }
+        }
+        secondaryButtonProps={
+          Object {
+            "children": "Learn More",
+          }
+        }
+      />
+    </AccordionBody>
+  </Layout>
+  <Layout
+    borderBottom={true}
+    key="1"
+  >
+    <AccordionHeader
+      borderRadius={Object {}}
+      description="Somewhere in a galaxy far away."
+      imageProps={
+        Object {
+          "alt": "",
+          "src": "https://static-cdn.jtvnw.net/cb-achievements-assets/badge_like-clockwork-3x.png",
+        }
+      }
+      index={1}
+      isOpen={false}
+      onClick={[Function]}
+      title="When and where is TwitchCon?"
+    />
+    <AccordionBody
+      isOpen={false}
+    >
+      TwitchCon is being held October 20-22 at the Long Beach Convention and Entertainment Center in Long Beach, California. Long Beach Convention and Entertainment Center 300 E Ocean Blvd. Long Beach, CA 90802 See sidebar for detailed hours, parking info and developer day.
+      <AccordionFooter
+        primaryButtonProps={
+          Object {
+            "children": "Buy Tickets",
+          }
+        }
+        secondaryButtonProps={
+          Object {
+            "children": "Learn More",
+          }
+        }
+      />
+    </AccordionBody>
+  </Layout>
+  <Layout
+    borderBottom={false}
+    key="2"
+  >
+    <AccordionHeader
+      borderRadius={
+        Object {
+          "bottomLeft": "border-radius-medium",
+          "bottomRight": "border-radius-medium",
+        }
+      }
+      description="All sorts of fun things."
+      imageProps={
+        Object {
+          "alt": "",
+          "src": "https://static-cdn.jtvnw.net/cb-achievements-assets/badge_talk-to-me-3x.png",
+        }
+      }
+      index={2}
+      isOpen={false}
+      onClick={[Function]}
+      title="What can I do at TwitchCon?"
+    />
+    <AccordionBody
+      borderRadius={
+        Object {
+          "bottomLeft": "border-radius-medium",
+          "bottomRight": "border-radius-medium",
+        }
+      }
+      isOpen={false}
+    >
+      A lot! In addition to some new surprises for 2017, you can expect many activities that have become TwitchCon staples, only bigger and better. From streamer meet & greets to learning how to improve your stream, to intense gaming competitions, and hands on demos of the latest games, everything and anything Twitch is being featured at the show.
+      <AccordionFooter
+        primaryButtonProps={
+          Object {
+            "children": "Buy Tickets",
+          }
+        }
+        secondaryButtonProps={
+          Object {
+            "children": "Learn More",
+          }
+        }
+      />
+    </AccordionBody>
+  </Layout>
+</Layout>
+`;

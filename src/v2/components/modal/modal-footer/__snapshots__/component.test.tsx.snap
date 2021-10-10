@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalFooter renders modal footer component 1`] = `
+<Layout
+  alignItems="center"
+  display="flex"
+  flexDirection="row-reverse"
+  justifyContent="flex-start"
+  padding={
+    Object {
+      "x": 3,
+      "y": 2,
+    }
+  }
+  width="100%"
+>
+  <Layout>
+    <ForwardRef(Button)
+      aria-label="test label"
+      fullWidth={true}
+      onClick={[MockFunction]}
+      title="Action"
+      variant="primary"
+    />
+  </Layout>
+</Layout>
+`;
+
+exports[`ModalFooter renders modal footer component with all props 1`] = `
+<Layout
+  alignItems="center"
+  display="flex"
+  flexDirection="row-reverse"
+  justifyContent="flex-start"
+  padding={
+    Object {
+      "x": 3,
+      "y": 2,
+    }
+  }
+  width="100%"
+>
+  <Layout>
+    <ForwardRef(Button)
+      fullWidth={true}
+      onClick={[MockFunction]}
+      title="Action"
+      variant="primary"
+    />
+  </Layout>
+  <Layout
+    padding={
+      Object {
+        "right": 1,
+      }
+    }
+  >
+    <ForwardRef(Button)
+      fullWidth={true}
+      onClick={[MockFunction]}
+      title="Cancel"
+      variant="secondary"
+    />
+  </Layout>
+</Layout>
+`;

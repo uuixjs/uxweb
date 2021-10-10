@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectButton renders SelectButton component with all props 1`] = `
+<Styled(CoreButton)
+  autoFocus={true}
+  className="tw-select-button tw-select-button--disabled tw-select-button--overlay"
+  disabled={true}
+  download="Download all the things"
+  fullWidth={true}
+  icon="Gear"
+  linkTo="/"
+  onClick={[MockFunction]}
+  overlay={true}
+  size="large"
+  tabIndex={0}
+  targetBlank={true}
+  title="Test title"
+>
+  <CoreButtonLabel
+    dropdown={1}
+    fullWidth={true}
+    icon="Gear"
+    size="large"
+  >
+    Test Button
+  </CoreButtonLabel>
+</Styled(CoreButton)>
+`;
+
+exports[`SelectButton renders SelectButton component with required props 1`] = `
+<Styled(CoreButton)
+  className="tw-select-button"
+>
+  <CoreButtonLabel
+    dropdown={1}
+  />
+</Styled(CoreButton)>
+`;

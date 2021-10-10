@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingButton renders LoadingButton component with all props 1`] = `
+<CoreButton
+  autoFocus={true}
+  disabled={true}
+  disabledInteraction={false}
+  download="Download all the things"
+  fullWidth={true}
+  linkTo="/"
+  onClick={[MockFunction]}
+  size="large"
+  tabIndex={0}
+  targetBlank={true}
+  title="Test title"
+  variant="secondary"
+>
+  <CoreButtonLabel
+    fullWidth={true}
+    labelAlign="center"
+    size="large"
+  >
+    Test Button
+  </CoreButtonLabel>
+</CoreButton>
+`;
+
+exports[`LoadingButton renders LoadingButton component with required props 1`] = `
+<CoreButton
+  disabledInteraction={false}
+  size="default"
+  variant="secondary"
+>
+  <CoreButtonLabel
+    labelAlign="center"
+    size="default"
+  />
+</CoreButton>
+`;

@@ -1,0 +1,113 @@
+@import "../variables.scss";
+
+// Defaults
+$space-0: 0 !default;
+$space-05: 0.5rem !default;
+$space-1: 1rem !default;
+$space-2: 2rem !default;
+$space-3: 3rem !default;
+$space-4: 4rem !default;
+$space-5: 5rem !default;
+$space-6: 6rem !default;
+$space-7: 7rem !default;
+$space-8: 8rem !default;
+$space-9: 9rem !default;
+$space-10: 10rem !default;
+
+// Map the variables to classname-friendly keys.
+$spacing-increments: (
+  "0": $space-0,
+  "05": $space-05,
+  "1": $space-1,
+  "2": $space-2,
+  "3": $space-3,
+  "4": $space-4,
+  "5": $space-5,
+  "6": $space-6,
+  "7": $space-7,
+  "8": $space-8,
+  "9": $space-9,
+  "10": $space-10,
+) !default;
+
+// Horizontal, left, and right margins have an `auto` helper.
+$spacing-auto: (
+  "auto": auto,
+);
+
+// Map the classes.
+$spacing-classes: (
+  "pd": (
+    "padding",
+    $spacing-increments,
+    true,
+  ),
+  "pd-t": (
+    "padding-top",
+    $spacing-increments,
+    true,
+  ),
+  "pd-r": (
+    "padding-right",
+    $spacing-increments,
+    true,
+  ),
+  "pd-b": (
+    "padding-bottom",
+    $spacing-increments,
+    true,
+  ),
+  "pd-l": (
+    "padding-left",
+    $spacing-increments,
+    true,
+  ),
+  "pd-y": (
+    ("padding-top", "padding-bottom"),
+    $spacing-increments,
+    true,
+  ),
+  "pd-x": (
+    ("padding-left", "padding-right"),
+    $spacing-increments,
+    true,
+  ),
+  "mg": (
+    "margin",
+    map-merge($spacing-increments, $spacing-auto),
+    true,
+  ),
+  "mg-t": (
+    "margin-top",
+    map-merge($spacing-increments, $spacing-auto),
+    true,
+  ),
+  "mg-r": (
+    "margin-right",
+    map-merge($spacing-increments, $spacing-auto),
+    true,
+  ),
+  "mg-b": (
+    "margin-bottom",
+    map-merge($spacing-increments, $spacing-auto),
+    true,
+  ),
+  "mg-l": (
+    "margin-left",
+    map-merge($spacing-increments, $spacing-auto),
+    true,
+  ),
+  "mg-y": (
+    ("margin-top", "margin-bottom"),
+    map-merge($spacing-increments, $spacing-auto),
+    true,
+  ),
+  "mg-x": (
+    ("margin-left", "margin-right"),
+    map-merge($spacing-increments, $spacing-auto),
+    true,
+  ),
+);
+
+// Build the classes.
+@include build-classes($spacing-classes);

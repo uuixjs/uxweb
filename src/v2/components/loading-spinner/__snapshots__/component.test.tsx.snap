@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingSpinner renders loading spinner component with all props 1`] = `
+<styled.div
+  className="tw-loading-spinner"
+  delay={100}
+  fillContent={true}
+>
+  <styled.div
+    inheritColor={true}
+    size="large"
+  />
+</styled.div>
+`;
+
+exports[`LoadingSpinner renders loading spinner component with required props 1`] = `
+<styled.div
+  className="tw-loading-spinner"
+  delay={300}
+>
+  <styled.div />
+</styled.div>
+`;

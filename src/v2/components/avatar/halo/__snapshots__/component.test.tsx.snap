@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarHalo renders AvatarHalo component with all type prop as a span 1`] = `
+<Styled(Component)
+  className="tw-halo"
+  size={64}
+  status="offline"
+>
+  <Aspect
+    align={3}
+    overflow={false}
+    ratio="tw-aspect--1x1"
+  >
+    child
+  </Aspect>
+  <Styled(Layout)
+    background="inherit"
+    className="tw-halo__indicator"
+  >
+    indicator
+  </Styled(Layout)>
+</Styled(Component)>
+`;
+
+exports[`AvatarHalo renders AvatarHalo component with required props 1`] = `
+<Styled(Component)
+  className="tw-halo"
+>
+  <Aspect
+    align={3}
+    overflow={false}
+    ratio="tw-aspect--1x1"
+  />
+</Styled(Component)>
+`;

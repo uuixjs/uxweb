@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropDownMenuInputItem renders drop down menu input item component with all props 1`] = `
+<Layout
+  padding={0.5}
+>
+  <Layout
+    alignItems="center"
+    display="flex"
+  >
+    <Layout
+      flexGrow={1}
+    >
+      <CheckBox
+        label="Test Label"
+      />
+    </Layout>
+    <Layout
+      flexShrink={0}
+      padding={
+        Object {
+          "left": 1,
+          "right": undefined,
+        }
+      }
+    >
+      <DropDownMenuItemFigure
+        icon="LogoGlitch"
+      />
+    </Layout>
+  </Layout>
+</Layout>
+`;
+
+exports[`DropDownMenuInputItem renders drop down menu input item component with required props 1`] = `
+<Layout
+  padding={0.5}
+>
+  <Layout
+    alignItems="center"
+    display="flex"
+  >
+    <Layout
+      flexGrow={1}
+    >
+      <CheckBox
+        label="Test Label"
+      />
+    </Layout>
+  </Layout>
+</Layout>
+`;

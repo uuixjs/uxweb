@@ -1,0 +1,77 @@
+// Note: Explicitly disabling the `no-important` rule. The original
+// implentation of helpers used `!important` to override margins and
+// padding within components. Moving forward, we will begin to
+// implement components without margin and padding which allow us to
+// remove the `!important` (as it may become unpredictable with
+// media queries).
+
+// Loops through the classes map and build the classes.
+@mixin build-classes($classes) {
+  // @each $name, $settings, $is-responsive in $classes {
+  @each $class in $classes {
+    $name: nth($class, 1);
+    $settings: nth($class, 2);
+
+    @if length($settings) == 3 {
+      $is-responsive: nth($settings, 3);
+
+      @if $is-responsive {
+        // Print unprefixed rule for default
+        @include print-styles($name, $settings);
+
+        @for $i from 0 through length($breakpoints) {
+          @if $i > 0 {
+            $key: nth(map-keys($breakpoints), $i);
+
+            @media screen and (min-width: map-get($breakpoints, $key)) {
+              @include print-styles($name, $settings, $key);
+            }
+          }
+        }
+      }
+    } @else {
+      @include print-styles($name, $settings);
+    }
+  }
+}
+
+@mixin print-styles($name, $settings, $abbr: "") {
+  $prefix: "tw-";
+  $classname: "";
+
+  @if $abbr == "" {
+    $classname: $prefix + $name;
+  } @else {
+    $classname: $prefix + $abbr + "-" + $name;
+  }
+
+  // If the desired output consists of incremental classes (ie. pd-1, pd-2,
+  // etc).
+  @if type-of(nth($settings, 2)) == "map" {
+    @each $key, $value in nth($settings, 2) {
+      // Build the class name with the value key.
+      .#{$classname}-#{$key} {
+        // Get the declarations. Typically there is only one declaration, but
+        // in some cases there my be multiple – such as in font-size.
+        $declarations: nth($settings, 1);
+
+        @for $i from 1 through length($declarations) {
+          // Get the specific declaration.
+          $declaration: nth($declarations, $i);
+
+          // If the value is a list (for classes with multiple properties,
+          // like font-size), apply each declaration and value.
+          @if type-of($value) == "list" {
+            #{$declaration}: nth($value, $i) !important;
+          } @else {
+            #{$declaration}: $value !important;
+          }
+        }
+      }
+    }
+  } @else {
+    .#{$classname} {
+      #{nth($settings, 1)}: nth($settings, 2) !important;
+    }
+  }
+}

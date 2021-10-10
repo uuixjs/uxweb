@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`package exports the same fonts 1`] = `
+Array [
+  "Roobert-Bold.woff",
+  "Roobert-Bold.woff2",
+  "Roobert-Regular.woff",
+  "Roobert-Regular.woff2",
+  "Roobert-SemiBold.woff",
+  "Roobert-SemiBold.woff2",
+  "fonts.json",
+]
+`;

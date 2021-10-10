@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bundled package exports the same files 1`] = `
+Array [
+  "android/colors.xml",
+  "build/dictionary.ts",
+  "build/index.ts",
+  "css/theme-root-dark.css",
+  "css/theme-root-light.css",
+  "css/themes.css",
+  "css/variables.css",
+  "ios/CoreUITheme.swift",
+  "ios/TWCoreUITheme.h",
+  "ios/UIColor+CoreUI.swift",
+  "json/all.json",
+  "json/dark.json",
+  "json/light.json",
+  "json/variables.json",
+  "scss/themes.scss",
+  "scss/variables.scss",
+]
+`;

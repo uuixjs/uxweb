@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea renders text area component with all props 1`] = `
+<InjectLayout
+  borderRadius="border-radius-medium"
+  fontSize="font-size-6"
+  overflow="hidden"
+>
+  <Styled(styled.input)
+    $noResize={true}
+    as="textarea"
+    autoComplete="on"
+    autoFocus={true}
+    className="tw-textarea tw-textarea--error tw-textarea--no-resize"
+    cols={10}
+    defaultValue="Default value"
+    disabled={true}
+    error={true}
+    id="Test ID"
+    maxLength={100}
+    name="Test name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onFocus={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    placeholder="Test placeholder"
+    rows={10}
+    style={
+      Object {
+        "paddingLeft": "4rem",
+        "paddingRight": "4rem",
+      }
+    }
+    tabIndex={0}
+    value="Test value"
+  />
+</InjectLayout>
+`;
+
+exports[`TextArea renders text area component with autoComplete prop 1`] = `
+<InjectLayout
+  borderRadius="border-radius-medium"
+  fontSize="font-size-6"
+>
+  <Styled(styled.input)
+    as="textarea"
+    autoComplete="off"
+    className="tw-textarea"
+    style={
+      Object {
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+      }
+    }
+  />
+</InjectLayout>
+`;
+
+exports[`TextArea renders text area component with required props 1`] = `
+<InjectLayout
+  borderRadius="border-radius-medium"
+  fontSize="font-size-6"
+>
+  <Styled(styled.input)
+    as="textarea"
+    className="tw-textarea"
+    style={
+      Object {
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+      }
+    }
+  />
+</InjectLayout>
+`;
+
+exports[`TextArea renders text area component with size prop 1`] = `
+<InjectLayout
+  borderRadius="border-radius-medium"
+  fontSize="font-size-5"
+>
+  <Styled(styled.input)
+    as="textarea"
+    className="tw-textarea"
+    style={
+      Object {
+        "paddingLeft": undefined,
+        "paddingRight": undefined,
+      }
+    }
+  />
+</InjectLayout>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders card component with all props 1`] = `
+<Layout
+  className="tw-card"
+  position="relative"
+>
+  <Layout
+    alignItems="center"
+    background="alt-2"
+    border={true}
+    display="flex"
+    elevation={3}
+    flexDirection="row"
+    flexWrap="nowrap"
+  />
+</Layout>
+`;
+
+exports[`Card renders card component with required props 1`] = `
+<Layout
+  className="tw-card"
+  position="relative"
+>
+  <Layout
+    display="flex"
+    flexDirection="column"
+    flexWrap="nowrap"
+  />
+</Layout>
+`;

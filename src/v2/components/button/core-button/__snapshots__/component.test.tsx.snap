@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreButton renders CoreButton component with all props 1`] = `
+<Styled(Styled(Component))
+  $disabled={true}
+  $fullWidth={true}
+  $overlay={true}
+  $rounding="left"
+  $size="large"
+  autoFocus={true}
+  disabled={true}
+  disabledInteraction={true}
+  download="Download all the things"
+  linkTo="/"
+  onClick={[MockFunction]}
+  tabIndex={0}
+  targetBlank={true}
+  title="Test title"
+>
+  Test Button
+</Styled(Styled(Component))>
+`;
+
+exports[`CoreButton renders CoreButton component with required props 1`] = `
+<Styled(Component)
+  $rounding="default"
+  $size="default"
+/>
+`;

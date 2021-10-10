@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardBody renders card body component with all props 1`] = `
+<Layout
+  className="tw-card-body"
+  overflow="hidden"
+  position="relative"
+/>
+`;
+
+exports[`CardBody renders card body component with required props 1`] = `
+<Layout
+  className="tw-card-body"
+  position="relative"
+/>
+`;

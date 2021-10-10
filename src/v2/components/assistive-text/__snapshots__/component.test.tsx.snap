@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Assistive Text renders AssistiveText component with all type prop as a span 1`] = `
+<InjectLayout
+  display="hide-accessible"
+>
+  <CoreText
+    type="span"
+  >
+    Test
+  </CoreText>
+</InjectLayout>
+`;
+
+exports[`Assistive Text renders AssistiveText component with required props 1`] = `
+<InjectLayout
+  display="hide-accessible"
+>
+  <CoreText />
+</InjectLayout>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Animation renders animation component with all props 1`] = `
+<styled.div
+  $delay="medium"
+  $duration="medium"
+  $enabled={true}
+  $fillMode="both"
+  $loop={true}
+  $timing="ease-in-out"
+  $type="bounce"
+  className="tw-animation"
+  data-a-target="tw-animation-target"
+  onAnimationEnd={[MockFunction]}
+  onAnimationStart={[MockFunction]}
+/>
+`;
+
+exports[`Animation renders animation component with only required props 1`] = `
+<styled.div
+  $duration="short"
+  $fillMode="both"
+  $timing="ease"
+  $type="bounce"
+  className="tw-animation"
+  data-a-target="tw-animation-target"
+/>
+`;

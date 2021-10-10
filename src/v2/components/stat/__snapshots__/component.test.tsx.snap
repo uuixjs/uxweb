@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stat renders stat component with all props 1`] = `
+<AttachedTooltip
+  align="right"
+  direction="left"
+  label="Test label"
+>
+  <styled.div
+    className="tw-stat"
+  >
+    <styled.div
+      className="tw-stat__icon"
+    >
+      <Icon
+        asset="Gear"
+        fill={true}
+      />
+    </styled.div>
+    <Layout
+      className="tw-stat__value"
+      data-a-target="tw-stat-value"
+      margin={
+        Object {
+          "left": 0.5,
+        }
+      }
+    >
+      Test value
+    </Layout>
+  </styled.div>
+</AttachedTooltip>
+`;
+
+exports[`Stat renders stat component with required props 1`] = `
+<AttachedTooltip
+  align="center"
+  direction="bottom"
+  label="Test label"
+>
+  <styled.div
+    className="tw-stat"
+  >
+    <styled.div
+      className="tw-stat__icon"
+    >
+      <Icon
+        asset="Gear"
+        fill={true}
+      />
+    </styled.div>
+    <Layout
+      className="tw-stat__value"
+      data-a-target="tw-stat-value"
+      margin={
+        Object {
+          "left": 0.5,
+        }
+      }
+    >
+      Test value
+    </Layout>
+  </styled.div>
+</AttachedTooltip>
+`;

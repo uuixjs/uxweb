@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+@include build-classes(
+  (
+    "cursor": (
+      "cursor",
+      (
+        "default": default,
+        "auto": auto,
+        "not-allowed": not-allowed,
+        "pointer": pointer
+      ),
+    ),
+  )
+);

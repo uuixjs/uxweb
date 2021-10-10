@@ -1,0 +1,164 @@
+// Token Getter
+// Shortcut for map--get($theme, 'token-name')
+
+@function token($token) {
+  @if $theme {
+    @if map-has-key($theme, $token) {
+      @return map-get($theme, $token);
+    } @else {
+      @error 'Invalid token name: `#{$token}`.';
+    }
+  } @else {
+    @error '`token('#{$token}')` must be used from within the `+theme` mixin.';
+  }
+}
+
+// Theming Mixin
+// https://git.xarth.tv/web/phoenix/issues/164
+
+@mixin print-theme-styles($property-map, $theme) {
+  @each $property, $key in $property-map {
+    @if map-has-key($theme, $key) {
+      #{$property}: map-get($theme, $key);
+    } @else {
+      @error 'Invalid token name: `#{$key}`.';
+    }
+  }
+}
+
+@mixin theme($property: "", $dark: inherit, $light: inherit) {
+  // If a map of properties and their tokens is passed, ie:
+  // ```
+  // +theme((background: 'color-background-base', color: 'color-text-base'))
+  // ```
+  @if type-of($property) == "map" {
+    //Argument Maps
+    $property-map: $property;
+
+    @each $current-theme in map-keys($themes) {
+      $theme: map-get($themes, $current-theme);
+
+      @if $current-theme == $default-theme {
+        @include print-theme-styles($property-map, $theme);
+      }
+
+      @if global-variable-exists(features-enabled) {
+        @if $features-enabled {
+          @at-root #{$root-selector}theme-#{$current-theme}#{&} {
+            @include print-theme-styles($property-map, $theme);
+          }
+        } @else {
+          #{$root-selector}theme-#{$current-theme} & {
+            @include print-theme-styles($property-map, $theme);
+          }
+        }
+      } @else {
+        #{$root-selector}theme-#{$current-theme} & {
+          @include print-theme-styles($property-map, $theme);
+        }
+      }
+    }
+  }
+  // If each selector and token is passed on it's own line, ie:
+  // ```
+  // +theme
+  //   background: token('color-text-base')
+  //   color: token('color-background-base')
+  // ```
+  @else if $property == "" {
+    //Current Theme
+    @each $current-theme in map-keys($themes) {
+      // Have to use !global hack to set current theme, and then
+      // reference the magic $theme variable in map-get calls,
+      // which is ugly. Also potential for bugs there, if you
+      // reference $theme without wrapping it in @include theme().
+      $theme: map-get($themes, $current-theme) !global;
+
+      @if $current-theme == $default-theme {
+        @content;
+      }
+
+      @if global-variable-exists(features-enabled) {
+        @if $features-enabled {
+          @at-root #{$root-selector}theme-#{$current-theme}#{&} {
+            @content;
+          }
+        } @else {
+          #{$root-selector}theme-#{$current-theme} & {
+            @content;
+          }
+        }
+      } @else {
+        #{$root-selector}theme-#{$current-theme} & {
+          @content;
+        }
+      }
+      // After applying theme styles, set the theme to `false`. This allows us
+      // to catch uses of `token()` that are not within a `+theme` call.
+      $theme: false !global;
+    }
+  }
+  // Legacy implementation, ie: light and dark.
+  @else if type-of($property) == "string" {
+    #{$property}: $light;
+    #{$root-selector}theme-dark & {
+      #{$property}: $dark;
+    }
+    #{$root-selector}theme-light & {
+      #{$property}: $light;
+    }
+  }
+}
+
+// Arrows
+// ----------------------------------------------------------------------------
+@mixin arrow($dir: down, $color: "color-text-base", $width: 6px) {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: transparent solid $width;
+
+  @if $dir == up {
+    border-bottom-width: $width;
+    border-top-width: 0;
+    border-bottom-color: $color;
+  } @else if $dir == right {
+    border-left-width: $width;
+    border-right-width: 0;
+
+    @include theme {
+      border-left-color: token($color);
+    }
+  } @else if $dir == down {
+    border-top-width: $width;
+    border-bottom-width: 0;
+    border-top-color: $color;
+  } @else if $dir == left {
+    border-right-width: $width;
+    border-left-width: 0;
+
+    @include theme {
+      border-right-color: token($color);
+    }
+  }
+}
+
+// Deprecated
+// ---------------------------------------------------------------------------
+
+// 06.21.2017: `token-get($token)` is being deprecated in favor of the
+// simpler `token($token)`.
+@function token-get($token) {
+  @warn 'The `token-get` function will be deprecated. Use `token('#{$token}')`.';
+
+  @if $theme {
+    @if map-has-key($theme, $token) {
+      @return map-get($theme, $token);
+    } @else {
+      @error 'Invalid token name: `#{$token}`.';
+    }
+  } @else {
+    @error '`token('#{$token}')` must be used from within the `+theme` mixin.';
+  }
+}

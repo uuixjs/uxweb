@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopoverHeader renders Popover header component 1`] = `
+<Styled(Layout)
+  borderRadius={
+    Object {
+      "topLeft": "border-radius-medium",
+      "topRight": "border-radius-medium",
+    }
+  }
+  className="tw-popover-header"
+  color="base"
+  elevation={1}
+  padding={
+    Object {
+      "x": 1,
+      "y": 0.5,
+    }
+  }
+>
+  <styled.div
+    className="tw-popover-header__icon-slot--left"
+    margin={
+      Object {
+        "right": 0.5,
+      }
+    }
+  />
+  <InjectLayout
+    alignItems="center"
+    display="flex"
+    flexDirection="column"
+    flexGrow={1}
+    justifyContent="center"
+  >
+    <div
+      id="test-popover-id-header"
+    />
+  </InjectLayout>
+  <styled.div
+    className="tw-popover-header__icon-slot--right"
+    margin={
+      Object {
+        "left": 0.5,
+      }
+    }
+  >
+    <ForwardRef(CoreDismissible)
+      aria-label="Close"
+      variant="secondary"
+    />
+  </styled.div>
+</Styled(Layout)>
+`;
+
+exports[`PopoverHeader renders Popover header component with all props 1`] = `
+<Styled(Layout)
+  borderRadius={
+    Object {
+      "topLeft": "border-radius-medium",
+      "topRight": "border-radius-medium",
+    }
+  }
+  className="tw-popover-header"
+  color="base"
+  elevation={1}
+  padding={
+    Object {
+      "x": 1,
+      "y": 0.5,
+    }
+  }
+>
+  <styled.div
+    className="tw-popover-header__icon-slot--left"
+    margin={
+      Object {
+        "right": 0.5,
+      }
+    }
+  >
+    <ButtonIcon
+      aria-label="label left primary"
+      icon="GlyphArrLeft"
+      variant="secondary"
+    />
+  </styled.div>
+  <styled.div
+    className="tw-popover-header__icon-slot--left"
+    margin={
+      Object {
+        "right": 0.5,
+      }
+    }
+  >
+    <ButtonIcon
+      aria-label="label left secondary"
+      icon="Check"
+      variant="secondary"
+    />
+  </styled.div>
+  <InjectLayout
+    alignItems="center"
+    display="flex"
+    flexDirection="column"
+    flexGrow={1}
+    justifyContent="center"
+  >
+    <div
+      id="test-popover-id-header"
+    >
+      <PopoverTitle
+        title="Title"
+      />
+    </div>
+  </InjectLayout>
+  <styled.div
+    className="tw-popover-header__icon-slot--right"
+    margin={
+      Object {
+        "left": 0.5,
+      }
+    }
+  >
+    <ButtonIcon
+      aria-label="label right secondary"
+      icon="Close"
+      variant="secondary"
+    />
+  </styled.div>
+  <styled.div
+    className="tw-popover-header__icon-slot--right"
+    margin={
+      Object {
+        "left": 0.5,
+      }
+    }
+  >
+    <ForwardRef(CoreDismissible)
+      aria-label="Close"
+      variant="secondary"
+    />
+  </styled.div>
+</Styled(Layout)>
+`;
+
+exports[`PopoverHeader renders Popover header component with child node instead of title/subtitle pattern 1`] = `
+<Styled(Layout)
+  borderRadius={
+    Object {
+      "topLeft": "border-radius-medium",
+      "topRight": "border-radius-medium",
+    }
+  }
+  className="tw-popover-header"
+  color="base"
+  elevation={1}
+  padding={
+    Object {
+      "x": 1,
+      "y": 0.5,
+    }
+  }
+>
+  <styled.div
+    className="tw-popover-header__icon-slot--left"
+    margin={
+      Object {
+        "right": 0.5,
+      }
+    }
+  >
+    <ButtonIcon
+      aria-label="label left primary"
+      icon="GlyphArrLeft"
+      variant="secondary"
+    />
+  </styled.div>
+  <styled.div
+    className="tw-popover-header__icon-slot--left"
+    margin={
+      Object {
+        "right": 0.5,
+      }
+    }
+  >
+    <ButtonIcon
+      aria-label="label left secondary"
+      icon="Check"
+      variant="secondary"
+    />
+  </styled.div>
+  <InjectLayout
+    alignItems="center"
+    display="flex"
+    flexDirection="column"
+    flexGrow={1}
+    justifyContent="center"
+  >
+    <div
+      id="test-popover-id-header"
+    >
+      Title
+    </div>
+  </InjectLayout>
+  <styled.div
+    className="tw-popover-header__icon-slot--right"
+    margin={
+      Object {
+        "left": 0.5,
+      }
+    }
+  >
+    <ButtonIcon
+      aria-label="label right secondary"
+      icon="Close"
+      variant="secondary"
+    />
+  </styled.div>
+  <styled.div
+    className="tw-popover-header__icon-slot--right"
+    margin={
+      Object {
+        "left": 0.5,
+      }
+    }
+  >
+    <ForwardRef(CoreDismissible)
+      aria-label="Close"
+      variant="secondary"
+    />
+  </styled.div>
+</Styled(Layout)>
+`;
+
+exports[`PopoverHeader renders Popover header component with secondary icons in the primary slot if they are the only ones provided 1`] = `
+<Styled(Layout)
+  borderRadius={
+    Object {
+      "topLeft": "border-radius-medium",
+      "topRight": "border-radius-medium",
+    }
+  }
+  className="tw-popover-header"
+  color="base"
+  elevation={1}
+  padding={
+    Object {
+      "x": 1,
+      "y": 0.5,
+    }
+  }
+>
+  <styled.div
+    className="tw-popover-header__icon-slot--left"
+    margin={
+      Object {
+        "right": 0.5,
+      }
+    }
+  >
+    <ButtonIcon
+      aria-label="label left secondary"
+      icon="Check"
+      variant="secondary"
+    />
+  </styled.div>
+  <styled.div
+    className="tw-popover-header__icon-slot--left"
+    margin={
+      Object {
+        "right": 0.5,
+      }
+    }
+  />
+  <InjectLayout
+    alignItems="center"
+    display="flex"
+    flexDirection="column"
+    flexGrow={1}
+    justifyContent="center"
+  >
+    <div
+      id="test-popover-id-header"
+    >
+      <PopoverTitle
+        title="Title"
+      />
+    </div>
+  </InjectLayout>
+  <styled.div
+    className="tw-popover-header__icon-slot--right"
+    margin={
+      Object {
+        "left": 0.5,
+      }
+    }
+  >
+    <ButtonIcon
+      aria-label="label right secondary"
+      icon="Close"
+      variant="secondary"
+    />
+  </styled.div>
+  <styled.div
+    className="tw-popover-header__icon-slot--right"
+    margin={
+      Object {
+        "left": 0.5,
+      }
+    }
+  >
+    <ForwardRef(CoreDismissible)
+      aria-label="Close"
+      variant="secondary"
+    />
+  </styled.div>
+</Styled(Layout)>
+`;

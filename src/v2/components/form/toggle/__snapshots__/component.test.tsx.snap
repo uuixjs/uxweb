@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle renders toggle area component with all props 1`] = `
+<styled.div
+  className="tw-toggle"
+>
+  <styled.input
+    autoFocus={true}
+    checked={true}
+    className="tw-toggle__input"
+    data-a-target="tw-toggle"
+    defaultValue="Default value"
+    disabled={true}
+    id="Test ID"
+    name="Test name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onFocus={[MockFunction]}
+    tabIndex={0}
+    type="checkbox"
+    value="Test value"
+  />
+  <styled.label
+    className="tw-toggle__button"
+    error={true}
+    htmlFor="Test ID"
+  >
+    <AssistiveText>
+      Test label
+    </AssistiveText>
+  </styled.label>
+</styled.div>
+`;
+
+exports[`Toggle renders toggle area component with required props 1`] = `
+<styled.div
+  className="tw-toggle"
+>
+  <styled.input
+    className="tw-toggle__input"
+    data-a-target="tw-toggle"
+    id="Test ID"
+    type="checkbox"
+  />
+  <styled.label
+    className="tw-toggle__button"
+    htmlFor="Test ID"
+  />
+</styled.div>
+`;

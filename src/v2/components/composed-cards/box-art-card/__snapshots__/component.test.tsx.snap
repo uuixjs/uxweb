@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoxArtCard renders box art card component as a placeholder 1`] = `
+<Fragment>
+  <Layout
+    margin={
+      Object {
+        "bottom": 0.5,
+      }
+    }
+  >
+    <Aspect
+      align={3}
+      overflow={false}
+      ratio="tw-aspect--3x4"
+    >
+      <Placeholder />
+    </Aspect>
+  </Layout>
+  <CoreText>
+    <Placeholder
+      width={150}
+    />
+  </CoreText>
+  <CoreText
+    fontSize="font-size-7"
+  >
+    <Placeholder
+      width={100}
+    />
+  </CoreText>
+</Fragment>
+`;
+
+exports[`BoxArtCard renders box art card component with all props 1`] = `
+<div
+  className="tw-box-art-card"
+>
+  <Card
+    key="Test title"
+  >
+    <Styled(Component)
+      aria-label="Test title"
+      className="tw-box-art-card__link"
+      data-a-target="tw-box-art-card-link"
+      disabled={true}
+      hoverColorInherit={true}
+      hoverUnderlineNone={true}
+      linkTo="/"
+      variant="inherit"
+    >
+      <styled.div
+        className="tw-box-art-card__image"
+        data-a-target="tw-card-image"
+        data-test-selector="tw-card-image"
+        disabled={true}
+        unavailable={true}
+      >
+        <CardImage
+          alt="Test Alt"
+          aspect="tw-aspect--3x4"
+          borderRadius="border-radius-medium"
+          src="srcURL"
+        />
+      </styled.div>
+      <CardBody>
+        <Layout
+          data-a-target="tw-card-title"
+          data-test-selector="tw-card-title"
+          margin={
+            Object {
+              "top": 0.5,
+            }
+          }
+        >
+          <CoreText
+            className="tw-box-art-card__title"
+            ellipsis={true}
+            fontSize="font-size-5"
+            lineHeight="body"
+            type="h3"
+          >
+            Test title
+          </CoreText>
+          <CoreText
+            color="alt-2"
+            ellipsis={true}
+          >
+            test sting
+          </CoreText>
+        </Layout>
+      </CardBody>
+    </Styled(Component)>
+    <Layout
+      className="tw-box-art-card__tags"
+      margin={
+        Object {
+          "top": 0.5,
+        }
+      }
+    >
+      <Layout
+        display="inline-block"
+        fontSize="font-size-7"
+        key="0"
+        margin={
+          Object {
+            "bottom": 0.5,
+            "right": 0.5,
+          }
+        }
+      >
+        <Tag
+          data-a-target="Tag One"
+          label="Tag One"
+        />
+      </Layout>
+      <Layout
+        display="inline-block"
+        fontSize="font-size-7"
+        key="1"
+        margin={
+          Object {
+            "bottom": 0.5,
+            "right": 0.5,
+          }
+        }
+      >
+        <Tag
+          data-a-target="Tag Two"
+          label="Tag Two"
+        />
+      </Layout>
+    </Layout>
+  </Card>
+</div>
+`;
+
+exports[`BoxArtCard renders box art card component with required props 1`] = `
+<div
+  className="tw-box-art-card"
+>
+  <Card
+    key="Test title"
+  >
+    <styled.div
+      className="tw-box-art-card__image"
+      data-a-target="tw-card-image"
+      data-test-selector="tw-card-image"
+    >
+      <CardImage
+        alt="Test Alt"
+        aspect="tw-aspect--3x4"
+        borderRadius="border-radius-medium"
+        src="srcURL"
+      />
+    </styled.div>
+    <CardBody>
+      <Layout
+        data-a-target="tw-card-title"
+        data-test-selector="tw-card-title"
+        margin={
+          Object {
+            "top": 0.5,
+          }
+        }
+      >
+        <CoreText
+          className="tw-box-art-card__title"
+          ellipsis={true}
+          fontSize="font-size-5"
+          lineHeight="body"
+          type="h3"
+        >
+          Test title
+        </CoreText>
+        <CoreText
+          color="alt-2"
+          ellipsis={true}
+        >
+          test sting
+        </CoreText>
+      </Layout>
+    </CardBody>
+  </Card>
+</div>
+`;

@@ -1,0 +1,59 @@
+@import "../variables.scss";
+
+$z-index-above: 10 !default;
+$z-index-default: 1 !default;
+$z-index-below: -1 !default;
+
+// Map the classes.
+$coordinates: (
+  "0": 0,
+);
+
+$position-classes: (
+  "relative": (
+    "position",
+    relative,
+    true,
+  ),
+  "absolute": (
+    "position",
+    absolute,
+    true,
+  ),
+  "fixed": (
+    "position",
+    fixed,
+    true,
+  ),
+  "top": (
+    "top",
+    $coordinates,
+  ),
+  "right": (
+    "right",
+    $coordinates,
+  ),
+  "bottom": (
+    "bottom",
+    $coordinates,
+  ),
+  "left": (
+    "left",
+    $coordinates,
+  ),
+  "z-above": (
+    "z-index",
+    $z-index-above,
+  ),
+  "z-default": (
+    "z-index",
+    $z-index-default,
+  ),
+  "z-below": (
+    "z-index",
+    $z-index-below,
+  ),
+);
+
+// Build the classes.
+@include build-classes($position-classes);

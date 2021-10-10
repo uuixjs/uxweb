@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast renders toast component with all props 1`] = `
+<Layout
+  fullWidth={true}
+>
+  <Styled(Layout)
+    background="base"
+    border={true}
+    className="tw-toast"
+    display="flex"
+    elevation={3}
+    flexWrap="nowrap"
+  >
+    <Layout
+      flexGrow={1}
+    />
+    <Layout
+      borderLeft={true}
+      display="flex"
+      flexShrink={0}
+    >
+      <ForwardRef(Interactable)
+        aria-label="Dismiss This"
+        data-a-target="tw-toast-close"
+        onClick={[MockFunction]}
+        tabIndex={0}
+      >
+        <Styled(Layout)
+          alignItems="center"
+          className="tw-toast__dismiss-target"
+          display="flex"
+          justifyContent="center"
+          padding={1}
+        >
+          <Icon
+            asset="Close"
+          />
+        </Styled(Layout)>
+      </ForwardRef(Interactable)>
+    </Layout>
+  </Styled(Layout)>
+</Layout>
+`;
+
+exports[`Toast renders toast component with only required props 1`] = `
+<Layout
+  fullWidth={true}
+>
+  <Styled(Layout)
+    background="base"
+    border={true}
+    className="tw-toast"
+    display="flex"
+    elevation={3}
+    flexWrap="nowrap"
+  >
+    <Layout
+      flexGrow={1}
+    />
+    <Layout
+      borderLeft={true}
+      display="flex"
+      flexShrink={0}
+    >
+      <ForwardRef(Interactable)
+        aria-label="Dismiss This"
+        data-a-target="tw-toast-close"
+      >
+        <Styled(Layout)
+          alignItems="center"
+          className="tw-toast__dismiss-target"
+          display="flex"
+          justifyContent="center"
+          padding={1}
+        >
+          <Icon
+            asset="Close"
+          />
+        </Styled(Layout)>
+      </ForwardRef(Interactable)>
+    </Layout>
+  </Styled(Layout)>
+</Layout>
+`;

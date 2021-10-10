@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InFeatureNotification renders in-feature notification component with all props 1`] = `
+<styled.div
+  className="tw-in-feature-notification"
+  type="info"
+>
+  <Layout
+    background="alt"
+    borderRadius="border-radius-medium"
+  >
+    <Layout
+      display="flex"
+    >
+      <Layout
+        display="flex"
+        fullWidth={true}
+      >
+        <styled.div
+          $adjusted={true}
+          className="tw-in-feature-notification__avatar"
+        >
+          <NotificationFigure
+            avatar={
+              Object {
+                "alt": "doobix's Avatar",
+                "size": 30,
+                "src": "http://twitch.tv/doobix/avatar.jpg",
+                "userLogin": "doobix",
+              }
+            }
+            type="info"
+          />
+        </styled.div>
+        <Layout
+          alignItems="center"
+          display="flex"
+          fullWidth={true}
+        >
+          <Layout
+            fullWidth={true}
+            padding={
+              Object {
+                "right": 1,
+                "y": 1,
+              }
+            }
+          >
+            <NotificationMessage
+              description="Here is a descriptive description"
+              link={
+                Object {
+                  "linkTo": "http://www.twitch.tv/doobix",
+                }
+              }
+              title="This is a Title"
+            />
+          </Layout>
+        </Layout>
+      </Layout>
+      <styled.div
+        className="tw-in-feature-notification__close-button"
+      >
+        <ForwardRef(CoreDismissible)
+          aria-label="Close"
+          onClick={[MockFunction]}
+          size="small"
+          variant="secondary"
+        />
+      </styled.div>
+    </Layout>
+    <Layout
+      padding={
+        Object {
+          "bottom": 1,
+          "x": 1,
+        }
+      }
+    >
+      <NotificationActions
+        primaryButton={
+          Object {
+            "aria-label": "Primary Button",
+            "children": "Primary Button",
+          }
+        }
+        secondaryButton={
+          Object {
+            "children": "Secondary Button",
+          }
+        }
+        type="info"
+      />
+    </Layout>
+  </Layout>
+</styled.div>
+`;
+
+exports[`InFeatureNotification renders in-feature notification component with only required props 1`] = `
+<styled.div
+  className="tw-in-feature-notification"
+  type="info"
+>
+  <Layout
+    background="base"
+    borderRadius="border-radius-medium"
+  >
+    <Layout
+      display="flex"
+    >
+      <Layout
+        display="flex"
+        fullWidth={true}
+      >
+        <styled.div
+          $adjusted={true}
+          className="tw-in-feature-notification__avatar"
+        >
+          <NotificationFigure
+            type="info"
+          />
+        </styled.div>
+        <Layout
+          alignItems="center"
+          display="flex"
+          fullWidth={true}
+        >
+          <Layout
+            fullWidth={true}
+            padding={
+              Object {
+                "right": 1,
+                "y": 1,
+              }
+            }
+          >
+            <NotificationMessage
+              description="Here is a descriptive description"
+              link={
+                Object {
+                  "linkTo": "http://www.twitch.tv/doobix",
+                }
+              }
+              title="This is a Title"
+            />
+          </Layout>
+        </Layout>
+      </Layout>
+      <styled.div
+        className="tw-in-feature-notification__close-button"
+      >
+        <ForwardRef(CoreDismissible)
+          aria-label="Close"
+          size="small"
+          variant="secondary"
+        />
+      </styled.div>
+    </Layout>
+  </Layout>
+</styled.div>
+`;

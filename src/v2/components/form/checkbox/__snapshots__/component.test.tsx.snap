@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBox renders a checkbox component with size prop 1`] = `
+<Layout
+  className="tw-checkbox"
+  fontSize="font-size-5"
+  position="relative"
+>
+  <styled.input
+    className="tw-checkbox__input"
+    data-a-target="tw-checkbox"
+    id="test-id"
+    type="checkbox"
+  />
+  <Styled(styled.label)
+    className="tw-checkbox__label"
+    htmlFor="test-id"
+  >
+    <Layout
+      margin={
+        Object {
+          "left": 1,
+        }
+      }
+    >
+      Test Label
+    </Layout>
+  </Styled(styled.label)>
+</Layout>
+`;
+
+exports[`CheckBox renders checkbox component with all props 1`] = `
+<Layout
+  className="tw-checkbox tw-checkbox--error tw-checkbox--overlay"
+  fontSize="font-size-6"
+  position="relative"
+>
+  <styled.input
+    autoFocus={true}
+    checked={true}
+    className="tw-checkbox__input"
+    data-a-target="tw-checkbox"
+    defaultChecked={true}
+    disabled={true}
+    id="test-id"
+    name="Test name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onFocus={[MockFunction]}
+    required={true}
+    tabIndex={0}
+    type="checkbox"
+    value="Test value"
+  />
+  <Styled(styled.label)
+    className="tw-checkbox__label"
+    error={true}
+    htmlFor="test-id"
+    overlay={true}
+  >
+    <Layout
+      margin={
+        Object {
+          "left": 1,
+        }
+      }
+    >
+      Test Label
+    </Layout>
+  </Styled(styled.label)>
+</Layout>
+`;
+
+exports[`CheckBox renders checkbox component with required props 1`] = `
+<Layout
+  className="tw-checkbox"
+  fontSize="font-size-6"
+  position="relative"
+>
+  <styled.input
+    className="tw-checkbox__input"
+    data-a-target="tw-checkbox"
+    id="test-id"
+    type="checkbox"
+  />
+  <Styled(styled.label)
+    className="tw-checkbox__label"
+    htmlFor="test-id"
+  >
+    <Layout
+      margin={
+        Object {
+          "left": 1,
+        }
+      }
+    >
+      Test Label
+    </Layout>
+  </Styled(styled.label)>
+</Layout>
+`;

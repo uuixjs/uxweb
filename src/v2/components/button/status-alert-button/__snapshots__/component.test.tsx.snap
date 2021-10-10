@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusAlertButton renders StatusAlertButton component with more options 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+  overflow: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: 600;
+  border-radius: 0.6rem;
+  font-size: 1.4rem;
+  height: 3.6rem;
+}
+
+.c2[data-focus-visible-added] {
+  box-shadow: 0 0 6px 0 #772ce8;
+}
+
+.c2:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2:disabled {
+  cursor: not-allowed;
+}
+
+.c14 {
+  padding-bottom: 100%;
+}
+
+.c12 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.c12 > *:not(.c13) {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.c15 {
+  fill: currentColor;
+}
+
+.c6 {
+  -webkit-box-flex: 1 !important;
+  -webkit-flex-grow: 1 !important;
+  -ms-flex-positive: 1 !important;
+  flex-grow: 1 !important;
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-align-items: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  -webkit-box-pack: start !important;
+  -webkit-justify-content: flex-start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+}
+
+.c9 {
+  margin-right: 0.5rem !important;
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-align-items: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 2.4rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: calc(1rem - 0.2rem);
+  padding-right: 1rem;
+}
+
+.c1 {
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-property: background-color,color;
+  transition-property: background-color,color;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  background-color: #00db84;
+  color: #000000;
+}
+
+.c1:hover {
+  background-color: #ffaaa8;
+  color: #000000;
+}
+
+.c1:hover:active {
+  background-color: #ff4f4d;
+  color: #000000;
+}
+
+.c1[data-focus-visible-added] {
+  background-color: #ffaaa8;
+  color: #000000;
+}
+
+.c1[data-focus-visible-added]:active {
+  background-color: #ff4f4d;
+  color: #000000;
+}
+
+.c1:active: {
+  background-color: #ff4f4d;
+  color: #000000;
+}
+
+.c4 {
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 3.6rem;
+  opacity: 1;
+  margin-top: 0;
+}
+
+.c0:hover .c3 {
+  opacity: 0;
+}
+
+.c0[data-focus-visible-added] .c3 {
+  opacity: 0;
+}
+
+.c7 {
+  -webkit-transition-duration: 100ms;
+  transition-duration: 100ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 3.6rem;
+  opacity: 0;
+  margin-top: calc(-1 * 3.6rem);
+}
+
+.c0:hover .c3 {
+  opacity: 1;
+}
+
+.c0[data-focus-visible-added] .c3 {
+  opacity: 1;
+}
+
+<ForwardRef(StatusAlertButton)
+  size="large"
+  statusAlertIcon="StarHollow"
+  statusAlertText="Unstar"
+  title="Test title"
+>
+  <Styled(CoreButton)
+    $iconOnly={false}
+    className="tw-status-alert-button"
+    size="large"
+    title="Test title"
+  >
+    <CoreButton
+      className="c0 c1 tw-status-alert-button"
+      size="large"
+      title="Test title"
+    >
+      <ForwardRef(CoreButton)
+        className="c0 c1 tw-status-alert-button"
+        overlay={false}
+        size="large"
+        title="Test title"
+      >
+        <Styled(Component)
+          $overlay={false}
+          $rounding="default"
+          $size="large"
+          className="c0 c1 tw-status-alert-button"
+          title="Test title"
+        >
+          <ForwardRef(CoreInteractive)
+            className="c2 c0 c1 tw-status-alert-button"
+            title="Test title"
+          >
+            <button
+              className="c2 c0 c1 tw-status-alert-button"
+              title="Test title"
+            >
+              <div>
+                <styled.div
+                  size="large"
+                  type="primary"
+                >
+                  <div
+                    className="c3 c4"
+                    size="large"
+                    type="primary"
+                  >
+                    <CoreButtonLabel
+                      fullWidth={true}
+                      size="large"
+                    >
+                      <styled.div
+                        hasIcon={false}
+                        isDropdown={false}
+                        isFullWidth={true}
+                      >
+                        <div
+                          className="c5"
+                        >
+                          <Layout
+                            alignItems="center"
+                            data-a-target="tw-core-button-label-text"
+                            display="flex"
+                            flexGrow={1}
+                            justifyContent="flex-start"
+                          >
+                            <div
+                              className="c6"
+                              data-a-target="tw-core-button-label-text"
+                            >
+                              Star
+                            </div>
+                          </Layout>
+                        </div>
+                      </styled.div>
+                    </CoreButtonLabel>
+                  </div>
+                </styled.div>
+                <styled.div
+                  size="large"
+                  type="alert"
+                >
+                  <div
+                    className="c3 c7"
+                    size="large"
+                    type="alert"
+                  >
+                    <CoreButtonLabel
+                      fullWidth={true}
+                      icon="StarHollow"
+                      size="large"
+                    >
+                      <styled.div
+                        hasIcon={true}
+                        isDropdown={false}
+                        isFullWidth={true}
+                      >
+                        <div
+                          className="c8"
+                        >
+                          <Layout
+                            alignItems="center"
+                            display="flex"
+                            margin={
+                              Object {
+                                "right": 0.5,
+                              }
+                            }
+                          >
+                            <div
+                              className="c9"
+                            >
+                              <CoreButtonDropdown
+                                icon="StarHollow"
+                                size="large"
+                              >
+                                <styled.div
+                                  className="tw-core-button-icon"
+                                  size="2.4rem"
+                                >
+                                  <div
+                                    className="c10 tw-core-button-icon"
+                                    size="2.4rem"
+                                  >
+                                    <Icon
+                                      asset="StarHollow"
+                                      data-a-selector="tw-core-button-icon"
+                                      fill={true}
+                                    >
+                                      <styled.div
+                                        className="tw-icon"
+                                        data-a-selector="tw-core-button-icon"
+                                        fillParent={true}
+                                      >
+                                        <div
+                                          className="c11 tw-icon"
+                                          data-a-selector="tw-core-button-icon"
+                                        >
+                                          <Aspect
+                                            align={3}
+                                            overflow={false}
+                                            ratio="tw-aspect--1x1"
+                                          >
+                                            <styled.div
+                                              align={3}
+                                              allowOverflow={false}
+                                              className="tw-aspect"
+                                            >
+                                              <div
+                                                className="c12 tw-aspect"
+                                              >
+                                                <styled.div
+                                                  ratio={1}
+                                                >
+                                                  <div
+                                                    className="c13 c14"
+                                                  />
+                                                </styled.div>
+                                                <styled.svg
+                                                  height="100%"
+                                                  version="1.1"
+                                                  viewBox="0 0 20 20"
+                                                  width="100%"
+                                                  x="0px"
+                                                  y="0px"
+                                                >
+                                                  <svg
+                                                    className="c15"
+                                                    height="100%"
+                                                    version="1.1"
+                                                    viewBox="0 0 20 20"
+                                                    width="100%"
+                                                    x="0px"
+                                                    y="0px"
+                                                  >
+                                                    <g>
+                                                      <path
+                                                        clipRule="evenodd"
+                                                        d="M11.456 8.255L10 5.125l-1.456 3.13-3.49.485 2.552 2.516-.616 3.485L10 13.064l3.01 1.677-.616-3.485 2.553-2.516-3.491-.485zM7.19 6.424l-4.2.583c-.932.13-1.318 1.209-.664 1.853l3.128 3.083-.755 4.272c-.163.92.876 1.603 1.722 1.132L10 15.354l3.579 1.993c.846.47 1.885-.212 1.722-1.132l-.755-4.272 3.128-3.083c.654-.644.268-1.723-.664-1.853l-4.2-.583-1.754-3.77c-.406-.872-1.706-.872-2.112 0L7.19 6.424z"
+                                                        fillRule="evenodd"
+                                                      />
+                                                    </g>
+                                                  </svg>
+                                                </styled.svg>
+                                              </div>
+                                            </styled.div>
+                                          </Aspect>
+                                        </div>
+                                      </styled.div>
+                                    </Icon>
+                                  </div>
+                                </styled.div>
+                              </CoreButtonDropdown>
+                            </div>
+                          </Layout>
+                          <Layout
+                            alignItems="center"
+                            data-a-target="tw-core-button-label-text"
+                            display="flex"
+                            flexGrow={1}
+                            justifyContent="flex-start"
+                          >
+                            <div
+                              className="c6"
+                              data-a-target="tw-core-button-label-text"
+                            >
+                              Unstar
+                            </div>
+                          </Layout>
+                        </div>
+                      </styled.div>
+                    </CoreButtonLabel>
+                  </div>
+                </styled.div>
+              </div>
+            </button>
+          </ForwardRef(CoreInteractive)>
+        </Styled(Component)>
+      </ForwardRef(CoreButton)>
+    </CoreButton>
+  </Styled(CoreButton)>
+</ForwardRef(StatusAlertButton)>
+`;

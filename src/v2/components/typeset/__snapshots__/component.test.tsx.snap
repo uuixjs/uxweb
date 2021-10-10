@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typeset renders typeset component with only required props 1`] = `
+<Styled(Layout)
+  className="tw-typeset"
+  fontSize="font-size-5"
+/>
+`;

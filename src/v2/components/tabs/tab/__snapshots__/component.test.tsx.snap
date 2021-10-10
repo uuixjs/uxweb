@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab renders tab component as <a> 1`] = `
+<styled.li
+  className="tw-tab"
+  role="presentation"
+>
+  <Styled(Component)
+    $active={false}
+    $disabled={false}
+    data-a-target="tw-tab-link"
+    linkTo="https://www.google.com"
+    role="tab"
+  />
+</styled.li>
+`;
+
+exports[`Tab renders tab component as <button> with an onclick 1`] = `
+<styled.li
+  className="tw-tab"
+  role="presentation"
+>
+  <Styled(Component)
+    $active={false}
+    $disabled={false}
+    data-a-target="tw-tab-link"
+    onClick={[MockFunction]}
+    role="tab"
+  />
+</styled.li>
+`;
+
+exports[`Tab renders tab component as Link component 1`] = `
+<styled.li
+  className="tw-tab"
+  role="presentation"
+>
+  <Styled(Component)
+    $active={false}
+    $disabled={false}
+    data-a-target="tw-tab-link"
+    linkTo="/"
+    role="tab"
+  />
+</styled.li>
+`;
+
+exports[`Tab renders tab component with all props 1`] = `
+<styled.li
+  className="tw-tab"
+  role="presentation"
+>
+  <Styled(Component)
+    $active={true}
+    $disabled={true}
+    data-a-target="tw-tab-link"
+    disabled={true}
+    linkTo="/"
+    onClick={[MockFunction]}
+    role="tab"
+    targetBlank={true}
+  />
+</styled.li>
+`;
+
+exports[`Tab renders tab component with required props 1`] = `
+<styled.li
+  className="tw-tab"
+  role="presentation"
+>
+  <Styled(Component)
+    $active={false}
+    $disabled={false}
+    data-a-target="tw-tab-link"
+    role="tab"
+  />
+</styled.li>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropZone renders drop zone component with all props 1`] = `
+<Styled(Layout)
+  $disabled={true}
+  $dragOver={true}
+  $error={true}
+  borderRadius="border-radius-medium"
+  className="tw-drop-zone"
+>
+  <div
+    className="tw-drop-zone__content"
+  />
+</Styled(Layout)>
+`;
+
+exports[`DropZone renders drop zone component with required props 1`] = `
+<Styled(Layout)
+  borderRadius="border-radius-medium"
+  className="tw-drop-zone"
+>
+  <div
+    className="tw-drop-zone__content"
+  />
+</Styled(Layout)>
+`;

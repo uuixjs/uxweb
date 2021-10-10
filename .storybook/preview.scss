@@ -1,0 +1,9 @@
+@import "../src/variables";
+
+@import "../src/lib/fonts/fonts/web/fonts";
+
+/* stylelint-disable selector-max-type */
+body {
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+}

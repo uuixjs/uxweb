@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonIcon renders a large button icon component 1`] = `
+<Styled(CoreButton)
+  aria-label="this is my aria label"
+  size="large"
+>
+  <styled.div
+    icon="Gear"
+    size="large"
+  />
+</Styled(CoreButton)>
+`;
+
+exports[`ButtonIcon renders button icon component <button> with an onclick 1`] = `
+<Styled(CoreButton)
+  aria-label="this is my aria label"
+  onClick={[MockFunction]}
+  size="default"
+>
+  <styled.div
+    icon="Gear"
+  />
+</Styled(CoreButton)>
+`;
+
+exports[`ButtonIcon renders button icon component as <a> 1`] = `
+<Styled(CoreButton)
+  aria-label="this is my aria label"
+  linkTo="https://www.google.com"
+  size="default"
+>
+  <styled.div
+    icon="Gear"
+  />
+</Styled(CoreButton)>
+`;
+
+exports[`ButtonIcon renders button icon component as Link component 1`] = `
+<Styled(CoreButton)
+  aria-label="this is my aria label"
+  linkTo="/dashbaord"
+  size="default"
+>
+  <styled.div
+    icon="Gear"
+  />
+</Styled(CoreButton)>
+`;
+
+exports[`ButtonIcon renders button icon component with all props 1`] = `
+<Styled(CoreButton)
+  $dropdown={true}
+  aria-label="this is my aria label"
+  autoFocus={true}
+  disabled={true}
+  download="Download all the things"
+  linkTo="/"
+  onClick={[MockFunction]}
+  overlay={true}
+  size="large"
+  tabIndex={0}
+  targetBlank={true}
+  title="test title"
+>
+  <styled.div
+    icon="Gear"
+    size="large"
+  />
+  <styled.div
+    icon="GlyphArrDown"
+    size="large"
+  />
+</Styled(CoreButton)>
+`;
+
+exports[`ButtonIcon renders button icon component with required props 1`] = `
+<Styled(CoreButton)
+  aria-label="this is my aria label"
+  size="default"
+>
+  <styled.div
+    icon="Gear"
+  />
+</Styled(CoreButton)>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormGroup renders form group component with all props 1`] = `
+<Layout
+  as="div"
+  className="tw-form-group"
+  flexGrow={1}
+  fontSize="font-size-6"
+  position="relative"
+>
+  <Layout
+    margin={
+      Object {
+        "bottom": 0.5,
+      }
+    }
+  >
+    <FormLabel
+      id="test-id"
+      label="Test Label"
+    />
+    <styled.span>
+      (
+      Test optional label
+      )
+    </styled.span>
+  </Layout>
+  <Layout
+    margin={
+      Object {
+        "top": 0.5,
+      }
+    }
+  >
+    <FormError
+      errorMessage="Error message"
+    />
+  </Layout>
+</Layout>
+`;
+
+exports[`FormGroup renders form group component with required props 1`] = `
+<Layout
+  as="div"
+  className="tw-form-group"
+  flexGrow={1}
+  fontSize="font-size-6"
+  position="relative"
+>
+  <Layout
+    margin={
+      Object {
+        "bottom": 0.5,
+      }
+    }
+  >
+    <FormLabel
+      id="test-id"
+      label="Test Label"
+    />
+  </Layout>
+</Layout>
+`;

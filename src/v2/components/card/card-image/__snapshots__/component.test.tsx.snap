@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardImage renders card image component with all props 1`] = `
+<Styled(Layout)
+  $size="tw-card-img--size-3"
+  className="tw-card-image"
+>
+  <Aspect
+    align={3}
+    overflow={true}
+    ratio="tw-aspect--21x9"
+  >
+    <ForwardRef(CoreImage)
+      alt="Text image alt"
+      src="testSrc"
+    />
+  </Aspect>
+</Styled(Layout)>
+`;
+
+exports[`CardImage renders card image component with required props 1`] = `
+<Styled(Layout)
+  $size="tw-card-img--size-default"
+  className="tw-card-image"
+>
+  <Aspect
+    align={3}
+    overflow={false}
+    ratio="tw-aspect--16x9"
+  >
+    <ForwardRef(CoreImage)
+      alt="Text image alt"
+      src="testSrc"
+    />
+  </Aspect>
+</Styled(Layout)>
+`;

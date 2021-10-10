@@ -1,0 +1,21 @@
+@import "../variables.scss";
+
+$tokens: map-keys(map-get($themes, $default-theme));
+
+@include build-color-classes($tokens, "background");
+@include build-color-classes($tokens, "border");
+@include build-color-classes($tokens, "text");
+
+/*
+  * MS EdgeHTML 18 compatbility:
+  *
+  * There is a bug when `inherit` is used as a value of a CSS custom property.
+  * It is important that we set `inherit` as a value directly.
+  */
+.tw-c-text-inherit {
+  color: inherit;
+}
+
+.tw-c-background-inherit {
+  background-color: inherit;
+}

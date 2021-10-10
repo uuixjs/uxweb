@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalloutMessage renders Callout Message component with Element as title 1`] = `
+<styled.div
+  className="tw-callout-message"
+>
+  <Layout
+    className="tw-callout-message__header"
+    display="inline"
+  >
+    <Layout>
+      JSX Element as Title
+    </Layout>
+  </Layout>
+</styled.div>
+`;
+
+exports[`CalloutMessage renders Callout Message component with React Node as description 1`] = `
+<styled.div
+  className="tw-callout-message"
+>
+  <Layout
+    display="block"
+  >
+    <Layout>
+      ReactNode as description
+    </Layout>
+  </Layout>
+</styled.div>
+`;
+
+exports[`CalloutMessage renders Callout Message component with all props 1`] = `
+<styled.div
+  className="tw-callout-message"
+>
+  <Layout
+    className="tw-callout-message__header"
+    display="inline"
+  >
+    <styled.div
+      className="tw-callout-message__pill"
+    >
+      <Layout
+        display="inline-block"
+        margin={
+          Object {
+            "right": 0.5,
+          }
+        }
+      >
+        <Pill
+          label="New"
+        />
+      </Layout>
+    </styled.div>
+    <InjectLayout
+      className="tw-callout-message__title"
+      display="inline"
+      flexGrow={1}
+      margin={
+        Object {
+          "right": 0.5,
+        }
+      }
+    >
+      <Title
+        lineHeight="heading"
+        size="sm"
+        type="h4"
+      >
+        Callout Title
+      </Title>
+    </InjectLayout>
+  </Layout>
+  <Layout
+    display="inline"
+  >
+    Callout Description
+  </Layout>
+</styled.div>
+`;
+
+exports[`CalloutMessage renders Callout Message component with required props 1`] = `
+<styled.div
+  className="tw-callout-message"
+/>
+`;

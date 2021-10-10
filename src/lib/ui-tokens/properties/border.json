@@ -1,0 +1,17 @@
+{
+  "border": {
+    "width-default": { "value": "1px" },
+    "width-input": { "value": "2px" },
+    "width-input-overlay-unfocused": { "value": "1px" },
+    "width-marked": { "value": "3px" },
+    "width-spinner": { "value": "2px" },
+    "width-tag": { "value": "2px" },
+    "radius-none": { "value": "0" },
+    "radius-small": { "value": "0.2rem" },
+    "radius-medium": { "value": "0.4rem" },
+    "radius-large": { "value": "0.6rem" },
+    "radius-extra-large": { "value": "1rem" },
+    "radius-extra-extra-large": { "value": "1.6rem" },
+    "radius-rounded": { "value": "9000px" }
+  }
+}

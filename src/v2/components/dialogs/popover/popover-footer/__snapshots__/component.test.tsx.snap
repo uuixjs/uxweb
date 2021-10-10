@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopoverFooter renders Popover footer component 1`] = `
+<Layout
+  alignItems="center"
+  borderRadius={
+    Object {
+      "bottomLeft": "border-radius-medium",
+      "bottomRight": "border-radius-medium",
+    }
+  }
+  display="flex"
+  justifyContent="flex-end"
+  padding={1}
+>
+  <ForwardRef(Button)
+    onClick={[MockFunction]}
+    title="Action"
+    variant="primary"
+  />
+</Layout>
+`;
+
+exports[`PopoverFooter renders Popover footer component with all props 1`] = `
+<Layout
+  alignItems="center"
+  borderRadius={
+    Object {
+      "bottomLeft": "border-radius-medium",
+      "bottomRight": "border-radius-medium",
+    }
+  }
+  display="flex"
+  justifyContent="flex-end"
+  padding={1}
+>
+  <Layout
+    padding={
+      Object {
+        "right": 1,
+      }
+    }
+  >
+    <ForwardRef(Button)
+      onClick={[MockFunction]}
+      title="Cancel"
+      variant="secondary"
+    />
+  </Layout>
+  <ForwardRef(Button)
+    onClick={[MockFunction]}
+    title="Action"
+    variant="primary"
+  />
+</Layout>
+`;

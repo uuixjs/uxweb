@@ -1,0 +1,17 @@
+@import "../variables.scss";
+
+@include build-classes(
+  (
+    "align": (
+      "vertical-align",
+      (
+        "top": top,
+        "middle": middle,
+        "bottom": bottom,
+        "baseline": baseline,
+        "text-top": text-top,
+        "text-bottom": text-bottom
+      ),
+    ),
+  )
+);

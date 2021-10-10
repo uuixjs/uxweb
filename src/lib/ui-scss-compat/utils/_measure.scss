@@ -1,0 +1,27 @@
+// Convert px,rem,modular scale values
+@function px-to-rem($fontsize) {
+  @return $fontsize / 1px / $base-line-height + 0rem;
+}
+
+@function ms-to-rem($fontsize) {
+  @return $fontsize / $base-line-height + 0rem;
+}
+
+@function rem-to-px($fontsize: 1) {
+  @return $fontsize / 1rem * $base-line-height + 0px;
+}
+
+@function rem-to-ms($fontsize: 1) {
+  @return $fontsize * $base-line-height;
+}
+
+// Root font-size in %, outputted in correct breakpoints.
+@mixin rootsize($line-height: $base-line-height) {
+  font-size: $line-height / 16 * 100%;
+}
+
+// Font-size in rems.
+// Use values as you would for pixels i.e. 16 or use values from the modular scale.
+@mixin fontsize($fontsize) {
+  font-size: #{$fontsize / $base-line-height}rem;
+}

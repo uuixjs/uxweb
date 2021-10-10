@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationControl renders pagination control component with all props 1`] = `
+<ButtonIcon
+  aria-label="Test Label"
+  disabled={false}
+  icon="GlyphArrRight"
+  onClick={[MockFunction]}
+/>
+`;
+
+exports[`PaginationControl renders pagination control component with required props 1`] = `
+<ButtonIcon
+  aria-label="Test Label"
+  disabled={false}
+  icon="GlyphArrRight"
+/>
+`;

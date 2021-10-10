@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Presence renders presence component with all props 1`] = `
+<styled.div
+  border={true}
+  className="tw-presence"
+>
+  <styled.div
+    className="tw-presence__border"
+  />
+  <styled.div
+    backgroundColor="color-fill-presence-online"
+    className="tw-presence__indicator"
+  />
+</styled.div>
+`;
+
+exports[`Presence renders presence component with required props 1`] = `
+<styled.div
+  className="tw-presence"
+>
+  <styled.div
+    className="tw-presence__border"
+  />
+  <styled.div
+    backgroundColor="color-fill-presence-offline"
+    className="tw-presence__indicator"
+  />
+</styled.div>
+`;

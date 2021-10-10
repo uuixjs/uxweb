@@ -1,0 +1,120 @@
+// Disabling `no-universal-selectors` lint – though we should consider either
+// being more specific in applying `box-sizing` or utilize a reset file.
+// stylelint-disable selector-max-type, selector-max-universal
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Setting root sizes and base styles.
+html {
+  @include rootsize;
+  text-size-adjust: 100%;
+}
+
+// Site-wide base styles.
+body {
+  background-color: var(--color-background-body);
+  color: var(--color-text-base);
+  font-family: $font-base;
+  font-size: var(--font-size-base);
+  line-height: 2rem;
+}
+
+// Images
+img {
+  border: none;
+  vertical-align: top;
+  max-width: 100%;
+}
+
+// Anchors / Links
+a {
+  color: var(--color-text-link);
+  text-decoration: none;
+
+  /**
+  * This hover selector is NOT wrapped in @include feature-detect("hover")
+  * because doing so increases the selector specificty enough that it
+  * overwrites CSS in buttons which render as `<a>` tags.
+  *
+  * TODO: Find a way to eliminate the CSS selector specificty conflict which occurs
+  * due to @include feature-detect("hover") increasing selector specificity.
+  */
+  &:hover {
+    color: var(--color-text-link-hover);
+    text-decoration: underline;
+  }
+}
+
+// List resets
+li {
+  list-style-position: inside;
+}
+
+// Heading weight resets
+h1,
+h2 {
+  font-weight: $font-weight-bold;
+}
+h3,
+h4 {
+  font-weight: $font-weight-semibold;
+}
+
+strong {
+  font-weight: $font-weight-bold;
+}
+
+em {
+  font-style: italic;
+}
+
+// Buttons
+button {
+  border: none;
+  background: none;
+  border-radius: 0;
+  color: inherit;
+  font: inherit;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  // Normalize button padding and border in Firefox.
+  // See https://git.xarth.tv/core-ui/core-ui/pull/981.
+  &::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+}
+
+// Remove internet explorer's input x button
+input {
+  &[type="text"]::-ms-clear {
+    display: none;
+  }
+}
+
+// Reset hr default styling.
+hr {
+  border: none;
+}
+
+// Sets global selection colors
+::selection {
+  background-color: var(--color-background-accent);
+  color: var(--color-text-overlay);
+}
+
+// Hide focus outlines for mouse interactions, if supported.
+// See https://developer.paciellogroup.com/blog/2018/03/focus-visible-and-backwards-compatibility/
+// See https://github.com/WICG/focus-visible
+// stylelint-disable no-duplicate-selectors
+* {
+  @include focus-visible-reset {
+    outline: none;
+  }
+}

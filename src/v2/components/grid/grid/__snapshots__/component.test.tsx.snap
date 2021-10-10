@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid renders grid component with all props 1`] = `
+<Styled(Layout)
+  $gutterSize="md"
+  breakpointExtraExtraLarge={
+    Object {
+      "alignItems": "flex-start",
+      "justifyContent": "space-between",
+    }
+  }
+  breakpointExtraLarge={
+    Object {
+      "alignItems": "baseline",
+      "justifyContent": "flex-start",
+    }
+  }
+  breakpointExtraSmall={
+    Object {
+      "alignItems": "flex-start",
+      "justifyContent": "space-between",
+    }
+  }
+  breakpointLarge={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "space-around",
+    }
+  }
+  breakpointMedium={
+    Object {
+      "alignItems": "flex-end",
+      "justifyContent": "center",
+    }
+  }
+  breakpointSmall={
+    Object {
+      "alignItems": "stretch",
+      "justifyContent": "flex-end",
+    }
+  }
+  className="tw-grid"
+  fullHeight={true}
+/>
+`;
+
+exports[`Grid renders grid component with required props 1`] = `
+<Styled(Layout)
+  $gutterSize="default"
+  className="tw-grid"
+/>
+`;

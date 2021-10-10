@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Balloon renders balloon component with all props 1`] = `
+<InjectLayout
+  background="alt-2"
+  borderRadius="border-radius-large"
+  color="inherit"
+  elevation={3}
+>
+  <styled.div
+    $size="md"
+    className="tw-balloon"
+    role="dialog"
+  />
+</InjectLayout>
+`;
+
+exports[`Balloon renders balloon component with required props 1`] = `
+<InjectLayout
+  background="base"
+  borderRadius="border-radius-large"
+  color="inherit"
+  elevation={2}
+>
+  <styled.div
+    className="tw-balloon"
+    role="dialog"
+  />
+</InjectLayout>
+`;

@@ -1,0 +1,652 @@
+@import "../variables.scss";
+
+$tw-button-status-default-margin: -2rem;
+$tw-button-status-small-margin: -1.4rem;
+$tw-button-status-large-margin: -2.6rem;
+
+$tw-button-line-height-small: 1.4rem;
+$tw-button-line-height-default: 2rem;
+$tw-button-line-height-large: 2.6rem;
+
+.tw-button {
+  border-radius: var(--border-radius-medium);
+  background-color: var(--color-background-button-primary-default);
+  color: var(--color-text-button);
+  height: var(--button-size-default);
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-6);
+  font-weight: $font-weight-semibold;
+  line-height: $tw-button-line-height-default;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+
+  // States
+  @include feature-detect("hover") {
+    &:hover:not(.tw-button--disabled) {
+      background-color: var(--color-background-button-primary-hover);
+      color: var(--color-text-button);
+      text-decoration: none;
+    }
+  }
+
+  @include focus-visible {
+    background-color: var(--color-background-button-primary-hover);
+    color: var(--color-text-button);
+    box-shadow: var(--shadow-button-focus);
+    text-decoration: none;
+  }
+
+  &:active,
+  &:hover:active {
+    &:not(.tw-button--disabled) {
+      background-color: var(--color-background-button-primary-active);
+      color: var(--color-text-button);
+      box-shadow: var(--shadow-button-active);
+      text-decoration: none;
+    }
+  }
+
+  &__text {
+    position: relative;
+    padding: var(--button-padding-y) var(--button-padding-x);
+    text-align: center;
+  }
+
+  // Secondary
+  // --------------------------------------------------------------------------
+  // Sometimes 'Icon Only' buttons can be displayed as secondary buttons, so that
+  // selector is included in this modifier.
+  &--secondary {
+    background-clip: padding-box;
+    background-color: var(--color-background-button-secondary-default);
+    color: var(--color-text-button-secondary);
+
+    @include feature-detect("hover") {
+      &:hover:not(.tw-button--disabled) {
+        background-color: var(--color-background-button-secondary-hover);
+      }
+    }
+
+    @include focus-visible {
+      background-color: var(--color-background-button-secondary-hover);
+      box-shadow: var(--shadow-button-focus);
+    }
+
+    &:active,
+    &:hover:active {
+      &:not(.tw-button--disabled) {
+        background-color: var(--color-background-button-secondary-active);
+        box-shadow: var(--shadow-button-active);
+      }
+    }
+  }
+
+  // Alert
+  // --------------------------------------------------------------------------
+  &--alert {
+    background-color: var(--color-background-button-alert);
+    color: var(--color-text-button-alert);
+
+    @include feature-detect("hover") {
+      &:hover:not(.tw-button--disabled) {
+        background-color: var(--color-background-button-alert-hover);
+        color: var(--color-text-button-alert-hover);
+      }
+    }
+
+    @include focus-visible {
+      background-color: var(--color-background-button-alert-hover);
+      color: var(--color-text-button-alert-hover);
+    }
+
+    &:active,
+    &:hover:active {
+      &:not(.tw-button--disabled) {
+        background-color: var(--color-background-button-alert-active);
+        color: var(--color-text-button-alert-active);
+      }
+    }
+
+    &.tw-button--disabled {
+      background-color: var(--color-background-button-disabled);
+      color: var(--color-text-button-disabled);
+    }
+  }
+
+  // Success
+  // --------------------------------------------------------------------------
+  &--success {
+    background-color: var(--color-background-button-success);
+    color: var(--color-text-button-success);
+
+    @include feature-detect("hover") {
+      &:hover:not(.tw-button--disabled) {
+        background-color: var(--color-background-button-success-hover);
+        color: var(--color-text-button-success-hover);
+      }
+    }
+
+    @include focus-visible {
+      background-color: var(--color-background-button-success-hover);
+      color: var(--color-text-button-success-hover);
+    }
+
+    &:active,
+    &:hover:active {
+      &:not(.tw-button--disabled) {
+        background-color: var(--color-background-button-success-active);
+        color: var(--color-text-button-success-active);
+      }
+    }
+
+    &.tw-button--disabled {
+      background-color: var(--color-background-button-disabled);
+      color: var(--color-text-button-disabled);
+    }
+  }
+
+  // Status
+  // --------------------------------------------------------------------------
+  &--status {
+    transition-duration: $timing-short;
+    transition-property: background-color, border, text;
+    transition-timing-function: ease;
+
+    .tw-button__primary-text,
+    .tw-button__alert-text {
+      display: block;
+    }
+
+    .tw-button__alert-text {
+      margin-top: $tw-button-status-default-margin;
+      opacity: 0;
+    }
+
+    .tw-button__alert-icon {
+      position: relative;
+      left: $tw-button-status-default-margin;
+      margin-right: $tw-button-status-default-margin;
+      opacity: 0;
+    }
+
+    @include feature-detect("hover") {
+      &:hover:not(.tw-button--disabled) {
+        background-color: var(--color-background-button-status-hover);
+        color: var(--color-text-button-status-hover);
+      }
+    }
+
+    @include focus-visible {
+      background-color: var(--color-background-button-status-active);
+      color: var(--color-text-button-status-active);
+    }
+
+    @include feature-detect("hover") {
+      &:hover:not(.tw-button--disabled) {
+        .tw-button__alert-text,
+        .tw-button__alert-icon {
+          opacity: 1;
+        }
+        .tw-button__primary-text,
+        .tw-button__primary-icon {
+          opacity: 0;
+        }
+      }
+    }
+
+    @include focus-visible {
+      .tw-button__alert-text,
+      .tw-button__alert-icon {
+        opacity: 1;
+      }
+      .tw-button__primary-text,
+      .tw-button__primary-icon {
+        opacity: 0;
+      }
+    }
+
+    &:active {
+      .tw-button__alert-text,
+      .tw-button__alert-icon {
+        opacity: 1;
+      }
+      .tw-button__primary-text,
+      .tw-button__primary-icon {
+        opacity: 0;
+      }
+    }
+
+    &.tw-button--disabled {
+      .tw-button__primary-text,
+      .tw-button__primary-icon {
+        opacity: 1;
+      }
+      .tw-button__alert-text,
+      .tw-button__alert-icon {
+        display: none;
+      }
+    }
+  }
+
+  // Text
+  // --------------------------------------------------------------------------
+  &--text {
+    background-color: var(--color-background-button-text-default);
+    color: var(--color-text-button-text);
+
+    @include feature-detect("hover") {
+      &:hover:not(.tw-button--disabled) {
+        background-color: var(--color-background-button-text-hover);
+      }
+    }
+
+    @include focus-visible {
+      background-color: var(--color-background-button-text-hover);
+      box-shadow: var(--shadow-button-focus);
+    }
+
+    &:active,
+    &:hover:active {
+      &:not(.tw-button--disabled) {
+        background-color: var(--color-background-button-text-active);
+        box-shadow: var(--shadow-button-active);
+      }
+    }
+
+    &.tw-button--disabled {
+      color: var(--color-text-button-disabled);
+    }
+  }
+
+  // State
+  // --------------------------------------------------------------------------
+  &__icon,
+  &__text,
+  &__num-block,
+  &__loading-spinner,
+  &__succcess-icon {
+    transition-duration: 0.2s;
+    transition-property: opacity;
+  }
+
+  &__loading-spinner,
+  &__success-icon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+
+  &--state-loading,
+  &--state-success {
+    .tw-button__icon,
+    .tw-button__text,
+    .tw-button__num-block {
+      opacity: 0;
+    }
+  }
+
+  &--state-loading {
+    .tw-button__loading-spinner {
+      opacity: 1;
+    }
+  }
+
+  &--state-success {
+    .tw-button__success-icon {
+      opacity: 1;
+    }
+  }
+
+  // Disabled
+  // --------------------------------------------------------------------------
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &--disabled {
+    opacity: 0.5;
+  }
+
+  // Icons
+  // --------------------------------------------------------------------------
+  &__icon {
+    display: inline-flex;
+    padding: 0.4rem 0.8rem;
+    // Button text also has padding; so, depending on the placement of the
+    // button, we want to clear the padding on the icon. This allows
+    // buttons with only icons to 'just work'.
+    &--left {
+      padding-right: 0;
+    }
+    &--right {
+      padding-left: 0;
+    }
+    & + .tw-button__text {
+      padding-left: $space-05;
+    }
+  }
+
+  // Dropdown buttons should always have justified content.
+  &--dropmenu {
+    .tw-button__text {
+      flex-grow: 1;
+      text-align: left;
+    }
+  }
+
+  // Size Modifiers
+  // --------------------------------------------------------------------------
+  &--small {
+    border-radius: var(--border-radius-small);
+    font-size: var(--font-size-7);
+    line-height: $tw-button-line-height-small;
+    height: var(--button-size-small);
+
+    .tw-button__alert-text {
+      margin-top: $tw-button-status-small-margin;
+    }
+
+    .tw-button__alert-icon {
+      left: $tw-button-status-small-margin;
+      margin-right: $tw-button-status-small-margin;
+    }
+
+    .tw-button__num-block {
+      border-top-right-radius: var(--border-radius-small);
+      border-bottom-right-radius: var(--border-radius-small);
+    }
+  }
+
+  &--large {
+    border-radius: var(--border-radius-large);
+    font-size: var(--font-size-5);
+    line-height: $tw-button-line-height-large;
+    height: var(--button-size-large);
+
+    .tw-button__alert-text {
+      margin-top: $tw-button-status-large-margin;
+    }
+
+    .tw-button__alert-icon {
+      left: $tw-button-status-large-margin;
+      margin-right: $tw-button-status-large-margin;
+    }
+
+    .tw-button__num-block {
+      border-top-right-radius: var(--border-radius-large);
+      border-bottom-right-radius: var(--border-radius-large);
+    }
+  }
+
+  &--full-width {
+    width: 100%;
+  }
+
+  // Meta/Purchase Button
+  // --------------------------------------------------------------------------
+  &--purchase {
+    padding-right: $space-0;
+
+    .tw-button__text {
+      flex-grow: 1;
+    }
+  }
+
+  &__num-block {
+    background-color: var(--color-background-button-purchase);
+    padding: var(--button-padding-y) var(--button-padding-x);
+    border-top-right-radius: var(--border-radius-medium);
+    border-bottom-right-radius: var(--border-radius-medium);
+  }
+
+  &--overlay {
+    &.tw-button--disabled {
+      background-color: var(--color-background-button-overlay-primary-default);
+      color: var(--color-text-button-overlay-primary);
+    }
+  }
+}
+
+$tw-button-icon-status-default-margin: -2rem;
+$tw-button-icon-status-small-margin: -1.6rem;
+$tw-button-icon-status-large-margin: -2.4rem;
+
+.tw-button-icon {
+  border-radius: var(--border-radius-medium);
+  background-color: var(--color-background-button-text-default);
+  color: var(--color-fill-button-icon);
+  height: var(--button-size-default);
+  width: var(--button-size-default);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  user-select: none;
+
+  &:not(:disabled),
+  &:not(&--disabled) {
+    @include feature-detect(("hover", "touch")) {
+      &:hover {
+        background-color: var(--color-background-button-text-hover);
+        color: var(--color-fill-button-icon-hover);
+      }
+    }
+
+    @include focus-visible {
+      background-color: var(--color-background-button-text-hover);
+      color: var(--color-fill-button-icon-hover);
+      box-shadow: var(--shadow-button-focus);
+    }
+
+    &:active {
+      background-color: var(--color-background-button-text-active);
+      color: var(--color-fill-button-icon-active);
+    }
+  }
+
+  &:disabled,
+  &--disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  // Alert
+  // --------------------------------------------------------------------------
+  &--alert {
+    background-color: var(--color-background-button-alert);
+    color: var(--color-text-button-alert);
+
+    &:not(:disabled),
+    &:not(.tw-button-icon--disabled) {
+      @include feature-detect("hover") {
+        &:hover {
+          background-color: var(--color-background-button-alert-hover);
+          color: var(--color-text-button-alert-hover);
+        }
+      }
+
+      @include focus-visible {
+        background-color: var(--color-background-button-alert-hover);
+        color: var(--color-text-button-alert-hover);
+      }
+
+      &:active {
+        background-color: var(--color-background-button-alert-active);
+        color: var(--color-text-button-alert-active);
+      }
+    }
+
+    &:disabled,
+    &.tw-button-icon--disabled {
+      background-color: var(--color-background-button-disabled);
+    }
+  }
+
+  // Success
+  // --------------------------------------------------------------------------
+  &--success {
+    background-color: var(--color-background-button-success);
+    color: var(--color-text-button-success);
+
+    &:not(:disabled),
+    &:not(.tw-button-icon--disabled) {
+      @include feature-detect("hover") {
+        &:hover {
+          background-color: var(--color-background-button-success-hover);
+          color: var(--color-text-button-success-hover);
+        }
+      }
+
+      @include focus-visible {
+        background-color: var(--color-background-button-success-hover);
+        color: var(--color-text-button-success-hover);
+      }
+
+      &:active {
+        background-color: var(--color-background-button-success-active);
+        color: var(--color-text-button-success-active);
+      }
+    }
+    &:disabled,
+    &.tw-button-icon--disabled {
+      background-color: var(--color-background-button-disabled);
+    }
+  }
+
+  // Overlay
+  // --------------------------------------------------------------------------
+  &--overlay {
+    border: var(--border-width-default) solid transparent;
+    background-color: var(--color-background-button-icon-overlay-default);
+    color: var(--color-text-button-overlay);
+
+    &:not(:disabled),
+    &:not(.tw-button-icon--disabled) {
+      // States
+      @include feature-detect("hover") {
+        &:hover {
+          background-color: var(--color-background-button-icon-overlay-hover);
+          color: var(--color-text-button-overlay-hover);
+        }
+      }
+
+      @include focus-visible {
+        background-color: var(--color-background-button-icon-overlay-hover);
+        color: var(--color-text-button-overlay-focus);
+        box-shadow: var(--shadow-button-overlay-focus);
+      }
+
+      &:active {
+        background-color: var(--color-background-button-icon-overlay-active);
+        color: var(--color-text-button-overlay-active);
+        box-shadow: var(--shadow-button-overlay-active);
+      }
+    }
+  }
+
+  // Status
+  // --------------------------------------------------------------------------
+  &--status {
+    transition-duration: 0.12s;
+    transition-property: background, border, text;
+    transition-timing-function: ease;
+
+    .tw-button-icon__alert-icon {
+      position: relative;
+      left: $tw-button-icon-status-default-margin;
+      margin-right: $tw-button-icon-status-default-margin;
+      opacity: 0;
+    }
+    &:not(:disabled),
+    &:not(.tw-button-icon--disabled) {
+      @include feature-detect("hover") {
+        &:hover {
+          background-color: var(--color-background-button-status-hover);
+          color: var(--color-text-button-status-hover);
+        }
+      }
+
+      @include focus-visible {
+        background-color: var(--color-background-button-status-focus);
+        color: var(--color-text-button-status-focus);
+      }
+
+      &:active {
+        background-color: var(--color-background-button-status-active);
+        color: var(--color-text-button-status-active);
+      }
+
+      @include focus-visible {
+        .tw-button-icon__alert-icon {
+          opacity: 1;
+        }
+        .tw-button-icon__primary-icon {
+          opacity: 0;
+        }
+      }
+
+      &:hover,
+      &:active {
+        .tw-button-icon__alert-icon {
+          opacity: 1;
+        }
+        .tw-button-icon__primary-icon {
+          opacity: 0;
+        }
+      }
+      &.tw-button-icon--disabled {
+        .tw-button-icon__primary-icon {
+          opacity: 1;
+        }
+        .tw-button-icon__alert-icon {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // Icons
+  // --------------------------------------------------------------------------
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // Size Modifiers
+  // --------------------------------------------------------------------------
+  &--small {
+    border-radius: var(--border-radius-small);
+    height: var(--button-size-small);
+    width: var(--button-size-small);
+    // Ensure small buttons with icons are square.
+    .tw-button-icon__icon {
+      padding: 0.3rem;
+    }
+    .tw-button-icon__alert-icon {
+      left: $tw-button-icon-status-small-margin;
+      margin-right: $tw-button-icon-status-small-margin;
+    }
+  }
+
+  &--large {
+    border-radius: var(--border-radius-large);
+    height: var(--button-size-large);
+    width: var(--button-size-large);
+
+    // Ensure large buttons with icons are square.
+    .tw-button-icon__icon {
+      padding: 0.5rem;
+    }
+    .tw-button-icon__alert-icon {
+      left: $tw-button-icon-status-large-margin;
+      margin-right: $tw-button-icon-status-large-margin;
+    }
+  }
+}

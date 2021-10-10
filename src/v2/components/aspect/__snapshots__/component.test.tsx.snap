@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Aspect renders apect component 1`] = `
+.c2 {
+  padding-bottom: 56.25%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.c0 > *:not(.c1) {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+}
+
+<Aspect
+  align={3}
+  overflow={false}
+>
+  <styled.div
+    align={3}
+    allowOverflow={false}
+    className="tw-aspect"
+  >
+    <div
+      className="c0 tw-aspect"
+    >
+      <styled.div
+        ratio={1.7777777777777777}
+      >
+        <div
+          className="c1 c2"
+        />
+      </styled.div>
+    </div>
+  </styled.div>
+</Aspect>
+`;
+
+exports[`Aspect renders apect component with all props 1`] = `
+.c2 {
+  padding-bottom: 56.25%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+}
+
+.c0 > *:not(.c1) {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  bottom: 0;
+}
+
+<Aspect
+  align={1}
+  allowOverflow={true}
+  overflow={false}
+  ratio="tw-aspect--16x9"
+>
+  <styled.div
+    align={1}
+    allowOverflow={true}
+    className="tw-aspect"
+  >
+    <div
+      className="c0 tw-aspect"
+    >
+      <styled.div
+        ratio={1.7777777777777777}
+      >
+        <div
+          className="c1 c2"
+        />
+      </styled.div>
+    </div>
+  </styled.div>
+</Aspect>
+`;
+
+exports[`Aspect renders apect component with deprecated overflow prop 1`] = `
+.c2 {
+  padding-bottom: 56.25%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+}
+
+.c0 > *:not(.c1) {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+}
+
+<Aspect
+  align={3}
+  overflow={true}
+>
+  <styled.div
+    align={3}
+    allowOverflow={true}
+    className="tw-aspect"
+  >
+    <div
+      className="c0 tw-aspect"
+    >
+      <styled.div
+        ratio={1.7777777777777777}
+      >
+        <div
+          className="c1 c2"
+        />
+      </styled.div>
+    </div>
+  </styled.div>
+</Aspect>
+`;

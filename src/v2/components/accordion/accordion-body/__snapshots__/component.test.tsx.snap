@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionBody renders AccordionBody component with all props 1`] = `
+<Layout
+  background="base"
+  display="block"
+  elevation={1}
+  padding={2}
+>
+  Hello World
+</Layout>
+`;
+
+exports[`AccordionBody renders AccordionBody component with only required props 1`] = `
+<Layout
+  background="base"
+  display="none"
+  elevation={1}
+  padding={2}
+/>
+`;

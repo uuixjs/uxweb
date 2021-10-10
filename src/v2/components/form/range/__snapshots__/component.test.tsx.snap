@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Range unfilled renders range component with all props 1`] = `
+.c0 {
+  width: 100%;
+  height: 1.6rem;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.c0,
+.c0:hover,
+.c0:focus,
+.c0:active {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.c0:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.c0::-moz-range-track {
+  width: 100%;
+  height: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.c0::-ms-track {
+  width: 100%;
+  height: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 0.6rem;
+  background: rgba(0,0,0,0.2);
+}
+
+.c0::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.c0::-ms-fill-lower {
+  background-color: rgba(255,255,255,0.2);
+  width: 100%;
+  height: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.c0::-ms-fill-upper {
+  background-color: rgba(255,255,255,0.2);
+  width: 100%;
+  height: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.c0::-moz-range-thumb {
+  border-radius: 9000px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.9),0 0px 2px rgba(0,0,0,0.9);
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: -0.7rem;
+  border: 1px solid #ff4f4d;
+  background-color: #ff4f4d;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c0::-ms-thumb {
+  border-radius: 50%;
+  box-shadow: rgba(0,0,0,0.2) 0 0 0 1px inset;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: -0.7rem;
+  border: 1px solid red;
+  background: #9147ff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c0::-webkit-slider-thumb {
+  border-radius: 9000px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.9),0 0px 2px rgba(0,0,0,0.9);
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: -0.7rem;
+  border: 1px solid #ff4f4d;
+  background-color: #ff4f4d;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c0[data-focus-visible-added] {
+  outline: none;
+}
+
+.c0[data-focus-visible-added]::-moz-range-thumb {
+  border: 2px solid #ffffff;
+}
+
+.c0[data-focus-visible-added]::-ms-thumb {
+  border: 2px solid #ffffff;
+}
+
+.c0[data-focus-visible-added]::-webkit-slider-thumb {
+  border: 2px solid #ffffff;
+}
+
+<Range
+  defaultValue="2"
+  disabled={true}
+  error={true}
+  id="Test ID"
+  max={100}
+  min={0}
+  name="Test name"
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  onFocus={[MockFunction]}
+  step={10}
+  tabIndex={0}
+  value="2"
+>
+  <ForwardRef(Range)
+    defaultValue="2"
+    disabled={true}
+    error={true}
+    id="Test ID"
+    max={100}
+    min={0}
+    name="Test name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onFocus={[MockFunction]}
+    overlay={false}
+    step={10}
+    tabIndex={0}
+    value="2"
+  >
+    <styled.input
+      $error={true}
+      $filled={false}
+      $overlay={false}
+      className="tw-range"
+      defaultValue="2"
+      disabled={true}
+      id="Test ID"
+      max={100}
+      min={0}
+      name="Test name"
+      onBlur={[MockFunction]}
+      onChange={[MockFunction]}
+      onFocus={[MockFunction]}
+      step={10}
+      tabIndex={0}
+      type="range"
+      value="2"
+    >
+      <input
+        className="c0 tw-range"
+        defaultValue="2"
+        disabled={true}
+        id="Test ID"
+        max={100}
+        min={0}
+        name="Test name"
+        onBlur={[MockFunction]}
+        onChange={[MockFunction]}
+        onFocus={[MockFunction]}
+        step={10}
+        tabIndex={0}
+        type="range"
+        value="2"
+      />
+    </styled.input>
+  </ForwardRef(Range)>
+</Range>
+`;
+
+exports[`Range unfilled renders range component with required props 1`] = `
+.c0 {
+  width: 100%;
+  height: 1.6rem;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.c0,
+.c0:hover,
+.c0:focus,
+.c0:active {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.c0:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.c0::-moz-range-track {
+  width: 100%;
+  height: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.c0::-ms-track {
+  width: 100%;
+  height: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 0.6rem;
+  background: rgba(0,0,0,0.2);
+}
+
+.c0::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.c0::-ms-fill-lower {
+  background-color: rgba(255,255,255,0.2);
+  width: 100%;
+  height: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.c0::-ms-fill-upper {
+  background-color: rgba(255,255,255,0.2);
+  width: 100%;
+  height: 0.2rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.c0::-moz-range-thumb {
+  border-radius: 9000px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.9),0 0px 2px rgba(0,0,0,0.9);
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: -0.7rem;
+  border: 1px solid #a970ff;
+  background-color: #a970ff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c0::-ms-thumb {
+  border-radius: 50%;
+  box-shadow: rgba(0,0,0,0.2) 0 0 0 1px inset;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: -0.7rem;
+  border: none;
+  background: #9147ff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c0::-webkit-slider-thumb {
+  border-radius: 9000px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.9),0 0px 2px rgba(0,0,0,0.9);
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: -0.7rem;
+  border: 1px solid #a970ff;
+  background-color: #a970ff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c0[data-focus-visible-added] {
+  outline: none;
+}
+
+.c0[data-focus-visible-added]::-moz-range-thumb {
+  border: 2px solid #ffffff;
+}
+
+.c0[data-focus-visible-added]::-ms-thumb {
+  border: 2px solid #ffffff;
+}
+
+.c0[data-focus-visible-added]::-webkit-slider-thumb {
+  border: 2px solid #ffffff;
+}
+
+<Range>
+  <ForwardRef(Range)
+    overlay={false}
+  >
+    <styled.input
+      $error={false}
+      $filled={false}
+      $overlay={false}
+      className="tw-range"
+      type="range"
+    >
+      <input
+        className="c0 tw-range"
+        type="range"
+      />
+    </styled.input>
+  </ForwardRef(Range)>
+</Range>
+`;

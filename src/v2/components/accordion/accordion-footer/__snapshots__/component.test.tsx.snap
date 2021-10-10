@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionFooter renders AccordionFooter component with all props 1`] = `
+<Layout
+  display="flex"
+  justifyContent="flex-end"
+  margin={
+    Object {
+      "top": 2,
+    }
+  }
+>
+  <Layout
+    margin={
+      Object {
+        "left": 1,
+      }
+    }
+  >
+    <ForwardRef(Button)
+      linkTo="https://www.twitch.tv/secondary"
+      variant="secondary"
+    >
+      Click Me Second
+    </ForwardRef(Button)>
+  </Layout>
+  <Layout
+    margin={
+      Object {
+        "left": 1,
+      }
+    }
+  >
+    <ForwardRef(Button)
+      linkTo="https://www.twitch.tv/primary"
+      variant="primary"
+    >
+      Click Me First
+    </ForwardRef(Button)>
+  </Layout>
+</Layout>
+`;
+
+exports[`AccordionFooter renders AccordionFooter component with only required props 1`] = `
+<Layout
+  display="flex"
+  justifyContent="flex-end"
+  margin={
+    Object {
+      "top": 2,
+    }
+  }
+>
+  <Layout
+    margin={
+      Object {
+        "left": 1,
+      }
+    }
+  >
+    <ForwardRef(Button)
+      linkTo="https://www.twitch.tv/primary"
+      variant="primary"
+    >
+      Click Me First
+    </ForwardRef(Button)>
+  </Layout>
+</Layout>
+`;

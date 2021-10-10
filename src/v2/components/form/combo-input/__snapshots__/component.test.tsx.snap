@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComboInput renders ComboInput component with all props 1`] = `
+<Layout
+  className="tw-combo-input"
+  display="flex"
+  fullWidth={true}
+>
+  <styled.div
+    className="tw-combo-input__input"
+  >
+    <Input
+      autoCapitalize={true}
+      autoComplete="true"
+      autoCorrect={true}
+      autoFocus={true}
+      buttonProps={
+        Object {
+          "children": "Test Button",
+        }
+      }
+      defaultValue="Default Value"
+      disabled={true}
+      error={true}
+      icon="Gear"
+      iconRight={true}
+      id="test-id"
+      list="list"
+      max={100}
+      maxLength={100}
+      min={1}
+      name="Test name"
+      onBlur={[MockFunction]}
+      onChange={[MockFunction]}
+      onClick={[MockFunction]}
+      onFocus={[MockFunction]}
+      onKeyDown={[MockFunction]}
+      placeholder="Test placeholder"
+      readOnly={true}
+      required={true}
+      rounding="right"
+      size="small"
+      spellCheck={true}
+      step={2}
+      tabIndex={0}
+      type={3}
+      value="Test Value"
+    />
+  </styled.div>
+  <CoreButton
+    className=""
+    rounding="right"
+    size="small"
+    variant="primary"
+  >
+    <CoreButtonLabel
+      size="small"
+    >
+      Test Button
+    </CoreButtonLabel>
+  </CoreButton>
+</Layout>
+`;
+
+exports[`ComboInput renders ComboInput component with required props 1`] = `
+<Layout
+  className="tw-combo-input"
+  display="flex"
+  fullWidth={true}
+>
+  <styled.div
+    className="tw-combo-input__input"
+  >
+    <Input
+      buttonProps={
+        Object {
+          "children": "Test Button",
+        }
+      }
+      rounding="left"
+      type={3}
+    />
+  </styled.div>
+  <CoreButton
+    className=""
+    rounding="right"
+    variant="primary"
+  >
+    <CoreButtonLabel>
+      Test Button
+    </CoreButtonLabel>
+  </CoreButton>
+</Layout>
+`;
+
+exports[`ComboInput renders ComboInput component with size prop 1`] = `
+<Layout
+  className="tw-combo-input"
+  display="flex"
+  fullWidth={true}
+>
+  <styled.div
+    className="tw-combo-input__input"
+  >
+    <Input
+      buttonProps={
+        Object {
+          "children": "Test Button",
+        }
+      }
+      rounding="left"
+      size="large"
+      type={3}
+    />
+  </styled.div>
+  <CoreButton
+    className=""
+    rounding="right"
+    size="large"
+    variant="primary"
+  >
+    <CoreButtonLabel
+      size="large"
+    >
+      Test Button
+    </CoreButtonLabel>
+  </CoreButton>
+</Layout>
+`;

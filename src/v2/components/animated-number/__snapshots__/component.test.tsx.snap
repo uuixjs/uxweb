@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimatedNumber renders AnimatedNumber component 1`] = `
+<AnimatedNumber
+  duration={0.7}
+  formatValue={[Function]}
+  monospaced={false}
+  value={123}
+>
+  <Styled(CountUp)
+    $monospaced={false}
+    duration={0.7}
+    end={123}
+    formattingFn={[Function]}
+    start={123}
+  >
+    <CountUp
+      className=""
+      decimal="."
+      decimals={0}
+      delay={null}
+      duration={0.7}
+      easingFn={null}
+      end={123}
+      formattingFn={[Function]}
+      onEnd={[Function]}
+      onPauseResume={[Function]}
+      onReset={[Function]}
+      onStart={[Function]}
+      onUpdate={[Function]}
+      prefix=""
+      preserveValue={false}
+      redraw={false}
+      separator=""
+      start={123}
+      startOnMount={true}
+      suffix=""
+      useEasing={true}
+    >
+      <span
+        className=""
+      />
+    </CountUp>
+  </Styled(CountUp)>
+</AnimatedNumber>
+`;

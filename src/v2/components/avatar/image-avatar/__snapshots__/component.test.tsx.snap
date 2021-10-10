@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageAvatar renders image-avatar component with all props 1`] = `
+<InjectLayout
+  borderRadius="border-radius-medium"
+  display="block"
+  fullWidth={true}
+>
+  <ForwardRef(CoreImage)
+    alt="Test alt string"
+    className="tw-image-avatar"
+    onError={[MockFunction]}
+    onLoad={[MockFunction]}
+    src="testURL"
+  />
+</InjectLayout>
+`;
+
+exports[`ImageAvatar renders image-avatar component with required props 1`] = `
+<InjectLayout
+  display="block"
+  fullWidth={true}
+>
+  <ForwardRef(CoreImage)
+    alt="Test alt string"
+    className="tw-image-avatar"
+    src=""
+  />
+</InjectLayout>
+`;

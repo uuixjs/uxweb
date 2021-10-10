@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropDownMenuItem renders drop down menu item component with all props 1`] = `
+<Layout
+  fullWidth={true}
+  position="relative"
+>
+  <ForwardRef(Interactable)
+    borderRadius="border-radius-medium"
+    selected={true}
+    title="Test title attribute"
+  >
+    <Layout
+      alignItems="center"
+      display="flex"
+      padding={0.5}
+      position="relative"
+    >
+      <Layout
+        alignItems="center"
+        display="flex"
+        flexShrink={0}
+        padding={
+          Object {
+            "right": 0.5,
+          }
+        }
+      >
+        <DropDownMenuItemFigure
+          icon="NavGames"
+        />
+      </Layout>
+      <Layout
+        flexGrow={1}
+      >
+        Test link text
+      </Layout>
+      <Layout
+        alignItems="center"
+        margin={
+          Object {
+            "left": 1,
+          }
+        }
+        padding={
+          Object {
+            "x": 0.5,
+          }
+        }
+      >
+        EN
+      </Layout>
+      <Layout
+        alignItems="center"
+        display="flex"
+        flexShrink={0}
+        margin={
+          Object {
+            "left": 0.5,
+          }
+        }
+      >
+        <Icon
+          asset="AngleRight"
+        />
+      </Layout>
+    </Layout>
+  </ForwardRef(Interactable)>
+</Layout>
+`;
+
+exports[`DropDownMenuItem renders drop down menu item component with required props 1`] = `
+<Layout
+  fullWidth={true}
+  position="relative"
+>
+  <ForwardRef(Interactable)
+    borderRadius="border-radius-medium"
+  >
+    <Layout
+      alignItems="center"
+      display="flex"
+      padding={0.5}
+      position="relative"
+    >
+      <Layout
+        flexGrow={1}
+      >
+        Test link text
+      </Layout>
+    </Layout>
+  </ForwardRef(Interactable)>
+</Layout>
+`;

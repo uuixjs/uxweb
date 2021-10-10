@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders header component with all props as an h1 1`] = `
+<CoreText
+  ellipsis={true}
+  fontSize="font-size-6"
+  fontWeight="semibold"
+  transform="uppercase"
+  type="h1"
+>
+  Test
+</CoreText>
+`;
+
+exports[`Header renders header component with required props 1`] = `
+<CoreText
+  fontSize="font-size-6"
+  fontWeight="semibold"
+  transform="uppercase"
+/>
+`;

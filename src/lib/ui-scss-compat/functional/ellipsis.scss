@@ -1,0 +1,21 @@
+.tw-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@supports (-webkit-line-clamp: 2) {
+  .tw-line-clamp-2 {
+    /* These must take priority over the "ellipsis" values */
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: normal !important;
+
+    /* stylelint-disable-next-line value-no-vendor-prefix */
+    display: -webkit-box;
+    /* stylelint-disable property-no-vendor-prefix */
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* stylelint-enable property-no-vendor-prefix */
+  }
+}

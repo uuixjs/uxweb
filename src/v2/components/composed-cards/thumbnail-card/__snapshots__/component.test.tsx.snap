@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThumbnailCard renders thumbnail card component with required props 1`] = `
+<div
+  className="tw-thumbnail-card"
+>
+  <Card
+    key="Test title"
+  >
+    <CardImage
+      alt="Test Alt"
+      aspect="tw-aspect--16x9"
+      borderRadius="border-radius-medium"
+      src="srcURL"
+    />
+    <CardBody>
+      <Layout
+        margin={
+          Object {
+            "top": 0.5,
+          }
+        }
+      >
+        <CoreText
+          className="tw-thumbnail-card__title"
+          ellipsis={true}
+          fontSize="font-size-5"
+          lineHeight="body"
+          type="h3"
+        >
+          Test title
+        </CoreText>
+      </Layout>
+      <CoreText
+        color="alt-2"
+        ellipsis={true}
+      >
+        test sting
+      </CoreText>
+    </CardBody>
+  </Card>
+</div>
+`;
+
+exports[`ThumbnailCard renders thumbnail component as a placeholder 1`] = `
+<Layout>
+  <Layout
+    margin={
+      Object {
+        "bottom": 0.5,
+      }
+    }
+  >
+    <Aspect
+      align={3}
+      overflow={false}
+      ratio="tw-aspect--16x9"
+    >
+      <Placeholder />
+    </Aspect>
+  </Layout>
+  <CoreText>
+    <Placeholder
+      width={150}
+    />
+  </CoreText>
+  <CoreText
+    fontSize="font-size-7"
+  >
+    <Placeholder
+      width={100}
+    />
+  </CoreText>
+</Layout>
+`;
+
+exports[`ThumbnailCard renders thumbnail component with all props 1`] = `
+<div
+  className="tw-thumbnail-card"
+>
+  <ForwardRef(CoreLink)
+    className="tw-thumbnail-card__link"
+    data-a-target="tw-thumbnail-card-link"
+    hoverUnderlineNone={true}
+    linkTo="/"
+    title="Test title"
+    variant="inherit"
+  >
+    <Card
+      key="Test title"
+    >
+      <CardImage
+        alt="Test Alt"
+        aspect="tw-aspect--16x9"
+        borderRadius="border-radius-medium"
+        src="srcURL"
+      />
+      <CardBody>
+        <Layout
+          margin={
+            Object {
+              "top": 0.5,
+            }
+          }
+        >
+          <CoreText
+            className="tw-thumbnail-card__title"
+            ellipsis={true}
+            fontSize="font-size-5"
+            lineHeight="body"
+            type="h3"
+          >
+            Test title
+          </CoreText>
+        </Layout>
+        <CoreText
+          color="alt-2"
+          ellipsis={true}
+        >
+          test sting
+        </CoreText>
+      </CardBody>
+    </Card>
+  </ForwardRef(CoreLink)>
+</div>
+`;

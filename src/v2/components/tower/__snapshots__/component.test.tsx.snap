@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tower renders tower component with all props 1`] = `
+<styled.div
+  center={true}
+  childWidth={240}
+  className="tw-tower"
+  gutterWidth="0.5rem"
+  noGrow={true}
+  noWrap={true}
+>
+  <styled.div
+    key="0"
+  />
+  <styled.div
+    key="1"
+  />
+  <styled.div
+    key="2"
+  />
+  <styled.div
+    key="3"
+  />
+  <styled.div
+    key="4"
+  />
+  <styled.div
+    key="5"
+  />
+  <styled.div
+    key="6"
+  />
+  <styled.div
+    key="7"
+  />
+  <styled.div
+    key="8"
+  />
+  <styled.div
+    key="9"
+  />
+</styled.div>
+`;
+
+exports[`Tower renders tower component with only required props 1`] = `
+<styled.div
+  className="tw-tower"
+  gutterWidth="1.5rem"
+/>
+`;

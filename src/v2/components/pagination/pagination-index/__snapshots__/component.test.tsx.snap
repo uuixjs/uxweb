@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationIndex renders pagination index component with all props 1`] = `
+<Layout
+  alignItems="center"
+  display="flex"
+>
+  <ForwardRef(Button)
+    aria-label="1"
+    disabled={false}
+    key="1"
+    onClick={[Function]}
+    variant="text"
+  >
+    1
+  </ForwardRef(Button)>
+  <Layout
+    key="ellipsis-1"
+    padding={
+      Object {
+        "x": 0.5,
+      }
+    }
+  >
+    ...
+  </Layout>
+  <ForwardRef(Button)
+    aria-label="4"
+    disabled={true}
+    key="4"
+    onClick={[Function]}
+    variant="text"
+  >
+    4
+  </ForwardRef(Button)>
+  <ForwardRef(Button)
+    aria-label="5"
+    disabled={false}
+    key="5"
+    onClick={[Function]}
+    variant="text"
+  >
+    5
+  </ForwardRef(Button)>
+  <ForwardRef(Button)
+    aria-label="6"
+    disabled={false}
+    key="6"
+    onClick={[Function]}
+    variant="text"
+  >
+    6
+  </ForwardRef(Button)>
+  <Layout
+    key="ellipsis-2"
+    padding={
+      Object {
+        "x": 0.5,
+      }
+    }
+  >
+    ...
+  </Layout>
+  <ForwardRef(Button)
+    aria-label="10"
+    disabled={false}
+    key="10"
+    onClick={[Function]}
+    variant="text"
+  >
+    10
+  </ForwardRef(Button)>
+</Layout>
+`;
+
+exports[`PaginationIndex renders pagination index component with required props 1`] = `
+<Layout
+  alignItems="center"
+  display="flex"
+>
+  <ForwardRef(Button)
+    aria-label="1"
+    disabled={false}
+    key="1"
+    onClick={[Function]}
+    variant="text"
+  >
+    1
+  </ForwardRef(Button)>
+  <Layout
+    key="ellipsis-1"
+    padding={
+      Object {
+        "x": 0.5,
+      }
+    }
+  >
+    ...
+  </Layout>
+  <ForwardRef(Button)
+    aria-label="4"
+    disabled={true}
+    key="4"
+    onClick={[Function]}
+    variant="text"
+  >
+    4
+  </ForwardRef(Button)>
+  <ForwardRef(Button)
+    aria-label="5"
+    disabled={false}
+    key="5"
+    onClick={[Function]}
+    variant="text"
+  >
+    5
+  </ForwardRef(Button)>
+  <ForwardRef(Button)
+    aria-label="6"
+    disabled={false}
+    key="6"
+    onClick={[Function]}
+    variant="text"
+  >
+    6
+  </ForwardRef(Button)>
+  <Layout
+    key="ellipsis-2"
+    padding={
+      Object {
+        "x": 0.5,
+      }
+    }
+  >
+    ...
+  </Layout>
+  <ForwardRef(Button)
+    aria-label="10"
+    disabled={false}
+    key="10"
+    onClick={[Function]}
+    variant="text"
+  >
+    10
+  </ForwardRef(Button)>
+</Layout>
+`;

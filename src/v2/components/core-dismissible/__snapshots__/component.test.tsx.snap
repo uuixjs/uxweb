@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreDismissible renders CoreDismissible component with all props 1`] = `
+<ButtonIcon
+  aria-label="Close Button"
+  icon="Close"
+  overlay={true}
+  size="small"
+  variant="secondary"
+/>
+`;
+
+exports[`CoreDismissible renders CoreDismissible component with required props 1`] = `
+<ButtonIcon
+  aria-label="Close Button"
+  icon="Close"
+/>
+`;

@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert Banner renders alert-banner component 1`] = `
+<Styled(Layout)
+  $type="info"
+  alignItems="center"
+  className="tw-alert-banner"
+  display="flex"
+  fontSize="font-size-6"
+  fullWidth={true}
+  padding={
+    Object {
+      "left": 0.5,
+      "y": 0.5,
+    }
+  }
+  position="relative"
+  role="alert"
+>
+  <styled.div
+    centered={true}
+  >
+    <Grid
+      justifyContent="center"
+    >
+      <Column
+        cols={
+          Object {
+            "default": 12,
+            "lg": 9,
+            "xl": 8,
+            "xxl": 7,
+          }
+        }
+      >
+        <Layout
+          alignItems="center"
+          display="flex"
+          position="relative"
+        >
+          <styled.div
+            $type="info"
+          >
+            <Icon
+              asset="NotificationInfo"
+            />
+          </styled.div>
+          <Layout
+            alignItems="center"
+            display="flex"
+            flexGrow={1}
+          >
+            <Layout
+              margin={
+                Object {
+                  "left": 1,
+                }
+              }
+            >
+              <CoreText
+                color="alt-2"
+                fontSize="font-size-6"
+                type="p"
+              >
+                Alert Banner Info Bar
+              </CoreText>
+            </Layout>
+          </Layout>
+          <Layout
+            display="flex"
+            flexDirection="row-reverse"
+            justifyContent="flex-end"
+          />
+          <Layout
+            padding={
+              Object {
+                "left": 1,
+              }
+            }
+          >
+            <ForwardRef(CoreDismissible)
+              aria-label="Close"
+            />
+          </Layout>
+        </Layout>
+      </Column>
+    </Grid>
+  </styled.div>
+</Styled(Layout)>
+`;
+
+exports[`Alert Banner renders alert-banner component with all props 1`] = `
+<Styled(Layout)
+  $type="info"
+  alignItems="center"
+  className="tw-alert-banner"
+  display="flex"
+  fontSize="font-size-6"
+  fullWidth={true}
+  padding={
+    Object {
+      "left": 0.5,
+      "y": 0.5,
+    }
+  }
+  position="relative"
+  role="alert"
+>
+  <styled.div
+    centered={true}
+  >
+    <Grid
+      justifyContent="center"
+    >
+      <Column
+        cols={
+          Object {
+            "default": 12,
+            "lg": 9,
+            "xl": 8,
+            "xxl": 7,
+          }
+        }
+      >
+        <Layout
+          alignItems="center"
+          display="flex"
+          position="relative"
+        >
+          <styled.div
+            $type="info"
+          >
+            <Icon
+              asset="NotificationInfo"
+            />
+          </styled.div>
+          <Layout
+            alignItems="center"
+            display="flex"
+            flexGrow={1}
+          >
+            <InjectLayout
+              margin={
+                Object {
+                  "left": 1,
+                }
+              }
+            >
+              <CoreText
+                bold={true}
+                fontSize="font-size-6"
+                type="h2"
+              >
+                Alert
+              </CoreText>
+            </InjectLayout>
+            <Layout
+              margin={
+                Object {
+                  "left": 1,
+                }
+              }
+            >
+              <CoreText
+                color="alt-2"
+                fontSize="font-size-6"
+                type="p"
+              >
+                Alert Banner Info Bar
+                <InjectLayout
+                  margin={
+                    Object {
+                      "left": 1,
+                    }
+                  }
+                >
+                  <ForwardRef(CoreLink)
+                    className="tw-alert-banner__link"
+                    hoverColorInherit={true}
+                    linkTo="//twitch.tv"
+                    onClick={[MockFunction]}
+                    text="Link CTA"
+                    underline={true}
+                    variant="inherit"
+                  >
+                    Link CTA
+                  </ForwardRef(CoreLink)>
+                </InjectLayout>
+              </CoreText>
+            </Layout>
+          </Layout>
+          <Layout
+            display="flex"
+            flexDirection="row-reverse"
+            justifyContent="flex-end"
+          >
+            <Layout
+              key="0"
+              margin={
+                Object {
+                  "left": 1,
+                }
+              }
+            >
+              <StatusButton
+                type="info"
+              >
+                Confirm
+              </StatusButton>
+            </Layout>
+            <Layout
+              key="1"
+              margin={
+                Object {
+                  "left": 1,
+                }
+              }
+            >
+              <ForwardRef(Button)
+                variant="secondary"
+              >
+                Dismiss
+              </ForwardRef(Button)>
+            </Layout>
+          </Layout>
+          <Layout
+            padding={
+              Object {
+                "left": 1,
+              }
+            }
+          >
+            <ForwardRef(CoreDismissible)
+              aria-label="Close"
+              onClick={[MockFunction]}
+            />
+          </Layout>
+        </Layout>
+      </Column>
+    </Grid>
+  </styled.div>
+</Styled(Layout)>
+`;

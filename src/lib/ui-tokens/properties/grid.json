@@ -1,0 +1,9 @@
+{
+  "grid": {
+    "columns": { "value": 12 },
+    "gutter-width": { "value": "1.5rem" },
+    "gutter-width-lg": { "value": "2rem" },
+    "gutter-width-sm": { "value": "1rem" },
+    "gutter-width-xs": { "value": "0.5rem" }
+  }
+}

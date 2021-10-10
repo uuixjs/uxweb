@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination renders pagination component with all props 1`] = `
+<Layout
+  alignItems="center"
+  display="flex"
+>
+  <PaginationControl
+    aria-label="Test Label"
+    currentPage={4}
+    key="previous"
+    onClick={[Function]}
+    totalPages={10}
+    type={1}
+  />
+  <PaginationIndex
+    currentPage={4}
+    onClick={[MockFunction]}
+    totalPages={10}
+  />
+  <PaginationControl
+    aria-label="Test Label"
+    currentPage={4}
+    key="next"
+    onClick={[Function]}
+    totalPages={10}
+    type={2}
+  />
+</Layout>
+`;
+
+exports[`Pagination renders pagination component with required props 1`] = `
+<Layout
+  alignItems="center"
+  display="flex"
+>
+  <PaginationControl
+    aria-label="Test Label"
+    currentPage={4}
+    key="previous"
+    onClick={[Function]}
+    totalPages={10}
+    type={1}
+  />
+  <PaginationIndex
+    currentPage={4}
+    totalPages={10}
+  />
+  <PaginationControl
+    aria-label="Test Label"
+    currentPage={4}
+    key="next"
+    onClick={[Function]}
+    totalPages={10}
+    type={2}
+  />
+</Layout>
+`;

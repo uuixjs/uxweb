@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalBody renders modal body component with all props 1`] = `
+<Layout
+  flexGrow={1}
+  overflow="auto"
+  padding={
+    Object {
+      "x": 3,
+      "y": 2,
+    }
+  }
+>
+  Modal Body
+</Layout>
+`;

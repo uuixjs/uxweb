@@ -1,0 +1,12 @@
+// Map the font sizes.
+$font-sizes: $font-size-1, $font-size-2, $font-size-3, $font-size-4,
+  $font-size-5, $font-size-6, $font-size-7, $font-size-8;
+
+// Baseline variables (to be deprecated)
+// Do not use these as hard coded values anywhere.
+// They are specifically for the baseline and modular scale functions.
+$base-font-size: 12;
+$base-line-height: 10;
+
+// Timer variables (to be deprecated)
+$timer-fast: 0.1s;

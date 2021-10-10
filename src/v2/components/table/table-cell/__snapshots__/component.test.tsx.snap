@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableCell renders table cell component with all props 1`] = `
+<InjectLayout
+  padding={0.5}
+  textAlign="right"
+  verticalAlign="text-top"
+>
+  <td
+    className="tw-table-cell"
+  />
+</InjectLayout>
+`;
+
+exports[`TableCell renders table cell component with required props 1`] = `
+<InjectLayout
+  padding={1}
+>
+  <td
+    className="tw-table-cell"
+  />
+</InjectLayout>
+`;

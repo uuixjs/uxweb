@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag renders tag component with all props 1`] = `
+<Styled(Component)
+  autoFocus={true}
+  className="tw-tag"
+  disabled={true}
+  download="download"
+  linkTo="https://example.com"
+  onClick={[MockFunction]}
+  tabIndex={0}
+  targetBlank={true}
+  title="test title"
+>
+  <styled.div>
+    Test label
+  </styled.div>
+</Styled(Component)>
+`;
+
+exports[`Tag renders tag component with an actionType prop 1`] = `
+<Styled(Component)
+  className="tw-tag"
+>
+  <styled.div
+    action="add"
+  >
+    Test label
+    <styled.div>
+      <SVG
+        asset="Smallplus"
+        fill={true}
+      />
+    </styled.div>
+  </styled.div>
+</Styled(Component)>
+`;
+
+exports[`Tag renders tag component with only required props 1`] = `
+<Styled(Component)
+  className="tw-tag"
+>
+  <styled.div>
+    Test label
+  </styled.div>
+</Styled(Component)>
+`;

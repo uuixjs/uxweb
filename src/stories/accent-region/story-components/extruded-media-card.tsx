@@ -10,7 +10,7 @@ import {
   Layout,
 } from "v2";
 
-import { ExampleThumbnails } from "../assets";
+import { ExampleThumbnails } from "../../assets";
 import { FC } from "react";
 
 export const ExtrudedMediaCard: FC<{ show?: boolean; src?: string }> = ({

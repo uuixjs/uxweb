@@ -15,7 +15,7 @@ import {
   TitleSize,
 } from "v2";
 
-import { ExampleSection } from "../../components/example-section";
+import { ExampleSection } from "../components/example-section";
 
 export default { title: Radio.displayName };
 

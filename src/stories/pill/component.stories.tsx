@@ -3,11 +3,11 @@ import * as React from "react";
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 import { FontSize, Layout, Pill, PillType } from "v2";
 
-import { ExampleSection } from "../../components/example-section";
-import { OverlayPreview } from "../../components/overlay-preview";
+import { ExampleSection } from "../components/example-section";
+import { OverlayPreview } from "../components/overlay-preview";
 
 export default { title: Pill.displayName };
 

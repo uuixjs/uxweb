@@ -14,7 +14,7 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 
 export default { title: "LoadingButton" };
 export const legacyExamples = () => (

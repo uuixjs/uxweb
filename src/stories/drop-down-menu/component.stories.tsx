@@ -25,8 +25,8 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
-import { ExampleBG, OverlayPreview } from "../../components/overlay-preview";
+} from "../components/combination-generator";
+import { ExampleBG, OverlayPreview } from "../components/overlay-preview";
 import { ExampleBoxArt, ExampleCharacters } from "../assets";
 
 import { FC } from "react";

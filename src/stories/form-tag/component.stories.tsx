@@ -3,7 +3,7 @@ import * as React from "react";
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 import {
   CoreButtonSize,
   CoreText,

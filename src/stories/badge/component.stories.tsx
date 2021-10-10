@@ -4,7 +4,7 @@ import { Badge, BadgeProps, BadgeType, SVGAsset } from "v2";
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 
 export default { title: Badge.displayName };
 

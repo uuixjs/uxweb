@@ -19,10 +19,10 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 import { FormEvent, useState } from "react";
 
-import { OverlayPreview } from "../../components/overlay-preview";
+import { OverlayPreview } from "../components/overlay-preview";
 import { TabsParentExample } from "./story-components/tabs-parent-example";
 import { TabsParentWithAsyncChanges } from "./story-components/tabs-parent-with-async-changes";
 import { TabsParentWithResizeLogicExample } from "./story-components/tabs-parent-with-resize-logic-example";

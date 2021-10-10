@@ -4,7 +4,7 @@ import { Aspect, AspectRatio, Background, Layout } from "v2";
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 
 export default { title: Aspect.displayName };
 

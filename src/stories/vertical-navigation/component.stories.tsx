@@ -18,7 +18,7 @@ import {
 } from "v2";
 
 import { Component } from "react";
-import { OverlayPreview } from "../../components/overlay-preview";
+import { OverlayPreview } from "../components/overlay-preview";
 
 export default { title: "VerticalNavigation" };
 

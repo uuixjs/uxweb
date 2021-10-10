@@ -18,9 +18,9 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 
-import { Outline } from "../../components/outline";
+import { Outline } from "../components/outline";
 import { useState } from "react";
 
 export default { title: FormGroup.displayName };

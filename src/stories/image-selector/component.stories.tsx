@@ -18,14 +18,14 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 import {
   ExampleAvatars,
   ExampleImageSizes,
   ExampleThumbnails,
 } from "../assets";
 
-import { OverlayPreview } from "../../components/overlay-preview";
+import { OverlayPreview } from "../components/overlay-preview";
 
 export default { title: ImageSelector.displayName };
 

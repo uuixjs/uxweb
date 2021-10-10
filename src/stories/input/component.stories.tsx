@@ -22,7 +22,7 @@ import {
   Tower,
 } from "v2";
 
-import { ExampleSection } from "../../components/example-section";
+import { ExampleSection } from "../components/example-section";
 import { ExampleThumbnails } from "../assets";
 
 export default { title: Input.displayName };

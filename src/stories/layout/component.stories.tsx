@@ -14,9 +14,9 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 
-import { OverlayPreview } from "../../components/overlay-preview";
+import { OverlayPreview } from "../components/overlay-preview";
 
 export default { title: "Layout" };
 

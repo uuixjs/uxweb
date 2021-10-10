@@ -3,7 +3,7 @@ import * as React from "react";
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 import {
   CoreText,
   InputSize,
@@ -12,7 +12,7 @@ import {
   TextType,
 } from "v2";
 
-import { OverlayPreview } from "../../components/overlay-preview";
+import { OverlayPreview } from "../components/overlay-preview";
 
 export default { title: "SearchInput" };
 

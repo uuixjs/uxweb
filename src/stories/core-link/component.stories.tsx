@@ -13,7 +13,7 @@ import {
   Typeset,
 } from "v2";
 
-import { OverlayPreview } from "../../components/overlay-preview";
+import { OverlayPreview } from "../components/overlay-preview";
 
 export default { title: "CoreLink" };
 

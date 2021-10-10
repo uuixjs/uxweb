@@ -1,5 +1,5 @@
 import * as React from "react";
-import styled from "styled-components";
+
 import {
   Background,
   BorderRadius,
@@ -14,7 +14,9 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
+
+import styled from "styled-components";
 
 export default { title: ChannelStatusIndicator.displayName };
 

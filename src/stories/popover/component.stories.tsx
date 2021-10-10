@@ -27,7 +27,7 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 import { Component, FC } from "react";
 
 const TITLE = "Popover Title";

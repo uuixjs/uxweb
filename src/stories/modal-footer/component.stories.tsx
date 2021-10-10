@@ -2,7 +2,7 @@ import * as React from "react";
 
 import { ModalFooter, ModalSize } from "v2";
 
-import { CombinationGenerator } from "../../components/combination-generator";
+import { CombinationGenerator } from "../components/combination-generator";
 
 export default { title: "Modal / ModalFooter" };
 

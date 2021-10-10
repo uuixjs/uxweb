@@ -11,8 +11,8 @@
 // import {
 //   CombinationGenerator,
 //   CombinationMode,
-// } from "../../components/combination-generator";
-// import { OverlayPreview } from "../../components/overlay-preview";
+// } from "../components/combination-generator";
+// import { OverlayPreview } from "../components/overlay-preview";
 
 // export default { title: "StatusButton" };
 

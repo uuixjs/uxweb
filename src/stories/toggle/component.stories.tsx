@@ -4,7 +4,7 @@ import { Background, Layout, OverlayRegion, Toggle } from "v2";
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 
 export default { title: Toggle.displayName };
 

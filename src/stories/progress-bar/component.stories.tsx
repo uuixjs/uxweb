@@ -19,10 +19,10 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 import { useEffect, useState } from "react";
 
-import { ExampleSection } from "../../components/example-section";
+import { ExampleSection } from "../components/example-section";
 
 export default { title: ProgressBar.displayName };
 

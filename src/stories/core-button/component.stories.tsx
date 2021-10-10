@@ -14,7 +14,7 @@ import {
   Tower,
   TowerGutter,
 } from "v2";
-import { ExampleBG, OverlayPreview } from "../../components/overlay-preview";
+import { ExampleBG, OverlayPreview } from "../components/overlay-preview";
 
 export default { title: CoreButton.displayName };
 

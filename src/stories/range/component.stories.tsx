@@ -3,9 +3,9 @@ import * as React from "react";
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 import { Component, FormEvent } from "react";
-import { ExampleBG, OverlayPreview } from "../../components/overlay-preview";
+import { ExampleBG, OverlayPreview } from "../components/overlay-preview";
 import { Layout, Range, RangeProps } from "v2";
 
 export default { title: "Range" };

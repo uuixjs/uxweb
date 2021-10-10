@@ -26,10 +26,10 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 
-import { ExampleSection } from "../../components/example-section";
-import { OverlayPreview } from "../../components/overlay-preview";
+import { ExampleSection } from "../components/example-section";
+import { OverlayPreview } from "../components/overlay-preview";
 
 export default { title: Selectable.displayName };
 

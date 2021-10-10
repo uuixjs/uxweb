@@ -19,7 +19,7 @@ import {
 } from "v2";
 import { ChangeEvent, FC, useState } from "react";
 
-import { ExampleSection } from "../../components/example-section";
+import { ExampleSection } from "../components/example-section";
 
 export default { title: CheckBox.displayName };
 

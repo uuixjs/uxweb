@@ -15,9 +15,9 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 
-import { ExampleSection } from "../../components/example-section";
+import { ExampleSection } from "../components/example-section";
 
 export default { title: "Dialogs / Attached" };
 

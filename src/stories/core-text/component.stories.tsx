@@ -20,7 +20,7 @@ import {
   WordBreak,
 } from "v2";
 
-import { Enum } from "tachyon-utils-ts";
+import { Enum } from "lib";
 
 export default { title: "CoreText" };
 

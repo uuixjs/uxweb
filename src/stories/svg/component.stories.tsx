@@ -21,7 +21,7 @@ import {
 import {
   CombinationGenerator,
   CombinationMode,
-} from "../../components/combination-generator";
+} from "../components/combination-generator";
 
 export default { title: SVG.displayName };
 

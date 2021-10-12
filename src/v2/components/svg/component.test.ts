@@ -2,7 +2,7 @@ import { SVG, SVGAsset, SVGType } from ".";
 
 import { createMountWrapperFactory } from "lib/test-utils";
 
-describe("SVG", () => {
+describe("SVG", () => { // @ts-ignore
   const setup = createMountWrapperFactory(SVG, () => ({
     asset: SVGAsset.Gear,
   }));

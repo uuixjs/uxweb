@@ -1,6 +1,7 @@
-import { Children, ReactElement } from "react";
-import { TransitionGroupItemProps } from "../components/transition-group-item";
 import { ChildMap, TransitionGroupChild } from "../models";
+import { Children, ReactElement } from "react";
+
+import { TransitionGroupItemProps } from "../components/transition-group-item";
 
 export function getChildMapping(
   children: TransitionGroupChild | TransitionGroupChild[],
@@ -90,7 +91,7 @@ export function mergeChildMappings(prev: ChildMap, next: ChildMap): ChildMap {
         nextKeysPending[prevKey] = pendingKeys;
         pendingKeys = [];
       }
-    } else {
+    } else { // @ts-ignore
       pendingKeys.push(prevKey);
     }
   }

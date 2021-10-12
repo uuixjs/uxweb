@@ -34,7 +34,7 @@
     "eject": "react-scripts eject",
     "sb": "start-storybook -p 6006 -s public",
     "sb:build": "build-storybook",
-    "build:dist": "rm -rf dist && tsc  --skipLibCheck"
+    "build:dist": "rm -rf dist && tsc --project tsconfigBuild.json"
   },
   "eslintConfig": {
     "extends": [

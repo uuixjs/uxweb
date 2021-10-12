@@ -15,7 +15,7 @@ addons.register(ADDON_ID, (_) => {
 
   addons.add(PANEL_ID, {
     type: types.PANEL,
-    title,
+    title, // @ts-ignore
     render,
     paramKey: PARAM_KEY,
   });

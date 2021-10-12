@@ -26,7 +26,7 @@ export const ChannelNameBanner: FC<PublicProps> = ({
 
   const nameLines = [];
   for (let idx = 0; idx < NEEDED_LINES; idx++) {
-    nameLines.push(
+    nameLines.push( // @ts-ignore
       <Layout overflow={Overflow.Hidden} key={idx}>
         {wrapAtIndex(namesAsString, idx)}
       </Layout>,

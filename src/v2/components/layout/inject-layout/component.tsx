@@ -22,12 +22,12 @@ export const InjectLayout = styled(
     const classList = [];
 
     if (props.className) {
-      const propClassNames = props.className.split(" ");
+      const propClassNames = props.className.split(" "); // @ts-ignore
       classList.push(...propClassNames);
     }
 
     if (child.props.className) {
-      const childClassNames = child.props.className.split(" ");
+      const childClassNames = child.props.className.split(" "); // @ts-ignore
       classList.push(...childClassNames);
     }
 

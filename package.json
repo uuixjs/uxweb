@@ -1,7 +1,9 @@
 {
-  "name": "uuix-1",
+  "name": "uuixweb",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {
     "@fontsource/inter": "^4.5.0",
     "@popperjs/core": "^2.10.2",

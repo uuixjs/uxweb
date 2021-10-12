@@ -35,5 +35,10 @@
     }
   },
   "include": ["src"],
-  "exclude": ["src/**/*.test.tsx", "src/**/*.stories.tsx", "node_modules"]
+  "exclude": [
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx",
+    "node_modules",
+    "src/stories"
+  ]
 }

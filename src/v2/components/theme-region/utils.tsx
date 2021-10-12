@@ -1,7 +1,5 @@
+import { Theme, prefersDarkMode } from "lib";
 import { useEffect, useState } from "react";
-
-import { Theme } from "lib";
-import { prefersDarkMode } from "lib";
 
 export type ThemeOption = Theme | "system";
 
@@ -10,7 +8,7 @@ export type ThemeOption = Theme | "system";
  * and updates using a Media Query listener.
  */
 export function useSystemThemeOptionHandler(themeOption: ThemeOption): Theme {
-  const [theme, setTheme] = useState<Theme>(getInitialTheme(themeOption));
+  const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
     // Standard theme choice of light or dark:

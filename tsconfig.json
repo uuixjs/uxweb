@@ -15,24 +15,11 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": false,
-    "noEmit": false,
+    "isolatedModules": true,
+    "noEmit": true,
     "jsx": "react-jsx",
-    "paths": {
-      "lib": [
-        "./src/lib"
-      ],
-      "lib/*": [
-        "./src/lib/*"
-      ],
-      "v2": [
-        "./src/v2"
-      ],
-      "v2/*": [
-        "./src/v2/*"
-      ],
-    },
-    "baseUrl": "."
+    "baseUrl": ".",
+    "strict": true
   },
   "include": [
     "src",

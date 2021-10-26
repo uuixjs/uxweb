@@ -1,12 +1,9 @@
 name: gh-pages
 
 on:
-  workflow_dispatch:
   push:
     branches:
-      - master
-    paths:
-      - 'src/stories/**'
+      - "master"
 
 jobs:
   update:

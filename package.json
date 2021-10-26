@@ -1,6 +1,6 @@
 {
-  "name": "uuixweb",
-  "version": "0.1.0",
+  "name": "@uuixjs/uuixweb",
+  "version": "0.0.1",
   "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,8 @@
     "sb": "start-storybook -p 6006 -s public",
     "sb:build": "build-storybook",
     "build": "rm -rf dist && tsc --project tsconfigBuild.json",
-    "prepare": "ts-patch install -s"
+    "prepare": "ts-patch install -s",
+    "prepublish": "npm run build"
   },
   "peerDependencies": {
     "react": "^17.0.2",

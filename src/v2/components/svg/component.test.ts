@@ -1,7 +1,8 @@
-import { createMountWrapperFactory } from "tachyon-test-utils";
 import { SVG, SVGAsset, SVGType } from ".";
 
-describe("SVG", () => {
+import { createMountWrapperFactory } from "lib/test-utils";
+
+describe("SVG", () => { // @ts-ignore
   const setup = createMountWrapperFactory(SVG, () => ({
     asset: SVGAsset.Gear,
   }));

@@ -1,0 +1,42 @@
+name: "release"
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  bump-version:
+    name: "Release"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout source code"
+        uses: "actions/checkout@v2"
+        with:
+          ref: ${{ github.ref }}
+
+      # Setup Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: 16.x          
+
+      # Automated Version Bump
+      - name: "Automated Version Bump"
+        uses: "phips28/gh-action-bump-version@master"
+        with:
+          tag-prefix: ""
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Publish the package
+      - name: npm publish
+        run: |
+          npm config set @stoqeyx:registry https://npm.pkg.github.com
+          npm config set //npm.pkg.github.com/:_authToken=$NPM_AUTH_TOKEN
+          npm install
+          npm publish
+        env:
+          CI: true
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

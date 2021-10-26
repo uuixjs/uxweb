@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# UUIX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+UUIX is a front-end library that provides:
 
-## Available Scripts
+- React (and non-react) components
+- CSS variables and utilities for theming, color, spacing, and typography
+- and, an icon library
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Visit our [Storybook](https://uuixweb.netlify.app/) for more information on designing and building.**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Quickstart
 
-### `yarn test`
+Starting with a blank new [Create React App](https://github.com/facebook/create-react-app), you can add UUIX with these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. `yarn add uuixweb react-router-dom`
+2. Use UUIX in your `app.js` file like this:
 
-### `yarn build`
+```jsx
+// This imports the entire UUIXWEB CSS bundle
+import "uuixweb/css/index.css";
+import { Button, SVGAsset } from "uuixweb";
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+class App extends Component {
+  render() {
+    return <Button icon={SVGAsset.Wrench}>Hello World</Button>;
+  }
+}
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For more advanced usage, see below.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Exports
 
-### `yarn eject`
+### JS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This package comes with several different JS exports to adapt to the needs of various applications, with the appropriate keys added to `package.json` so that consumers' tooling/environment can automatically choose the most appropriate version:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `dist/index.js` is the main ES5 single bundle entrypoint, useful for legacy applications and node environments
+- `module/index.js` and its siblings is an ES5 + ES modules entrypoint, enabling tree-shaking when consumed via a compatible bundling tool (webpack, rollup, parcel, etc)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Due to the proper configuration of `package.json`, most consumers don't need to worry about the distinction between these 2 exports and can just use `import { foo } from 'uuixweb'` or `const { foo } = require('uuixweb')`. `dist` and `module` are (and must be) functionally equivalent to allow proper functionality in a isomorphic javascript application.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### CSS
 
-## Learn More
+CSS and SCSS exports are available from the `uuix/lib/ui-scss` path.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Types
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This package comes with complete type definitions for all components, and TypeScript will automatically find them due to proper configuration.

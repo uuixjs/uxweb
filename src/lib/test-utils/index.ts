@@ -1,3 +1,5 @@
+export function createMountWrapperFactory(x: any): any {
+    return x;
+}
 
-module.exports = {
-};
+export default createMountWrapperFactory;

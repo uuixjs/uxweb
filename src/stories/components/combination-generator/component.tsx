@@ -192,7 +192,7 @@ export class CombinationGenerator extends Component<Props, State> {
         continue;
       }
 
-      if (next.hasOwnProperty(key) && next[key] === currentObj[key]) {
+      if (next.hasOwnProperty(key) && next[key] === currentObj[key]) { // @ts-ignore
         diffProps.push(key + " = " + currentObj[key]);
       }
     }

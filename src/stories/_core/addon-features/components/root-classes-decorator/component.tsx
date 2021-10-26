@@ -13,7 +13,7 @@ import addons from "@storybook/addons";
 export const RootClassesDecorator: FC = (props) => {
   const [theme, setTheme] = useStoredTheme<any>("light");
   const [cssVars, setCssVars] = useStoredCssVarsMode<any>();
-  const [disableHoverCSS, setDisableHoverCSS] = useStoredDisableHoverCSS();
+  const [disableHoverCSS, setDisableHoverCSS] = useStoredDisableHoverCSS<boolean>(false);
 
   // Connect storybook channel listeners
   const channelRef = useRef(addons.getChannel());
@@ -34,7 +34,7 @@ export const RootClassesDecorator: FC = (props) => {
   return (
     <CoreUIRoot
       theme={theme}
-      cssVars={cssVars}
+      cssVars={cssVars} // @ts-ignore
       disableHoverCSS={disableHoverCSS}
     >
       {props.children}

@@ -1,5 +1,5 @@
-import { createMountWrapperFactory } from "tachyon-test-utils";
 import { AnimatedGlitchLogo } from ".";
+import { createMountWrapperFactory } from "lib/test-utils";
 
 describe("AnimatedGlitchLogo", () => {
   const setup = createMountWrapperFactory(AnimatedGlitchLogo);

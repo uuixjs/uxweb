@@ -11,7 +11,6 @@ import {
   Ref,
   forwardRef,
 } from "react";
-import { Link, LinkProps as RRLinkProps } from "react-router-dom";
 import {
   ensureSafeLink,
   isExternalURL,
@@ -20,6 +19,7 @@ import {
 
 import { ARIARole } from "aria-query";
 import { DataTestSelectorProps } from "lib";
+import { LinkProps as RRLinkProps } from "react-router-dom";
 
 type AnchorProps = AnchorHTMLAttributes<HTMLAnchorElement>;
 type LinkProps = AnchorProps | RRLinkProps;
@@ -56,8 +56,8 @@ export type CoreFocusEventHandlers<T = CoreInteractiveElement> = {
  */
 export interface CoreInteractivePublicProps
   extends CoreMouseEventHandlers,
-    CoreFocusEventHandlers,
-    DataTestSelectorProps {
+  CoreFocusEventHandlers,
+  DataTestSelectorProps {
   /**
    * Optional label for screen readers and assistive devices.
    */
@@ -129,33 +129,33 @@ const CoreInteractive: ForwardRefRenderFunction<
     ...props
   },
   ref,
-) => {
-  const elementRef = ref || refHandler;
-  const elementProps: LinkProps | ButtonProps = props;
+  ) => {
+    const elementRef = ref || refHandler;
+    const elementProps: LinkProps | ButtonProps = props;
 
-  // Coalesce `false` to `undefined` to prevent `disabled={false}`
-  const isDisabled = disabled || disabledInteraction || undefined;
+    // Coalesce `false` to `undefined` to prevent `disabled={false}`
+    const isDisabled = disabled || disabledInteraction || undefined;
 
-  // links
-  if (linkTo && !isDisabled) {
-    const anchorRef = elementRef as Ref<HTMLAnchorElement>;
+    // links
+    if (linkTo && !isDisabled) {
+      const anchorRef = elementRef as Ref<HTMLAnchorElement>;
 
-    // add anchor-specific props
-    const anchorProps = elementProps as LinkProps;
-    if (download) {
-      anchorProps.download = download;
-    }
-    if (rel || targetBlank) {
-      anchorProps.rel = targetBlank
-        ? `${rel ? rel + " " : ""}noopener noreferrer`
-        : rel;
-    }
-    if (targetBlank) {
-      anchorProps.target = "_blank";
-    }
+      // add anchor-specific props
+      const anchorProps = elementProps as LinkProps;
+      if (download) {
+        anchorProps.download = download;
+      }
+      if (rel || targetBlank) {
+        anchorProps.rel = targetBlank
+          ? `${rel ? rel + " " : ""}noopener noreferrer`
+          : rel;
+      }
+      if (targetBlank) {
+        anchorProps.target = "_blank";
+      }
 
-    // external link
-    if (isExternalURL(linkTo) || isMailToLink(linkTo)) {
+      // external link
+      // if (isExternalURL(linkTo) || isMailToLink(linkTo)) {
       let href: string;
       if (typeof linkTo === "string") {
         href = linkTo;
@@ -171,32 +171,32 @@ const CoreInteractive: ForwardRefRenderFunction<
       }
 
       return <a {...anchorProps} href={ensureSafeLink(href)} ref={anchorRef} />;
+      // }
+
+      // internal custom link using linkTo prop
+      // if (renderLink) {
+      //   return renderLink({
+      //     ...anchorProps,
+      //     ref: anchorRef,
+      //     linkTo: ensureSafeLink(linkTo),
+      //   }) as ReactElement;
+      // }
+
+      // // internal default link
+      // return (
+      //   <Link {...anchorProps} to={ensureSafeLink(linkTo)} innerRef={anchorRef} />
+      // );
     }
 
-    // internal custom link using linkTo prop
-    if (renderLink) {
-      return renderLink({
-        ...anchorProps,
-        ref: anchorRef,
-        linkTo: ensureSafeLink(linkTo),
-      }) as ReactElement;
-    }
-
-    // internal default link
+    // non-link or disabled
     return (
-      <Link {...anchorProps} to={ensureSafeLink(linkTo)} innerRef={anchorRef} />
+      <button
+        {...(elementProps as ButtonProps)}
+        disabled={isDisabled}
+        ref={elementRef as Ref<HTMLButtonElement>}
+      />
     );
-  }
-
-  // non-link or disabled
-  return (
-    <button
-      {...(elementProps as ButtonProps)}
-      disabled={isDisabled}
-      ref={elementRef as Ref<HTMLButtonElement>}
-    />
-  );
-};
+  };
 
 CoreInteractive.displayName = "CoreInteractive";
 const ComponentWithRef = forwardRef(CoreInteractive);

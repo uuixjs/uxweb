@@ -1,11 +1,7 @@
 {
   "name": "@uuixjs/uuixweb",
-<<<<<<< HEAD
-  "version": "0.0.3",
-=======
   "version": "0.0.4",
   "private": true,
->>>>>>> 70597a8e37695d1498386f10f3c94e72bec4283d
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

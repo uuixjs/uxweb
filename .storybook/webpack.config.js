@@ -46,7 +46,7 @@ module.exports = ({ config, mode }) => {
     ...config.resolve.alias,
     v2: resolve(__dirname, "../src/v2"),
     components: resolve(__dirname, "../src/components"),
-    lib: resolve(__dirname, "../src/lib"),
+    lib: resolve(__dirname, "../node_modules/@uuixjs/uuixweb-lib/dist"),
   };
 
   return config;

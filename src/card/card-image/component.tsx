@@ -11,7 +11,7 @@ import { CoreImage, CoreImageProps } from "../../core-image";
 import { FC, ReactNode } from "react";
 
 import { Layout } from "../../layout";
-import { getImageProps } from "../../../utils/image-props";
+import { getImageProps } from "../../../_utils/image-props";
 
 export enum CardImageSize {
   Default = "tw-card-img--size-default",

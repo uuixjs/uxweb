@@ -14,7 +14,7 @@ import { CoreInteractiveElement } from "../../core-interactive";
 import { Icon } from "../../icon";
 import { SVGAsset } from "../../svg";
 import { ScCoreButtonSuccess } from "../core-button/component";
-import { TEST_AUTOMATION_SELECTORS } from "../../../tests/selectors";
+import { TEST_AUTOMATION_SELECTORS } from "../../../_tests/selectors";
 
 export enum LoadingStatus {
   Default = "default",

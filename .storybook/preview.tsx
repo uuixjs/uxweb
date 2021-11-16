@@ -3,15 +3,15 @@ import "loki/configure-react";
 import "../src/_css/base.css";
 // Add custom font and base styling.
 // import "./preview.scss";
-import "../src/stories/components"; // import components first
+import "../src/_stories/components"; // import components first
 
 import * as React from "react";
 
-import { PreviewDecorator } from "../src/stories/components/preview-decorator";
+import { PreviewDecorator } from "../src/_stories/components/preview-decorator";
 import { addDecorator } from "@storybook/react";
-import { withCoreUIRoot } from "../src/stories/_core/addon-features";
+import { withCoreUIRoot } from "../src/_stories/_core/addon-features";
 import { withPerformance } from "storybook-addon-performance";
-import { withRenderSpeedBenchmark } from "../src/stories/_core/addon-render-speed";
+import { withRenderSpeedBenchmark } from "../src/_stories/_core/addon-render-speed";
 
 // Global story preview decorator.
 addDecorator((storyFn) => <PreviewDecorator>{storyFn()}</PreviewDecorator>);

@@ -29,7 +29,7 @@ import { Component } from "react";
 import { Icon } from "../../icon";
 import { InputControlProps } from "../form";
 import { SVGAsset } from "../../svg";
-import { getImageProps } from "../../../utils/image-props";
+import { getImageProps } from "../../../_utils/image-props";
 import { withOverlayContext } from "../../overlay-region/context";
 
 export enum ImageSelectorType {

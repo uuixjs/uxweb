@@ -19,7 +19,7 @@ import { CoreImageProps } from "../../core-image";
 import { CoreInteractivePublicProps } from "../../core-interactive";
 import { FC } from "react";
 import { Placeholder } from "../../placeholder";
-import { getImageProps } from "../../../utils/image-props";
+import { getImageProps } from "../../../_utils/image-props";
 
 export interface BoxArtCardProps
   extends CoreImageProps,

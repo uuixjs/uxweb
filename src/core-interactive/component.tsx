@@ -15,7 +15,7 @@ import {
   ensureSafeLink,
   isExternalURL,
   isMailToLink,
-} from "../../utils/url-props";
+} from "../../_utils/url-props";
 
 import { ARIARole } from "aria-query";
 import { DataTestSelectorProps } from "lib";

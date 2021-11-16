@@ -111,7 +111,6 @@
     "@types/styled-components": "^5.1.15",
     "@types/styled-theming": "^2.2.5",
     "@types/tinycolor2": "^1.4.3",
-    "@uuixjs/eslint-config": "^0.0.4",
     "aria-query": "^5.0.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-module-resolver": "^4.1.0",

@@ -2,7 +2,7 @@ import { CoreButtonSize } from "../component";
 import { FC } from "react";
 import { Icon } from "../../../icon";
 import { SVGAsset } from "../../../svg";
-import { TEST_AUTOMATION_SELECTORS } from "../../../../_tests/selectors";
+import { TEST_AUTOMATION_SELECTORS } from "../../../_tests/selectors";
 import { styled } from "lib";
 
 export interface CoreButtonIconProps {

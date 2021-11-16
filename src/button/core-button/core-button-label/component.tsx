@@ -9,7 +9,7 @@ import { staticTokenRule, styled } from "lib";
 import { CoreButtonIcon } from "../core-button-icon";
 import { CoreButtonSize } from "..";
 import { SVGAsset } from "../../../svg";
-import { TEST_AUTOMATION_SELECTORS } from "../../../../_tests/selectors";
+import { TEST_AUTOMATION_SELECTORS } from "../../../_tests/selectors";
 
 export interface CoreButtonLabelProps {
   labelAlign?: JustifyContent;

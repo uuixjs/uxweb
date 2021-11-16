@@ -30,8 +30,8 @@
     "paths": {
       "lib": ["@uuixjs/uuixweb-lib"],
       "lib/*": ["@uuixjs/uuixweb-lib"],
-      "v2": ["./src/v2"],
-      "v2/*": ["./src/v2/*"]
+      "v2": ["./src"],
+      "v2/*": ["./src/*"]
     },
     // Note: To transform paths for both the output .js and .d.ts files, you need both of the below entries
     "plugins": [

@@ -10,7 +10,7 @@ import { CardImage } from "../../card/card-image";
 import { CoreImageProps } from "../../core-image";
 import { FC } from "react";
 import { Placeholder } from "../../placeholder";
-import { getImageProps } from "../../../_utils/image-props";
+import { getImageProps } from "../../_utils/image-props";
 
 export interface ThumbnailCardProps
   extends CoreImageProps,

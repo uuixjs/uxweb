@@ -6,7 +6,7 @@ import { getAriaProps, styled } from "lib";
 import { FC } from "react";
 import { Icon } from "../../../icon";
 import { SVGAsset } from "../../../svg";
-import { getImageProps } from "../../../../_utils/image-props";
+import { getImageProps } from "../../../_utils/image-props";
 
 export interface DropDownMenuItemImageProps extends CoreImageProps {
   aspectRatio?: AspectRatio;

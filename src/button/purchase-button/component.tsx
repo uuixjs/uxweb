@@ -14,7 +14,7 @@ import { ForwardRefRenderFunction, ReactNode, forwardRef } from "react";
 import { CoreButtonLabel } from "../core-button/core-button-label";
 import { JustifyContent } from "../../layout";
 import { SVGAsset } from "../../svg";
-import { TEST_AUTOMATION_SELECTORS } from "../../../_tests/selectors";
+import { TEST_AUTOMATION_SELECTORS } from "../../_tests/selectors";
 
 export interface PurchaseButtonProps extends CoreButtonPublicProps {
   children: ReactNode;

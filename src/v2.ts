@@ -3,3 +3,4 @@
  */
 
 export * from "./index";
+export * from "@uuixjs/uuixweb-lib";

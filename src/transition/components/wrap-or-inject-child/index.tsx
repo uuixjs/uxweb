@@ -7,7 +7,7 @@ import {
   isValidElement,
 } from "react";
 
-import { cn } from "lib";
+import { cn } from "@uuixjs/uuixweb-lib";
 
 type DivProps = DetailedHTMLProps<
   HTMLAttributes<HTMLDivElement>,

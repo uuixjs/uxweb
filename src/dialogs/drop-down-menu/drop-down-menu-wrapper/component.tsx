@@ -17,7 +17,7 @@ import {
   DropDownMenuItem,
   DropDownMenuItemProps,
 } from "../drop-down-menu-item";
-import { getAriaProps, getDataProps } from "lib";
+import { getAriaProps, getDataProps } from "@uuixjs/uuixweb-lib";
 
 export type DropDownMenuList = Array<
   DropDownMenuInputItemProps | DropDownMenuItemProps

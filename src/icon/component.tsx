@@ -2,7 +2,7 @@ import { Aspect, AspectRatio } from "../aspect";
 import { SVGAsset, SVG_PATHS } from "../svg";
 
 import { FC } from "react";
-import { styled } from "lib";
+import { styled } from "@uuixjs/uuixweb-lib";
 
 export const DEFAULT_ICON_SIZE_REM = 2;
 

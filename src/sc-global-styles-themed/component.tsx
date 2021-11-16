@@ -2,7 +2,7 @@ import {
   createGlobalStyle,
   staticTokenRule,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 /* stylelint-disable */
 

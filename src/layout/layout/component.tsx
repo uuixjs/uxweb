@@ -1,6 +1,6 @@
 import { CommonLayoutProps, propMap } from "../utils/layout-props";
 import { DetailedHTMLProps, HTMLAttributes } from "react";
-import { StyledComponent, styled } from "lib";
+import { StyledComponent, styled } from "@uuixjs/uuixweb-lib";
 
 import { getLayoutStyles } from "../utils/common";
 

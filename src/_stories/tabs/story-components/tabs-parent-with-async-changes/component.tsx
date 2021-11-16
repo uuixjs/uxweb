@@ -15,7 +15,7 @@ import {
 import { Component, FormEvent } from "react";
 
 import { TabsParentExample } from "../tabs-parent-example";
-import { newUUIDv4 } from "lib";
+import { newUUIDv4 } from "@uuixjs/uuixweb-lib";
 
 interface State {
   asyncNumTabsInput: number;

@@ -6,7 +6,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 export enum GlitchAnimationStep {
   mouseEnter = "mouse-enter",

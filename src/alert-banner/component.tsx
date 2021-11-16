@@ -14,7 +14,7 @@ import { CloseButtonProps, CoreDismissible } from "../core-dismissible";
 import { CoreLink, CoreLinkType } from "../core-link";
 import { CoreText, TextType } from "../core-text";
 import { StatusButton, StatusButtonProps } from "../button/status-button";
-import { styleVariant, styled, themeTokenRule } from "lib";
+import { styleVariant, styled, themeTokenRule } from "@uuixjs/uuixweb-lib";
 
 import { Column } from "../grid/column";
 import { CoreInteractivePublicProps } from "../core-interactive";

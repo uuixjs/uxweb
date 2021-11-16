@@ -16,7 +16,7 @@ import {
   hoverCss,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { Title, TitleSize } from "../../../../title";
 
 import { CoreText } from "../../../../core-text";

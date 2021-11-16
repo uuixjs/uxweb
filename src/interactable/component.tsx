@@ -10,7 +10,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { CoreInteractive, CoreInteractiveElement, CoreInteractivePublicProps } from "../core-interactive";
 import { ForwardRefRenderFunction, ReactNode, forwardRef, useContext } from "react";
 

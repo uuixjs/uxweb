@@ -7,7 +7,7 @@ import {
 } from "../../../layout";
 import { BalloonSize, BalloonWrapper } from "../../balloon/balloon-wrapper";
 import { Component, ReactNode } from "react";
-import { getAriaProps, getDataProps } from "lib";
+import { getAriaProps, getDataProps } from "@uuixjs/uuixweb-lib";
 
 export interface PopoverWrapperProps {
   /** This ID attribute must be the same for all elements for a given popover in order to set the correct aria attribute values. In other words, a Popover, PopoverHeader and PopoverBody should each receive the same string. */

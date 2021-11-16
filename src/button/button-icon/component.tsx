@@ -10,7 +10,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import { Icon } from "../../icon";
 import { SVGAsset } from "../../svg";

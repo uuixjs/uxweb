@@ -11,10 +11,10 @@ import {
   JustifyContent,
   WhiteSpace,
 } from "v2";
-import { RGBColor, rgb2hex } from "lib";
+import { RGBColor, rgb2hex } from "@uuixjs/uuixweb-lib";
 
 import { FC } from "react";
-import { contrast } from "lib";
+import { contrast } from "@uuixjs/uuixweb-lib";
 
 export const ColorSwatch: FC<{ bg: RGBColor; fg: RGBColor }> = (props) => (
   <InjectLayout

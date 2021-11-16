@@ -5,7 +5,7 @@ import {
   isValidElement,
 } from "react";
 import { CommonLayoutProps, propMap } from "../utils/layout-props";
-import { cn, getAriaProps, getDataProps, styled } from "lib";
+import { cn, getAriaProps, getDataProps, styled } from "@uuixjs/uuixweb-lib";
 
 import { getLayoutStyles } from "../utils/common";
 

@@ -3,7 +3,7 @@ import {
   DropDownMenuItemFigure,
   DropDownMenuItemFigureProps,
 } from "../drop-down-menu-item-figure";
-import { newUUIDv4, styled } from "lib";
+import { newUUIDv4, styled } from "@uuixjs/uuixweb-lib";
 
 import { CheckBox } from "../../../form/checkbox";
 import { FC } from "react";

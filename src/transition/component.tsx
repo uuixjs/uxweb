@@ -4,7 +4,7 @@ import {
   TransitionType,
   TransitionTypeValue,
 } from "./models";
-import { cn, prefersReducedMotion } from "lib";
+import { cn, prefersReducedMotion } from "@uuixjs/uuixweb-lib";
 
 import { ScTransitionBase } from "./components/sc-transition-base";
 

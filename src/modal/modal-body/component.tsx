@@ -1,6 +1,6 @@
 import { Component, ReactNode } from "react";
 import { Layout, Overflow } from "../../layout";
-import { Padding, getAriaProps } from "lib";
+import { Padding, getAriaProps } from "@uuixjs/uuixweb-lib";
 
 export interface ModalBodyProps {
   children?: ReactNode;

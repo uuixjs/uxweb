@@ -16,7 +16,7 @@ import {
   cssTranslateTop,
   cssVisibility,
 } from "./transition-styles";
-import { styleVariant, styled } from "lib";
+import { styleVariant, styled } from "@uuixjs/uuixweb-lib";
 
 import { WrapOrInjectChild } from "../wrap-or-inject-child";
 

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { AccentColorList, contrast, luminance } from "lib";
+import { AccentColorList, contrast, luminance } from "@uuixjs/uuixweb-lib";
 import {
   AlignItems,
   BorderRadius,
@@ -17,7 +17,7 @@ import {
 } from "v2";
 
 import { FC } from "react";
-import { RGBColor } from "lib";
+import { RGBColor } from "@uuixjs/uuixweb-lib";
 import { printColor } from "./utils";
 
 export const PaletteTable: FC<{

@@ -1,5 +1,5 @@
 import { CoreText, TextTransform, TextType } from "../core-text";
-import { styleVariant, styled, themeTokenRule } from "lib";
+import { styleVariant, styled, themeTokenRule } from "@uuixjs/uuixweb-lib";
 
 import { FC } from "react";
 import { FontWeight } from "../layout";

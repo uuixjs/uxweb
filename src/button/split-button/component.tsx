@@ -15,7 +15,7 @@ import {
   omitDataProps,
   staticTokenRule,
   styled,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import { CoreButtonLabel } from "../core-button/core-button-label";
 import { CoreInteractivePublicProps } from "../../core-interactive";

@@ -1,6 +1,6 @@
 import { Display, FlexDirection, Layout } from "../../layout";
 import { FC, ReactNode } from "react";
-import { Margin, getAriaProps, getDataProps } from "lib";
+import { Margin, getAriaProps, getDataProps } from "@uuixjs/uuixweb-lib";
 
 export interface MediaCardProps {
   /** A <MediaCardImage> or custom image component */

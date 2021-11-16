@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
 
-import { styled } from "lib";
+import { styled } from "@uuixjs/uuixweb-lib";
 
 export enum AspectRatio {
   Aspect21x9 = "tw-aspect--21x9",

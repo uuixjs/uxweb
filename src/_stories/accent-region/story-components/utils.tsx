@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import { RGBColor, rgb2hsl } from "lib";
+import { RGBColor, rgb2hsl } from "@uuixjs/uuixweb-lib";
 
 export const useColorStorage = (): [
   string,

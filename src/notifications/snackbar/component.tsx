@@ -8,7 +8,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { FC, ReactNode } from "react";
 import { ScButtonIcon, ScButtonIconFigure } from "../../button/button-icon/component";
 

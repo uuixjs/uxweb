@@ -16,7 +16,7 @@ import {
   TransitionType,
 } from "v2";
 
-import { Enum } from "lib";
+import { Enum } from "@uuixjs/uuixweb-lib";
 import { TransitionExample } from "./story-components/transition-example/component";
 
 export default { title: "Transition" };

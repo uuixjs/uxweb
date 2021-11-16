@@ -14,7 +14,7 @@ import {
   WhiteSpace,
 } from "v2";
 import { FC, useCallback, useState } from "react";
-import { RGBColor, parse } from "lib";
+import { RGBColor, parse } from "@uuixjs/uuixweb-lib";
 
 import { printColor } from "./utils";
 

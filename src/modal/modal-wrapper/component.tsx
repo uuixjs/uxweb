@@ -5,7 +5,7 @@ import {
   FlexDirection,
   Layout,
 } from "../../layout";
-import { BorderRadius, styleVariant, styled } from "lib";
+import { BorderRadius, styleVariant, styled } from "@uuixjs/uuixweb-lib";
 import { FC, ReactNode } from "react";
 
 export enum ModalSize {

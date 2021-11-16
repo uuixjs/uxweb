@@ -13,7 +13,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import { CoreText } from "../../core-text";
 import { Icon } from "../../icon";

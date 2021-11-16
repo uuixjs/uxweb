@@ -2,7 +2,7 @@ import { Component, ReactNode } from "react";
 import { Display, InjectLayout, Layout } from "../../layout";
 import { Pill, PillProps } from "../../pill";
 import { Title, TitleSize } from "../../title";
-import { getAriaProps, styled } from "lib";
+import { getAriaProps, styled } from "@uuixjs/uuixweb-lib";
 
 import { TextType } from "../../core-text";
 

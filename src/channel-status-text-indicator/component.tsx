@@ -4,7 +4,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { CoreText, TextTransform, WhiteSpace } from "../core-text";
 import { StaticToken, ThemeToken } from "lib/ui-tokens";
 

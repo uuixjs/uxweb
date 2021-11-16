@@ -4,7 +4,7 @@ import {
   getBorderRadiusStyles,
   staticTokenRule,
   styled,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { FC, memo } from "react";
 
 import { AvatarProps } from "..";

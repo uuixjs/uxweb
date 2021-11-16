@@ -1,6 +1,6 @@
 import { Component } from "react";
 import CountUp from "react-countup";
-import { styled } from "lib";
+import { styled } from "@uuixjs/uuixweb-lib";
 
 export interface AnimatedNumberProps {
   value: number;

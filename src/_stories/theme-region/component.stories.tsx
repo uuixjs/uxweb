@@ -13,7 +13,7 @@ import {
   ThemeRegion,
   Title,
 } from "v2";
-import { themeRule, themeTokenRule } from "lib";
+import { themeRule, themeTokenRule } from "@uuixjs/uuixweb-lib";
 
 import styled from "styled-components";
 

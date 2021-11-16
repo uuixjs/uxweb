@@ -28,7 +28,7 @@ import {
 import { Component, FormEvent, MouseEvent } from "react";
 
 import { TransitionGroupChecklist } from "../transition-group-checklist";
-import { newUUIDv4 } from "lib";
+import { newUUIDv4 } from "@uuixjs/uuixweb-lib";
 
 enum DemoLayoutType {
   Ordinary = "ordinary",

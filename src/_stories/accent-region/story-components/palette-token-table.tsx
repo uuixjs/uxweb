@@ -12,7 +12,7 @@ import {
 } from "v2";
 
 import { FC } from "react";
-import { ThemeToken } from "lib";
+import { ThemeToken } from "@uuixjs/uuixweb-lib";
 import { TokenSwatch } from "./token-swatch";
 
 export const PaletteTokenTable: FC = () => {

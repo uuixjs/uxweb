@@ -2,7 +2,7 @@ import { FC, ReactNode } from "react";
 
 import { InputSize } from "../../form";
 import { getInputSizeValue } from "../../common";
-import { styled } from "lib";
+import { styled } from "@uuixjs/uuixweb-lib";
 
 export interface SegmentedButtonProps {
   /**

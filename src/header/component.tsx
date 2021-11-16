@@ -2,7 +2,7 @@ import { CoreText, TextTransform, TextType } from "../core-text";
 import { FC, ReactNode } from "react";
 import { FontSize, FontWeight } from "../layout";
 
-import { getAriaProps } from "lib";
+import { getAriaProps } from "@uuixjs/uuixweb-lib";
 
 export interface HeaderProps {
   children?: ReactNode;

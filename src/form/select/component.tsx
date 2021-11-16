@@ -18,7 +18,7 @@ import {
   styled,
   themeRule,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import { ScInputBase } from "../common";
 import { withOverlayContext } from "../../overlay-region/context";

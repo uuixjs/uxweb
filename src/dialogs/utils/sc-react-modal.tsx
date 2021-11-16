@@ -1,4 +1,4 @@
-import { cn, staticTokenRule, styled } from "lib";
+import { cn, staticTokenRule, styled } from "@uuixjs/uuixweb-lib";
 
 import { PropsWithChildren } from "react";
 import ReactModal from "react-modal";

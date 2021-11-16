@@ -1,5 +1,5 @@
 import { StaticToken, StaticTokenMap } from "lib/ui-tokens";
-import { css, styled } from "lib";
+import { css, styled } from "@uuixjs/uuixweb-lib";
 
 import { ReactNode } from "react";
 

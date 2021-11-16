@@ -1,4 +1,4 @@
-import { createGlobalStyle, focusVisibleReset } from "lib";
+import { createGlobalStyle, focusVisibleReset } from "@uuixjs/uuixweb-lib";
 
 /* stylelint-disable */
 

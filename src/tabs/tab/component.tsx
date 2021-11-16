@@ -11,7 +11,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 export interface TabProps extends CoreInteractivePublicProps {
   active?: boolean;

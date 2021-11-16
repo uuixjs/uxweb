@@ -12,7 +12,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { ButtonIconSize, ButtonIconType } from "../../button/button-icon";
 import { CloseButtonProps, CoreDismissible } from "../../core-dismissible";
 import { FC, ReactNode } from "react";

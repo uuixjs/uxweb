@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { AccentColorList, Margin, contrast } from "lib";
+import { AccentColorList, Margin, contrast } from "@uuixjs/uuixweb-lib";
 import {
   AlignItems,
   BorderRadius,
@@ -15,10 +15,10 @@ import {
   TextAlign,
 } from "v2";
 import { FC, Fragment, ReactNode } from "react";
-import { RGBColor, parse } from "lib";
+import { RGBColor, parse } from "@uuixjs/uuixweb-lib";
 
 import { ColorSwatch } from "./color-swatch";
-import { DynamicThemeMap } from "lib";
+import { DynamicThemeMap } from "@uuixjs/uuixweb-lib";
 
 const cssVariableNames = [
   "color-accent-primary-1",

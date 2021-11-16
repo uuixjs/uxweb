@@ -7,7 +7,7 @@ import {
   forwardRef,
 } from "react";
 
-import { cn } from "lib";
+import { cn } from "@uuixjs/uuixweb-lib";
 
 // https://github.com/bitjourney/react-simple-image
 

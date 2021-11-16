@@ -7,7 +7,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { Display, InjectLayout } from "../layout";
 
 import { withOverlayContext } from "../overlay-region/context";

@@ -9,7 +9,7 @@ import {
 } from "./utils/child-mapping";
 
 import { TransitionGroupItem } from "./components/transition-group-item";
-import { cn } from "lib";
+import { cn } from "@uuixjs/uuixweb-lib";
 
 export interface TransitionGroupProps {
   /** Array of react elements; after mounting this component, changes to this array will be animated with CSS transitions */

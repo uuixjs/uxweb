@@ -8,7 +8,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { ForwardRefRenderFunction, forwardRef } from "react";
 
 import { AssistiveText } from "../../assistive-text";

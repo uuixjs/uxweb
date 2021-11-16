@@ -1,4 +1,4 @@
-import { staticTokenRule, styleVariant, styled } from "lib";
+import { staticTokenRule, styleVariant, styled } from "@uuixjs/uuixweb-lib";
 
 import { FC } from "react";
 import { Icon } from "../icon";

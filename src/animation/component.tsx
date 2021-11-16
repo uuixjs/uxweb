@@ -14,7 +14,7 @@ import {
   slideOutRight,
   slideOutTop,
 } from "./keyframes";
-import { styleVariant, styled } from "lib";
+import { styleVariant, styled } from "@uuixjs/uuixweb-lib";
 
 export enum AnimationDelay {
   Short = "short",

@@ -8,7 +8,7 @@ import {
   getPaddingStyles,
   styleVariant,
   styled,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { Title, TitleSize } from "../../title";
 
 import { ButtonIconSize } from "../../button/button-icon";

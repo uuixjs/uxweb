@@ -3,7 +3,7 @@ import {
   hoverCssWithSelector,
   staticTokenRule,
   styled,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import { FC } from "react";
 

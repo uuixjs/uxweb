@@ -44,7 +44,7 @@ import {
 } from "v2";
 import { ExampleAvatars, ExampleBoxArt, ExampleThumbnails } from "../assets";
 
-import { Enum } from "lib";
+import { Enum } from "@uuixjs/uuixweb-lib";
 import { FC } from "react";
 import { Outline } from "../components/outline";
 

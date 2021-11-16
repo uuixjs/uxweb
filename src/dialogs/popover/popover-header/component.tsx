@@ -17,7 +17,7 @@ import {
   MarginProps,
   getMarginStyles,
   styled,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import {
   ButtonIcon,
   ButtonIconProps,

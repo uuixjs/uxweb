@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
 import { Layout, Overflow, Position } from "../../layout";
-import { getAriaProps, getDataProps } from "lib";
+import { getAriaProps, getDataProps } from "@uuixjs/uuixweb-lib";
 
 export interface CardBodyProps {
   overflow?: Overflow;

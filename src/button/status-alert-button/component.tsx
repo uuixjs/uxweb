@@ -9,7 +9,7 @@ import {
   styleVariant,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { ForwardRefRenderFunction, ReactNode, forwardRef } from "react";
 import { REVERSE_BUTTON_SIZES, ScButtonIconFigure } from "../button-icon/component";
 

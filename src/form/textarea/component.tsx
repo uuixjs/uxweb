@@ -6,7 +6,7 @@ import {
   rem,
   staticTokenRule,
   styled,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import {
   CSSProperties,
   FormEventHandler,

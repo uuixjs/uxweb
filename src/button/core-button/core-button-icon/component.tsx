@@ -3,7 +3,7 @@ import { FC } from "react";
 import { Icon } from "../../../icon";
 import { SVGAsset } from "../../../svg";
 import { TEST_AUTOMATION_SELECTORS } from "../../../_tests/selectors";
-import { styled } from "lib";
+import { styled } from "@uuixjs/uuixweb-lib";
 
 export interface CoreButtonIconProps {
   icon: SVGAsset;

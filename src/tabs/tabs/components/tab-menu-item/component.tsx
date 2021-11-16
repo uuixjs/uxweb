@@ -1,4 +1,4 @@
-import { BorderRadius, getAriaProps } from "lib";
+import { BorderRadius, getAriaProps } from "@uuixjs/uuixweb-lib";
 import { Component, MouseEvent } from "react";
 import { Interactable, InteractableType } from "../../../../interactable";
 

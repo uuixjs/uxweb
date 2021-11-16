@@ -20,7 +20,7 @@ import {
   ExpandableIndicator,
   ExpandableIndicatorDirection,
 } from "../../expandable-indicator";
-import { PaddingValue, getAriaProps, styled } from "lib";
+import { PaddingValue, getAriaProps, styled } from "@uuixjs/uuixweb-lib";
 import { Title, TitleSize } from "../../title";
 
 import { Interactable } from "../../interactable";

@@ -6,7 +6,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { FC, ReactNode } from "react";
 
 import { withOverlayContext } from "../../../overlay-region/context";

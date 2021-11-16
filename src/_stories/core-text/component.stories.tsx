@@ -20,7 +20,7 @@ import {
   WordBreak,
 } from "v2";
 
-import { Enum } from "lib";
+import { Enum } from "@uuixjs/uuixweb-lib";
 
 export default { title: "CoreText" };
 

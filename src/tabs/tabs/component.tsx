@@ -16,7 +16,7 @@ import {
   getDataProps,
   styleVariant,
   styled,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import {
   TabItem,
   TabItemProps,

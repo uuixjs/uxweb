@@ -5,7 +5,7 @@ import {
   rem,
   staticTokenRule,
   styled,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { EventHandler, FC, Ref, SyntheticEvent } from "react";
 import { Layout, Overflow } from "../layout";
 import { Presence, PresenceStatus } from "../presence";

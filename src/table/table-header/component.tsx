@@ -1,6 +1,6 @@
 import { FC, HTMLProps } from "react";
 
-import { cn } from "lib";
+import { cn } from "@uuixjs/uuixweb-lib";
 
 export const TableHeader: FC<HTMLProps<HTMLTableSectionElement>> = (props) => {
   return (

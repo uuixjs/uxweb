@@ -18,7 +18,7 @@ import {
   ZIndex,
 } from "v2";
 import { Component, FormEvent } from "react";
-import { Padding, cn, newUUIDv4 } from "lib";
+import { Padding, cn, newUUIDv4 } from "@uuixjs/uuixweb-lib";
 
 import { ExampleThumbnails } from "../../assets";
 

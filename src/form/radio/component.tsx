@@ -9,7 +9,7 @@ import {
   newUUIDv4,
   omitDataProps,
   styled,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import { withOverlayContext } from "../../overlay-region/context";
 

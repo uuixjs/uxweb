@@ -1,4 +1,4 @@
-import { staticTokenRule, styled, themeTokenRule } from "lib";
+import { staticTokenRule, styled, themeTokenRule } from "@uuixjs/uuixweb-lib";
 
 export const TooltipPopperArrow = styled.div.attrs({
   className: "tw-tooltip-popper-arrow",

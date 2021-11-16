@@ -7,7 +7,7 @@ import {
   createElement,
   isValidElement,
 } from "react";
-import { Margin, getAriaProps } from "lib";
+import { Margin, getAriaProps } from "@uuixjs/uuixweb-lib";
 import {
   VerticalNavigationGroup,
   VerticalNavigationGroupProps,

@@ -28,8 +28,8 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "lib": ["@uuixjs/uuixweb-lib"],
-      "lib/*": ["@uuixjs/uuixweb-lib"],
+      "lib": ["@uuixjs/uuixweb-lib/dist"],
+      "lib/*": ["@uuixjs/uuixweb-lib/dist"],
       "v2": ["./src"],
       "v2/*": ["./src/*"]
     },
@@ -53,6 +53,6 @@
     "src/**/*.test.tsx",
     "src/**/*.stories.tsx",
     "node_modules",
-    "src/stories"
+    "src/_stories"
   ]
 }

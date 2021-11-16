@@ -6,7 +6,7 @@ import {
   focusVisibleReset,
   staticTokenRule,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import styled from "styled-components";
 

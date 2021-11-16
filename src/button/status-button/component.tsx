@@ -1,6 +1,6 @@
 import { CoreButton, CoreButtonPublicProps, CoreButtonType } from "../core-button";
 import { ForwardRefRenderFunction, ReactNode, forwardRef } from "react";
-import { css, focusVisible, hoverCss, styleVariant, styled, themeTokenRule } from "lib";
+import { css, focusVisible, hoverCss, styleVariant, styled, themeTokenRule } from "@uuixjs/uuixweb-lib";
 
 import { CoreButtonLabel } from "../core-button/core-button-label";
 import { NotificationType } from "../../notifications/notification";

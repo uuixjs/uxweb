@@ -1,4 +1,4 @@
-import { staticTokenRule, styled, themeTokenRule } from "lib";
+import { staticTokenRule, styled, themeTokenRule } from "@uuixjs/uuixweb-lib";
 
 import { ReactNode } from "react";
 

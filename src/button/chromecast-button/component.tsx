@@ -1,7 +1,7 @@
 import { Aspect, AspectRatio } from "../../aspect";
 import { ButtonIcon, ButtonIconSize } from "../button-icon";
 import { ForwardRefRenderFunction, forwardRef } from "react";
-import { keyframes, styleVariant, styled } from "lib";
+import { keyframes, styleVariant, styled } from "@uuixjs/uuixweb-lib";
 
 import { CoreInteractivePublicProps } from "../../core-interactive";
 

@@ -7,7 +7,7 @@ import {
 
 import { CoreInteractiveElement } from "../../core-interactive";
 import { PaginationIndex } from "../pagination-index/index";
-import { getAriaProps } from "lib";
+import { getAriaProps } from "@uuixjs/uuixweb-lib";
 
 // Extend the `MouseEVent` interface to accept an item to store
 // the destination page of a pagination control. The event object with the

@@ -18,7 +18,7 @@ import {
 } from "../_utils/url-props";
 
 import { ARIARole } from "aria-query";
-import { DataTestSelectorProps } from "lib";
+import { DataTestSelectorProps } from "@uuixjs/uuixweb-lib";
 import { LinkProps as RRLinkProps } from "react-router-dom";
 
 type AnchorProps = AnchorHTMLAttributes<HTMLAnchorElement>;

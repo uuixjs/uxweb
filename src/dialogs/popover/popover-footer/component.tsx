@@ -1,5 +1,5 @@
 import { AlignItems, Display, JustifyContent, Layout } from "../../../layout";
-import { BorderRadius, getAriaProps, getDataProps } from "lib";
+import { BorderRadius, getAriaProps, getDataProps } from "@uuixjs/uuixweb-lib";
 import { Button, ButtonProps, ButtonType } from "../../../button/button";
 
 import { Component } from "react";

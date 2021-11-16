@@ -1,7 +1,7 @@
 import { AlignItems, Display, Layout, Position } from "../../../layout";
 import { LineHeight, TextType } from "../../../core-text";
 import { Title, TitleSize } from "../../../title";
-import { getAriaProps, styled } from "lib";
+import { getAriaProps, styled } from "@uuixjs/uuixweb-lib";
 
 import { Component } from "react";
 import { Icon } from "../../../icon";

@@ -6,7 +6,7 @@ import {
   hoverCss,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import { Color, Display, FontSize, Layout } from "../../layout";
 import { CoreLink, CoreLinkType } from "../../core-link";
 import { CoreText, LineHeight, TextType } from "../../core-text";

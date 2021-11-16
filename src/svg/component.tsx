@@ -4,7 +4,7 @@ import {
   getDataProps,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import { FC } from "react";
 import { ThemeToken } from "lib/ui-tokens";

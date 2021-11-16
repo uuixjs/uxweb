@@ -7,7 +7,7 @@ import {
   Layout,
 } from "../../layout";
 import { FC, MouseEventHandler, ReactNode } from "react";
-import { staticTokenRule, styled } from "lib";
+import { staticTokenRule, styled } from "@uuixjs/uuixweb-lib";
 
 import { Icon } from "../../icon";
 import { Interactable } from "../../interactable";

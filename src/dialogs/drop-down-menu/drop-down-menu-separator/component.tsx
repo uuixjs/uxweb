@@ -1,4 +1,4 @@
-import { styled, themeTokenRule } from "lib";
+import { styled, themeTokenRule } from "@uuixjs/uuixweb-lib";
 
 import { FC } from "react";
 import { Layout } from "../../../layout/layout";

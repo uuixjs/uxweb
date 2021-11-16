@@ -1,4 +1,4 @@
-import { Theme, prefersDarkMode } from "lib";
+import { Theme, prefersDarkMode } from "@uuixjs/uuixweb-lib";
 import { useEffect, useState } from "react";
 
 export type ThemeOption = Theme | "system";

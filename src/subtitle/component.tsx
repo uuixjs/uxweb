@@ -7,7 +7,7 @@ import {
 } from "../core-text";
 import { FC, HTMLProps, ReactNode } from "react";
 import { FontSize, FontWeight } from "../layout";
-import { cn, staticTokenRule } from "lib";
+import { cn, staticTokenRule } from "@uuixjs/uuixweb-lib";
 
 import styled from "styled-components";
 

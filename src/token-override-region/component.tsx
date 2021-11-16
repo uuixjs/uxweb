@@ -3,7 +3,7 @@ import {
   ThemeProvider,
   ThemeProviderProps,
   styled,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import { ThemeContextValue } from "lib/utils-styled-components";
 

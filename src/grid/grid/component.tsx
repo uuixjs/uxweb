@@ -1,5 +1,5 @@
 import { AlignItems, JustifyContent, Layout } from "../../layout";
-import { CSSObject, styled } from "lib";
+import { CSSObject, styled } from "@uuixjs/uuixweb-lib";
 import { FC, ReactNode } from "react";
 
 import { ScColumn } from "../column/component";

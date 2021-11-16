@@ -57,7 +57,7 @@ import {
   colorIsDark,
   getHoverColor,
   parse
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import { ChannelNameBanner } from "./story-components/channel-name-banner";
 import { ChatHiglight } from "./story-components/chat-highlight";

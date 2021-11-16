@@ -1,7 +1,7 @@
 import { SVGAsset, SVG_PATHS } from "../../svg";
 
 import { FC } from "react";
-import { styled } from "lib";
+import { styled } from "@uuixjs/uuixweb-lib";
 
 const ScFormRequired = styled.svg`
   fill: currentColor;

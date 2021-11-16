@@ -13,7 +13,7 @@ import {
   staticTokenRule,
   styled,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 import { StaticTokenMap } from "lib/ui-tokens";
 import { withOverlayContext } from "../../overlay-region/context";

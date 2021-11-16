@@ -1,9 +1,14 @@
 {
   "name": "@uuixjs/uuixweb",
   "version": "0.0.3",
-  "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",

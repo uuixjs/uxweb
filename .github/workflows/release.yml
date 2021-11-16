@@ -34,7 +34,7 @@ jobs:
       - name: npm publish
         run: |
           npm config set @uuixjs:registry https://npm.pkg.github.com
-          npm config set //npm.pkg.github.com/:_authToken=$NPM_AUTH_TOKEN
+          npm config set //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
           npm i
           npm publish
         env:

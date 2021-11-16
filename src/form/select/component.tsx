@@ -1,4 +1,4 @@
-import { DarkThemeMap, LightThemeMap } from "lib/ui-tokens";
+import { DarkThemeMap, LightThemeMap } from "@uuixjs/uuixweb-lib";
 import { Display, InjectLayout } from "../../layout";
 import {
   FormEventHandler,

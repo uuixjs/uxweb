@@ -1,6 +1,4 @@
-import { StaticToken, StaticTokenMap } from "lib/ui-tokens";
-
-import { CSSObject } from "lib";
+import { CSSObject, StaticToken, StaticTokenMap } from "@uuixjs/uuixweb-lib";
 
 interface BreakpointPropObject<C> {
   default?: C;

@@ -7,7 +7,7 @@ import {
   styled,
   themeTokenRule,
 } from "@uuixjs/uuixweb-lib";
-import { StaticToken, ThemeToken } from "lib/ui-tokens";
+import { StaticToken, ThemeToken } from "@uuixjs/uuixweb-lib";
 
 import { FC } from "react";
 

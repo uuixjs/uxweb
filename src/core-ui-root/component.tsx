@@ -13,7 +13,7 @@ import {
 } from "../theme-region/utils";
 
 import { ReactModalRoot } from "../dialogs";
-import { Theme } from "lib/ui-tokens";
+import { Theme } from "@uuixjs/uuixweb-lib";
 
 export interface CoreUIRootProps {
   /**

@@ -13,7 +13,7 @@ import {
 import { Component, ReactNode } from "react";
 
 import { InputControlProps } from "../form/form";
-import { ThemeToken } from "lib/ui-tokens";
+import { ThemeToken } from "@uuixjs/uuixweb-lib";
 import { withOverlayContext } from "../overlay-region/context";
 
 export enum SelectableType {

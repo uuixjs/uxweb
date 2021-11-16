@@ -1,6 +1,6 @@
 import { SVG, SVGAsset, SVGType } from ".";
 
-import { createMountWrapperFactory } from "lib/test-utils";
+import { createMountWrapperFactory } from "@uuixjs/uuixweb-lib";
 
 describe("SVG", () => { // @ts-ignore
   const setup = createMountWrapperFactory(SVG, () => ({

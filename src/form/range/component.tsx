@@ -15,7 +15,7 @@ import {
   themeTokenRule,
 } from "@uuixjs/uuixweb-lib";
 
-import { StaticTokenMap } from "lib/ui-tokens";
+import { StaticTokenMap } from "@uuixjs/uuixweb-lib";
 import { withOverlayContext } from "../../overlay-region/context";
 
 export interface RangePropsBase {

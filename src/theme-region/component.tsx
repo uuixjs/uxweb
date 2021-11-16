@@ -7,7 +7,7 @@ import {
 import { ThemeOption, useSystemThemeOptionHandler } from "./utils";
 
 import { FC } from "react";
-import { Theme } from "lib/ui-tokens";
+import { Theme } from "@uuixjs/uuixweb-lib";
 
 export interface ThemeRegionProps extends Omit<LayoutProps, "className"> {
   theme: ThemeOption;

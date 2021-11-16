@@ -7,7 +7,7 @@ import {
   DarkThemeMap,
   LightThemeMap,
   StaticTokenMap,
-} from "lib/ui-tokens";
+} from "@uuixjs/uuixweb-lib";
 
 /* stylelint-disable */
 

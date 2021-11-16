@@ -7,7 +7,7 @@ import {
 } from "@uuixjs/uuixweb-lib";
 
 import { FC } from "react";
-import { ThemeToken } from "lib/ui-tokens";
+import { ThemeToken } from "@uuixjs/uuixweb-lib";
 
 export enum SVGType {
   Inherit = "color-fill-current",

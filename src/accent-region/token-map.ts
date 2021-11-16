@@ -1,6 +1,4 @@
-import { CSSObject, ThemeContextValue } from "lib";
-
-import { ThemeToken } from "lib/ui-tokens";
+import { CSSObject, ThemeContextValue, ThemeToken } from "@uuixjs/uuixweb-lib";
 
 // Static tokens, only available within Accent Regions
 export enum AccentToken {

@@ -15,15 +15,14 @@ import {
   BorderRadius,
   Margin,
   Padding,
+  StaticTokenMap,
   ThemeContextValue,
   ThemedStyledProps,
   a11yHide,
   staticTokenRule,
   styleVariant,
-  themeTokenRule,
-} from "lib";
-
-import { StaticTokenMap } from "lib/ui-tokens";
+  themeTokenRule
+} from "@uuixjs/uuixweb-lib";
 
 /**
  * !!! IMPORTANT NOTE ON PERFORMANCE !!!

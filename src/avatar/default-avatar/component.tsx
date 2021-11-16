@@ -10,7 +10,7 @@ import { FC, memo } from "react";
 import { AvatarProps } from "..";
 import { Icon } from "../../icon";
 import { SVGAsset } from "../../svg";
-import { StaticToken } from "lib/ui-tokens";
+import { StaticToken } from "@uuixjs/uuixweb-lib";
 
 /** Defines the classnames corresponding to each accent color, which are assigned to users who do not have a custom avatar selection. */
 const DEFAULT_AVATAR_COLORS: StaticToken[] = [

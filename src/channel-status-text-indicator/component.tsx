@@ -6,7 +6,7 @@ import {
   themeTokenRule,
 } from "@uuixjs/uuixweb-lib";
 import { CoreText, TextTransform, WhiteSpace } from "../core-text";
-import { StaticToken, ThemeToken } from "lib/ui-tokens";
+import { StaticToken, ThemeToken } from "@uuixjs/uuixweb-lib";
 
 import { FC } from "react";
 import { withOverlayContext } from "../overlay-region/context";

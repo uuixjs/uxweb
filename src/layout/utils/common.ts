@@ -1,4 +1,4 @@
-import { ThemeContextValue, ThemedStyledProps } from "lib";
+import { ThemeContextValue, ThemedStyledProps } from "@uuixjs/uuixweb-lib";
 
 import { StandardPropertiesHyphen } from "csstype";
 

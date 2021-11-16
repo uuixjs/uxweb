@@ -12,7 +12,7 @@ import {
   themeTokenRule,
 } from "@uuixjs/uuixweb-lib";
 
-import { StaticToken } from "lib/ui-tokens";
+import { StaticToken } from "@uuixjs/uuixweb-lib";
 import { withOverlayContext } from "../../overlay-region/context";
 
 export enum CoreButtonSize {

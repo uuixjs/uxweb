@@ -1,6 +1,6 @@
 import { FormEventHandler, Ref } from "react";
 
-import { BorderRadius } from "lib";
+import { BorderRadius } from "@uuixjs/uuixweb-lib";
 import { FontSize } from "../layout";
 
 export interface InputControlProps {

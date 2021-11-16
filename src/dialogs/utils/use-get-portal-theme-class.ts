@@ -2,7 +2,7 @@ import {
   CORE_UI_ROOT_DARK_THEME_SELECTOR,
   CORE_UI_ROOT_LIGHT_THEME_SELECTOR,
   useTheme,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 
 /**
  * TEMPORARY HELPER, DO NOT USE THIS!

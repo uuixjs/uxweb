@@ -1,5 +1,5 @@
 import { LineHeight, LineHeightValue } from "../types";
-import { ThemeContextValue, ThemedStyledProps, staticTokenRule, styleVariant } from "lib";
+import { ThemeContextValue, ThemedStyledProps, staticTokenRule, styleVariant } from "@uuixjs/uuixweb-lib";
 
 type StringOnlyStyleVariant<P> = (props: ThemedStyledProps<P, ThemeContextValue>) => string;
 

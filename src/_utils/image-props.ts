@@ -1,4 +1,4 @@
-import { CoreImageProps } from "../components/core-image";
+import { CoreImageProps } from "../core-image";
 
 const PROP_KEYS = new Set([
   "alt",

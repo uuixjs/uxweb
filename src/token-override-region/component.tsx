@@ -1,11 +1,10 @@
 import { ComponentType, FC } from "react";
 import {
+  ThemeContextValue,
   ThemeProvider,
   ThemeProviderProps,
-  styled,
+  styled
 } from "@uuixjs/uuixweb-lib";
-
-import { ThemeContextValue } from "lib/utils-styled-components";
 
 interface TokenOverrideRegionProps {
   tokenOverrides?: ThemeContextValue["tokenOverrides"];

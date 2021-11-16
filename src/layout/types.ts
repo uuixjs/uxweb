@@ -1,5 +1,5 @@
 // from inject-layout
-import { BorderRadius, BorderRadiusValues } from "lib";
+import { BorderRadius, BorderRadiusValues } from "@uuixjs/uuixweb-lib";
 
 /**
  * Many string values in this file must match the CSS values

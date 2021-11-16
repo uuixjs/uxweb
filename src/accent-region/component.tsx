@@ -6,7 +6,7 @@ import {
   formatAccentTokenCssVars,
   formatTokenOverrides,
 } from "./token-map";
-import { RGBColor, parse, rgb2hex } from "lib/pure-color";
+import { RGBColor, parse, rgb2hex } from "@uuixjs/uuixweb-lib";
 import {
   ThemeContextValue,
   accentColorGenerator,
@@ -18,7 +18,7 @@ import {
 } from "@uuixjs/uuixweb-lib";
 
 import { FC } from "react";
-import { StaticTokenMap } from "lib/ui-tokens";
+import { StaticTokenMap } from "@uuixjs/uuixweb-lib";
 import { TokenOverrideRegion } from "../token-override-region";
 
 export interface AccentRegionProps {

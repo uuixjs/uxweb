@@ -20,7 +20,7 @@ import {
 import { CoreButtonLabel } from "../core-button/core-button-label";
 import { CoreInteractivePublicProps } from "../../core-interactive";
 import { SVGAsset } from "../../svg";
-import { StaticToken } from "lib/ui-tokens";
+import { StaticToken } from "@uuixjs/uuixweb-lib";
 import { withOverlayContext } from "../../overlay-region/context";
 
 export interface SplitButtonDropdownProps extends CoreInteractivePublicProps {

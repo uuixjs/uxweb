@@ -44,7 +44,7 @@ import {
   Padding,
   staticTokenRule,
   themeTokenRule,
-} from "lib";
+} from "@uuixjs/uuixweb-lib";
 import {
   PropClassNameMap,
   conditionalStyles,
@@ -66,7 +66,7 @@ import {
 import { ARIARole } from "aria-query";
 import { ReactNode } from "react";
 import { StandardLonghandProperties } from "csstype";
-import { StaticTokenMap } from "lib/ui-tokens";
+import { StaticTokenMap } from "@uuixjs/uuixweb-lib";
 
 export interface LayoutCssBreakpointProps {
   alignContent?: AlignContent | AlignContentValue;

@@ -1,6 +1,6 @@
-import { StaticTokenMap } from "lib/ui-tokens";
+import { StaticTokenMap, styleVariant } from "@uuixjs/uuixweb-lib";
+
 import { TransitionStatus } from "../../models";
-import { styleVariant } from "lib";
 
 const space_2 = StaticTokenMap["space-2"];
 

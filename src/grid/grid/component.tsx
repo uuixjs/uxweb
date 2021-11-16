@@ -3,7 +3,7 @@ import { CSSObject, styled } from "@uuixjs/uuixweb-lib";
 import { FC, ReactNode } from "react";
 
 import { ScColumn } from "../column/component";
-import { StaticTokenMap } from "lib/ui-tokens";
+import { StaticTokenMap } from "@uuixjs/uuixweb-lib";
 
 export enum GridGutterSize {
   Default = "default",

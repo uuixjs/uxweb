@@ -36,7 +36,9 @@ jobs:
           npm config set @uuixjs:registry https://npm.pkg.github.com
           npm config set //npm.pkg.github.com/:_authToken=$NPM_AUTH_TOKEN
           yarn
+          npm config set //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
           npm publish
         env:
           CI: true
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

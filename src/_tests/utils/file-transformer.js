@@ -38,7 +38,7 @@ module.exports = {
       importer: (url) => {
         if (url === "variables") {
           return {
-            file: require.resolve("lib/ui-scss-compat/variables.scss"),
+            file: require.resolve("@uuixjs/uuixweb-lib/dist/ui-scss-compat/variables.scss"),
           };
         }
 

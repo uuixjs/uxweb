@@ -1,5 +1,5 @@
 import { AnimatedGlitchLogo } from ".";
-import { createMountWrapperFactory } from "lib/test-utils";
+import { createMountWrapperFactory } from "@uuixjs/uuixweb-lib";
 
 describe("AnimatedGlitchLogo", () => {
   const setup = createMountWrapperFactory(AnimatedGlitchLogo);

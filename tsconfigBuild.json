@@ -28,8 +28,8 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "lib": ["@uuixjs/uuixweb-lib/dist"],
-      "lib/*": ["@uuixjs/uuixweb-lib/dist"],
+      // "lib": ["@uuixjs/uuixweb-lib/dist"],
+      // "lib/*": ["@uuixjs/uuixweb-lib/dist"],
       "v2": ["./src"],
       "v2/*": ["./src/*"]
     },

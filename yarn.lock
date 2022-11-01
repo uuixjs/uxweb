@@ -3876,10 +3876,10 @@
     "@typescript-eslint/types" "4.33.0"
     eslint-visitor-keys "^2.0.0"
 
-"@uuixjs/uuixweb-lib@0.0.9":
-  version "0.0.9"
-  resolved "https://npm.pkg.github.com/download/@uuixjs/uuixweb-lib/0.0.9/24248b1c17f6e482ecd3730da3720d0b320dde75d5da3805182cfd2f1223a8bd#064bc365094b1dfb42cab5175899ccc5ed99df7a"
-  integrity sha512-TDb9Vp5buuDpyFyPgXZfmh9uBBlSTrLpscWDehdCYS32z4JTOiE9VUwl9M5JCNoNtm6Jq6sZzj0+vK6Es7eblQ==
+"@uuixjs/uuixweb-lib@0.0.11":
+  version "0.0.11"
+  resolved "https://npm.pkg.github.com/download/@uuixjs/uuixweb-lib/0.0.11/8e99717e078fa64e64d83675cbf9fc6bfd0b58fd#8e99717e078fa64e64d83675cbf9fc6bfd0b58fd"
+  integrity sha512-K4Efc6bKh2yjppe/ssREhHIJpy/CXScavIqB4SCfKd8/3JrhqfHEK9Kf9YoUiyC5wZW18O/XEpfblWPlTf6uMA==
   dependencies:
     "@fontsource/inter" "^4.5.0"
     "@popperjs/core" "^2.10.2"

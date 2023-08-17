@@ -56,8 +56,8 @@ export type CoreFocusEventHandlers<T = CoreInteractiveElement> = {
  */
 export interface CoreInteractivePublicProps
   extends CoreMouseEventHandlers,
-  CoreFocusEventHandlers,
-  DataTestSelectorProps {
+    CoreFocusEventHandlers,
+    DataTestSelectorProps {
   /**
    * Optional label for screen readers and assistive devices.
    */
@@ -83,7 +83,7 @@ export interface CoreInteractivePublicProps
   rel?: string;
   /** Render prop to allow for using react-router alternatives @experimental */
   renderLink?: <P extends CoreInteractiveRenderLinkBaseProps>(
-    props: P,
+    props: P
   ) => ReactNode;
   /** Replace the current entry in the history stack instead of adding a new one. */
   replace?: boolean;
@@ -128,75 +128,75 @@ const CoreInteractive: ForwardRefRenderFunction<
     targetBlank,
     ...props
   },
-  ref,
-  ) => {
-    const elementRef = ref || refHandler;
-    const elementProps: LinkProps | ButtonProps = props;
+  ref
+) => {
+  const elementRef = ref || refHandler;
+  const elementProps: LinkProps | ButtonProps = props;
 
-    // Coalesce `false` to `undefined` to prevent `disabled={false}`
-    const isDisabled = disabled || disabledInteraction || undefined;
+  // Coalesce `false` to `undefined` to prevent `disabled={false}`
+  const isDisabled = disabled || disabledInteraction || undefined;
 
-    // links
-    if (linkTo && !isDisabled) {
-      const anchorRef = elementRef as Ref<HTMLAnchorElement>;
+  // links
+  if (linkTo && !isDisabled) {
+    const anchorRef = elementRef as Ref<HTMLAnchorElement>;
 
-      // add anchor-specific props
-      const anchorProps = elementProps as LinkProps;
-      if (download) {
-        anchorProps.download = download;
-      }
-      if (rel || targetBlank) {
-        anchorProps.rel = targetBlank
-          ? `${rel ? rel + " " : ""}noopener noreferrer`
-          : rel;
-      }
-      if (targetBlank) {
-        anchorProps.target = "_blank";
-      }
-
-      // external link
-      // if (isExternalURL(linkTo) || isMailToLink(linkTo)) {
-      let href: string;
-      if (typeof linkTo === "string") {
-        href = linkTo;
-      } else {
-        // Implication: typeof props.linkTo === LocationDescriptorObject. The 'state' properties of this type cannot be included in an anchor tag.
-        // We render the provided 'pathname' (which is actually a fully-qualifed URL in this case) into the anchor tag as an attempt at a gracefull fallback.
-        href = (linkTo && linkTo.pathname) || "";
-
-        // eslint-disable-next-line no-console
-        console.warn(
-          "External links and mailto links with LocationDescriptorObjects are not supported! Pass a string instead.",
-        );
-      }
-
-      return <a {...anchorProps} href={ensureSafeLink(href)} ref={anchorRef} />;
-      // }
-
-      // internal custom link using linkTo prop
-      // if (renderLink) {
-      //   return renderLink({
-      //     ...anchorProps,
-      //     ref: anchorRef,
-      //     linkTo: ensureSafeLink(linkTo),
-      //   }) as ReactElement;
-      // }
-
-      // // internal default link
-      // return (
-      //   <Link {...anchorProps} to={ensureSafeLink(linkTo)} innerRef={anchorRef} />
-      // );
+    // add anchor-specific props
+    const anchorProps = elementProps as LinkProps;
+    if (download) {
+      anchorProps.download = download;
+    }
+    if (rel || targetBlank) {
+      anchorProps.rel = targetBlank
+        ? `${rel ? rel + " " : ""}noopener noreferrer`
+        : rel;
+    }
+    if (targetBlank) {
+      anchorProps.target = "_blank";
     }
 
-    // non-link or disabled
-    return (
-      <button
-        {...(elementProps as ButtonProps)}
-        disabled={isDisabled}
-        ref={elementRef as Ref<HTMLButtonElement>}
-      />
-    );
-  };
+    // external link
+    // if (isExternalURL(linkTo) || isMailToLink(linkTo)) {
+    let href: string;
+    if (typeof linkTo === "string") {
+      href = linkTo;
+    } else {
+      // Implication: typeof props.linkTo === LocationDescriptorObject. The 'state' properties of this type cannot be included in an anchor tag.
+      // We render the provided 'pathname' (which is actually a fully-qualifed URL in this case) into the anchor tag as an attempt at a gracefull fallback.
+      href = (linkTo && linkTo.pathname) || "";
+
+      // eslint-disable-next-line no-console
+      console.warn(
+        "External links and mailto links with LocationDescriptorObjects are not supported! Pass a string instead."
+      );
+    }
+
+    // internal custom link using linkTo prop
+    if (renderLink) {
+      return renderLink({
+        ...anchorProps,
+        ref: anchorRef,
+        linkTo: ensureSafeLink(linkTo),
+      }) as ReactElement;
+    }
+
+    return <a {...anchorProps} href={ensureSafeLink(href)} ref={anchorRef} />;
+    // }
+
+    // internal default link
+    // return (
+    //   <Link {...anchorProps} to={ensureSafeLink(linkTo)} innerRef={anchorRef} />
+    // );
+  }
+
+  // non-link or disabled
+  return (
+    <button
+      {...(elementProps as ButtonProps)}
+      disabled={isDisabled}
+      ref={elementRef as Ref<HTMLButtonElement>}
+    />
+  );
+};
 
 CoreInteractive.displayName = "CoreInteractive";
 const ComponentWithRef = forwardRef(CoreInteractive);

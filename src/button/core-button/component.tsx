@@ -27,6 +27,8 @@ export enum CoreButtonType {
   Text = "text",
   Destructive = "destructive",
   Success = "success",
+  Warning = "warning",
+  Info = "info"
 }
 
 export enum CoreButtonRounding {
@@ -310,6 +312,64 @@ const ScCoreButtonDestructive = styled(ScCoreButton)<ScCoreButtonProps>`
     )}
 `;
 
+const ScCoreButtonWarning = styled(ScCoreButton)<ScCoreButtonProps>`
+  ${baseStyles(css`
+    background-color: ${themeTokenRule("color-background-button-warn")};
+    color: ${themeTokenRule("color-text-button-warn")};
+  `)}
+  ${hoverStyles(css`
+    background-color: ${themeTokenRule("color-background-button-warn-hover")};
+    color: ${themeTokenRule("color-text-button-warn")};
+  `)}
+  ${focusVisible`
+    background-color: ${themeTokenRule("color-background-button-warn-hover")};
+  `}
+  ${activeStyles(css`
+    background-color: ${themeTokenRule("color-background-button-warn-active")};
+  `)}
+  ${(props) =>
+    disabledStyles(
+      props.$overlay
+        ? css`
+            background-color: ${themeTokenRule("color-background-button-overlay-primary-default")};
+            color: ${themeTokenRule("color-text-button-overlay-primary")};
+          `
+        : css`
+            background-color: ${themeTokenRule("color-background-button-disabled")};
+            color: ${themeTokenRule("color-text-button-disabled")};
+          `,
+    )}
+`;
+
+const ScCoreButtonInfo = styled(ScCoreButton)<ScCoreButtonProps>`
+  ${baseStyles(css`
+    background-color: ${themeTokenRule("color-background-button-info")};
+    color: ${themeTokenRule("color-text-button-info")};
+  `)}
+  ${hoverStyles(css`
+    background-color: ${themeTokenRule("color-background-button-info-hover")};
+    color: ${themeTokenRule("color-text-button-info")};
+  `)}
+  ${focusVisible`
+    background-color: ${themeTokenRule("color-background-button-info-hover")};
+  `}
+  ${activeStyles(css`
+    background-color: ${themeTokenRule("color-background-button-info-active")};
+  `)}
+  ${(props) =>
+    disabledStyles(
+      props.$overlay
+        ? css`
+            background-color: ${themeTokenRule("color-background-button-overlay-primary-default")};
+            color: ${themeTokenRule("color-text-button-overlay-primary")};
+          `
+        : css`
+            background-color: ${themeTokenRule("color-background-button-disabled")};
+            color: ${themeTokenRule("color-text-button-disabled")};
+          `,
+    )}
+`;
+
 export const ScCoreButtonSuccess = styled(ScCoreButton)<ScCoreButtonProps>`
     ${baseStyles(css`
       background-color: ${themeTokenRule("color-background-button-success")};
@@ -386,6 +446,14 @@ export const CoreButtonComponent: ForwardRefRenderFunction<CoreInteractiveElemen
 
   if (variant === CoreButtonType.Success) {
     return <ScCoreButtonSuccess {...componentProps} />;
+  }
+
+  if (variant === CoreButtonType.Warning) {
+    return <ScCoreButtonWarning {...componentProps} />;
+  }
+
+  if (variant === CoreButtonType.Info) {
+    return <ScCoreButtonInfo {...componentProps} />;
   }
 
   return <ScCoreButton {...componentProps} />;

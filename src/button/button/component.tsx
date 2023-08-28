@@ -26,6 +26,8 @@ export enum ButtonType {
   Text = "text",
   Alert = "alert",
   Success = "success",
+  Warning = "warning",
+  Info = "info",
 }
 
 export enum ButtonSize {
@@ -159,6 +161,8 @@ const Button: ForwardRefRenderFunction<
     [ButtonType.Secondary]: CoreButtonType.Secondary,
     [ButtonType.Text]: CoreButtonType.Text,
     [ButtonType.Alert]: CoreButtonType.Destructive,
+    [ButtonType.Warning]: CoreButtonType.Warning,
+    [ButtonType.Info]: CoreButtonType.Info,
     [ButtonType.Success]: CoreButtonType.Success,
   };
 

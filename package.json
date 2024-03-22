@@ -6,9 +6,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",

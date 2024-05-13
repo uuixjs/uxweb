@@ -34,6 +34,7 @@ export const accentTokenDarkThemeMap: AccentTokenMap = {
   "color-text-link-visited": AccentToken.Primary5,
 
   /* Interactable */
+  "color-background-interactable-selected": AccentToken.Primary4,
   "color-background-interactable-hover": AccentToken.Primary3,
   "color-background-interactable-active": AccentToken.Primary2,
 

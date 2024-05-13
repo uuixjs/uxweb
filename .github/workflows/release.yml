@@ -29,8 +29,6 @@ jobs:
           tag-prefix: ""
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Publish the package
       - name: npm publish
         run: |
           npm config set @uuixjs:registry https://npm.pkg.github.com
